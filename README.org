@@ -1,6 +1,5 @@
-#+TITLE:  MCATutor
-#+AUTHOR: Lauren Becker, Daniel Brett, Isaiah Rawlinson
-
+* MCATutor
+  Lauren Becker, Daniel Brett, Isaiah Rawlinson
 * Abstract
   Our project attempts to improve the study experience and preparation
   for the MCAT exam. The majority of students use one or two
