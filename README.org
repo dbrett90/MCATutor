@@ -1,0 +1,80 @@
+#+TITLE:  MCATutor
+#+AUTHOR: Lauren Becker, Daniel Brett, Isaiah Rawlinson
+
+* Abstract
+  Our project attempts to improve the study experience and preparation
+  for the MCAT exam. The majority of students use one or two
+  traditional courses of study, either they use online materials and a
+  prep book, or they hire a tutor who guides them through the required
+  fields for the exam. Our project, MCATutor, will attempt to improve
+  this experience by providing students with a chatbot (using Python’s
+  ChatterBot module) that allows for an interactive study session.
+
+  Ideally, the bot should send students questions from a specific
+  subsection of the exam. These questions will be scraped from
+  practice exams that are available online, likely by hard-coding
+  these questions into the bot itself. As the students get the
+  questions right, the bot will provide questions that are harder and
+  harder (or vice versa). If a student gets a series of questions
+  wrong, the bot should also recommend links to relevant study
+  materials that the student can review. This will accomplished by
+  using NLTK’s built in sentence complexity mechanism, which ranks the
+  complexity of the sentence based off length, structure and other
+  variables (link below). The bot should also be able to answer very
+  basic clarifying questions about the problems (e.g. word and symbol
+  definitions).
+* Selected Topics
+1. Goal-Based Agent implementation
+   - Goal is defined as providing user with appropriate question
+     (increasing difficulty accordingly) or providing satisfactory
+     answer to clarifying question. Can ask user for feedback to
+     ensure that goal is reached.
+
+2. Basic Heuristic implementation when referring user to references.
+   - When referring resources, bot favors PDFs over webpages, favors
+     .edu sites, Wikipedia, and Pearson over everything else
+* Software and Hardware Platforms
+  Implementation of the proposed chatbot will be executed using Python
+  as the programming language and ChatterBot/Python Natural Language
+  Processing modules. Testing will be done using the Integrated
+  Development and Learning Environment (IDLE) on a Dell XPS 13 9350
+  (Windows) with a 2.40 GHz Intel Core i5-6200U processor. Running
+  time will be used as a measure of efficiency, specifically the time
+  it takes for the bot to provide questions and provide clarification.
+* Relevant References
+  1. Hill, J., et al. “Amazon Simple Storage Service (S3) - Cloud
+     Storage - AWS.” Amazon Web Services, Inc., George Washington
+     University, 2015. Article that discusses how effective
+     communication is between humans and chatbots versus with other
+     humans and potential solutions to make conversations with
+     intelligent agents more fluid.
+
+  2. Benotti, L., et al. “Engaging High School Students Using
+     Chatbots.”  Researchgate.net, June 2014.
+
+     This article discusses potential usages of chatbots in teaching
+     high school students basic CS concepts such as conditionals,
+     finite state automata and more. It would be useful if the
+     implementation of these bots could be rotated to teach a
+     different subject (i.e. MCAT topics).
+
+  3. Augello, A., et al. “A Modular Framework for Versatile
+     Conversational Agent Building.” A Modular Framework for Versatile
+     Conversational Agent Building - IEEE Conference Publication,
+     Boston College Libraries, 30 June 2011.
+
+     This article discusses how to create chatbots that are more
+     dynamic to user queries. Important to reference as users can ask
+     any number of clarifying questions that the bot will need to
+     address.
+* Conceptual \& Implementation Issues
+  1. Pattern Matching - How to determine what type of question is
+     appropriate for the user. This might need to be hard-coded in,
+     but it's going to be difficult to supply the user with an
+     appropriate question (i.e. same area) and also one that is either
+     slightly more difficult or slightly easier.
+
+  2. Intent Classification - When user asks clarifying question, how
+     to extract actual intent of the question/provide relevant
+     resources. One option might be to just search Google using the
+     input text from the user.
