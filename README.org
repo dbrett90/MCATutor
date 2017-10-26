@@ -66,7 +66,7 @@
      dynamic to user queries. Important to reference as users can ask
      any number of clarifying questions that the bot will need to
      address.
-* Conceptual \& Implementation Issues
+* Conceptual & Implementation Issues
   1. Pattern Matching - How to determine what type of question is
      appropriate for the user. This might need to be hard-coded in,
      but it's going to be difficult to supply the user with an
