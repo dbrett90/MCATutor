@@ -1,0 +1,74 @@
+{
+  "sections": [
+    {
+      "passage":"The illness experience shapes the way that people use health information. For patients with a rare health disorder, which is defined as a medical condition that affects fewer than 200,000 individuals living in the United States, online sources of information tend to be particularly important.\n An example of a rare disorder is Amyotrophic Lateral Sclerosis (ALS), also known as “Lou Gehrig’s disease.” ALS results from the progressive loss of motor nerves and affects about 1 out of 100,000 people. About 10% of people with ALS have a familial form of the condition, which is caused by an inherited genetic mutation. Aside from the familial form, the cause of ALS is largely unknown, though it is believed that the disorder results from both genetic and environmental factors.\n Having a rare medical condition, such as ALS, can make it difficult to meet and interact with others who have the same rare disorder. Despite great distances, online communication provides a form of social interaction for those facing an uncommon health problem. Virtual peer networks provide vital social support for those who are affected by a rare disorder.\n Research has found that women with rare disorders are more likely to access online support networks than men with rare disorders. Relationships formed through online support networks often become a meaningful part of a person’s identity. Individuals with rare disorders report that relating to others who have the same condition is often easier than trying to relate to friends or family members who do not share their condition.",
+      "questions": [
+        {
+          "question": "Which statement best represents a threat to social identity? A young woman with a rare disorder:",
+          "choices": [
+            "believes that others treat her as less capable, and then she starts to see herself as deficient.",
+            "becomes discouraged when she hears that others with rare disorders are treated as less capable.",
+            "hides her disorder from others in order to project more confidence in social situations.",
+            "reveals her disorder to friends, who mistakenly assume that it is a social limitation."
+          ],
+          "answer": "b"
+        },
+        {
+          "question": "Over the course of ten years, a rare disorder increases in prevalence such that it eventually affects more than 200,000 people in the United States. Based on the passage and this scenario, which prediction is most consistent with the sociological paradigm of symbolic interactionism?",
+          "choices": [
+            "As the number of affected individuals increases, government research funding increases.",
+            "Affected individuals are less likely to conceal their condition as it becomes less stigmatized.",
+            "As more people with the condition are treated, it receives less attention as a health concern.",
+            "Insurance coverage for the condition becomes more likely as more people require treatment."
+          ],
+          "answer": "b"
+        },
+        {
+          "question": "Which research project best represents a macrosociological approach to studying the social support networks mentioned in the passage?",
+          "choices": [
+            "A researcher follows the conversation of participants who post messages in an online support forum.",
+            "A researcher interviews patients who participate in a local hospital’s support group for rare disorders.",
+            "A researcher surveys patients for reasons that they joined an online support group for their disorder.",
+            "A researcher tracks how the number of websites dedicated to rare disorders has changed over time."
+          ],
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "passage": "The Wealth of Nations (1776) popularized “the invisible hand,” the idea that an individual who intends only personal gain is, as it were, led by an invisible hand to promote the public interest. Adam Smith did not assert that this principle was invariably true, but it contributed to a tendency of thought that has since remained dominant, preventing action based on rational analysis: the assumption that decisions reached individually will collectively be the best decisions for society as a whole. If this assumption is correct, it justifies the continuance of the U.S. policy of laissez-faire in many issues affecting business, the environment, and the family. If it is not correct, U.S. citizens need to re-examine their individual freedoms to see which are defensible.\n The rebuttal to the invisible hand theory could be called “the tragedy of the commons.” Picture a pasture open to all. It can be expected that each herder will try to keep as many cattle as possible on this commons. Such an arrangement may work reasonably well for centuries because tribal wars, poaching, and disease keep the numbers of both human and beast far below the carrying capacity of the land. Finally, however, comes the day of reckoning—that is, the day on which the long-desired goal of social stability becomes a reality. At this point, the inherent logic of the commons remorselessly generates tragedy.\n As a rational being, each herder seeks to maximize personal gain. More or less consciously, the individual asks, “What is the utility to me of adding one more animal to my herd?” Since the herder would receive all the proceeds from the sale of the additional animal, the positive component of this utility is nearly +1. The negative component is a function of the overgrazing caused by an additional animal. Since the effects of overgrazing are shared by all the herders, the negative utility for any particular decision-maker is some fraction of –1.\n Adding the component utilities, the rational herder concludes that the only sensible course is to add another animal to his or her herd—and another, and another. . . . This conclusion is reached by every rational herder who shares the commons. All are locked into a system that compels each to increase his or her gain without limit in a world that is limited. Ruin is the destination toward which all rush, each pursuing the right to use a public resource. The problem is that a commons, if justifiable at all, is justifiable only under conditions of low population density. As the human population has increased, the commons concept has had to be abandoned in one aspect after another.\n The social arrangements that would produce responsibility in this scenario create coercion. The only kind of coercion I recommend is mutual coercion, agreed to by a majority of those affected. Compulsory taxes are acceptable because a system of voluntary contributions would favor the conscienceless. A society institutes and (grumblingly) supports taxes and other coercive devices to escape the horror of the commons.\n Every new enclosure of the commons involves the infringement of somebody’s personal freedom. But what does “freedom” mean? Those subject to the logic of the commons are free only to bring on universal ruin. Once they acknowledge the logic of mutual coercion, they become free to pursue other goals. We must now recognize the necessity of abandoning the commons assumption in our reproduction. Failure to do so will bring ruin on us all.",
+      "questions": [
+        {
+          "question": "According to the passage, the decisive factor in determining whether someone’s actions should be subject to coercion is whether the actions:",
+          "choices": [
+            "are determined solely by self-interest.",
+            "affect collectively held resources.",
+            "degrade the natural environment.",
+            "are commonly considered immoral."
+          ],
+          "answer": "b"
+        },
+        {
+          "question": "The passage argument suggests that national parks might benefit from:\n I. the restriction of recreational use by means of fees.\n II. the selling of the facilities to private investors.\n III. the opening of additional facilities to the public.",
+          "choices": [
+            "I only",
+            "III only",
+            "I and II only",
+            "II and III only"
+          ],
+          "answer": "a"
+        },
+        {
+          "question": "Some communities with expanding populations have for centuries successfully managed commonly held land. An appropriate clarification of the passage would be the stipulation that the author’s argument applies only to:",
+          "choices": [
+            "the future.",
+            "unregulated resources.",
+            "conditions of social instability.",
+            "resources that are not managed locally."
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  ]
+}
