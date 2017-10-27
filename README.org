@@ -78,6 +78,7 @@
      resources. One option might be to just search Google using the
      input text from the user.
 * Tasks
+** Organizationally, tasks also outlined in Slack Group
 ** Collect and Process Questions
    - Find Exams
    - Build scraper
