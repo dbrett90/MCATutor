@@ -79,9 +79,10 @@
      input text from the user.
 * Tasks
 ** Organizationally, tasks also outlined in Slack Group
-   - Weekly Goals outlined
+   - Weekly Goals 
    - Relevant/useful links
    - Tutorials, etc.
+   - Intra- Team Communication
 ** Collect and Process Questions
    - Find Exams
    - Build scraper
