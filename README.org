@@ -77,3 +77,25 @@
      to extract actual intent of the question/provide relevant
      resources. One option might be to just search Google using the
      input text from the user.
+* Tasks
+** Collect and Process Questions
+   - Find Exams
+   - Build scraper
+     + Pair questions with answers
+   - Collect relevant materials
+     + Google results for user to learn more about the topic
+     + Specific results
+     + Use NLTK to find key words, phrases
+   - Put results into database for chat bot
+** Chatbot
+   - Ask test question, receive answer from user
+     + Pull question and answers
+   - Ask user what style of question they want to practice
+     + Multiple choice, short answer, etc.
+   - Ask user what topic they want to practice
+     + Math
+** AI
+   - Constraint satisfaction
+     + Equal proficiency in all topics and question styles
+     + What topics does the user have trouble with?
+     + Is the user better at short answer than multiple choice?
