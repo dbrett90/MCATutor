@@ -1,5 +1,40 @@
 * MCATutor
   Lauren Becker, Daniel Brett, Isaiah Rawlinson
+
+  http://mcatutor.com/
+* Tasks
+** Organizationally, tasks also outlined in Slack Group
+   - Weekly Goals
+   - Relevant/useful links
+   - Tutorials, etc.
+   - Intra- Team Communication
+** Collect and Process Questions
+   - Find Exams
+   - Build scraper
+     + Pair questions with answers
+   - Collect relevant materials
+     + Google results for user to learn more about the topic
+     + Specific results
+     + Use NLTK to find key words, phrases
+   - Put results into database for chat bot
+** Chatbot
+   - Ask test question, receive answer from user
+     + Pull question and answers
+   - Ask user what style of question they want to practice
+     + Multiple choice, short answer, etc.
+   - Ask user what topic they want to practice
+     + Math
+** AI
+   - Constraint satisfaction
+     + Equal proficiency in all topics and question styles
+     + What topics does the user have trouble with?
+     + Is the user better at short answer than multiple choice?
+* Quizlet
+  | Client ID  | dWM9nE2PR2             |
+  | Secret Key | XFdv5VJ2YBhrMuZw4Nd5QX |
+** API Calls
+   - https://api.quizlet.com/2.0/sets/103436670?access_token=K8xMXJPz3FXtJ5HwCQJbN2XsFX2HTEhCBAN8jst9&whitespace=1
+     + Where 103436670 is the set number
 * Abstract
   Our project attempts to improve the study experience and preparation
   for the MCAT exam. The majority of students use one or two
@@ -77,30 +112,3 @@
      to extract actual intent of the question/provide relevant
      resources. One option might be to just search Google using the
      input text from the user.
-* Tasks
-** Organizationally, tasks also outlined in Slack Group
-   - Weekly Goals 
-   - Relevant/useful links
-   - Tutorials, etc.
-   - Intra- Team Communication
-** Collect and Process Questions
-   - Find Exams
-   - Build scraper
-     + Pair questions with answers
-   - Collect relevant materials
-     + Google results for user to learn more about the topic
-     + Specific results
-     + Use NLTK to find key words, phrases
-   - Put results into database for chat bot
-** Chatbot
-   - Ask test question, receive answer from user
-     + Pull question and answers
-   - Ask user what style of question they want to practice
-     + Multiple choice, short answer, etc.
-   - Ask user what topic they want to practice
-     + Math
-** AI
-   - Constraint satisfaction
-     + Equal proficiency in all topics and question styles
-     + What topics does the user have trouble with?
-     + Is the user better at short answer than multiple choice?
