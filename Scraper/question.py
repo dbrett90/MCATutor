@@ -1,3 +1,6 @@
+from pprint import pformat
+
+
 class Question:
 
     """A question, choices, and answer."""
@@ -15,3 +18,9 @@ class Question:
 
     def answer(self):
         return self._answer
+
+    def __str__(self):
+        str = (self.question() + '\n' +
+               pformat(self.choices()) + '\n' +
+               self.answer())
+        return str

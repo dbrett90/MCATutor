@@ -10,9 +10,10 @@
 
 import json
 import requests
-import re
-from orderedset import OrderedSet
-from pprint import pprint
+import pickle
+import quizlet_regex as qr
+from question import Question
+
 
 base_url = 'https://api.quizlet.com/2.0'
 client_id = 'dWM9nE2PR2'
@@ -21,62 +22,61 @@ url = (base_url +
        '/classes/' + class_id +
        '/sets' +
        '?client_id=' + client_id)
-
-choice_patterns = ["\n[Aa].*\n[Bb]",
-                   "\n[Bb].*\n[Cc]",
-                   "\n[Cc].*\n[Dd]",
-                   "\n[Dd].*\n[Ee]",
-                   "\n[De].*",
-                   "\n[Ee].*"]
-
-strip_patterns = ["[ABCDEabcde]\..*", "[ABCDEabcde].*"]
-
-
-def get_options(question):
-    choices_raw = []
-    choices = OrderedSet()
-    for pattern in choice_patterns:
-        matchObject = re.search(pattern, question, flags=0)
-        if matchObject:
-            match = matchObject.group(0)
-            if match[-2] == '\n':
-                choices_raw.append(match[1:-2])
-            else:
-                choices_raw.append(match[1:])
-
-    for i in range(len(choices_raw)):
-        matchObject = re.search(strip_patterns[0],
-                                choices_raw[i],
-                                flags=0)
-        if matchObject:
-            choices.add(matchObject.group(0)[3:])
-        else:
-            matchObject = re.search(strip_patterns[1],
-                                    choices_raw[i],
-                                    flags=0)
-            if matchObject:
-                choices.add(matchObject.group(0)[2:])
-
-    return list(choices)
-
-
 response = requests.get(url)
-
 data = json.loads(response.text)
 
-
-questions = []
-for term in data[1]['terms']:
-    choices = get_options(term['term'])
-    if choices:
-        questions.append(choices)
-
-
-for term in data[2]['terms']:
-    choices = get_options(term['term'])
-    if choices:
-        questions.append(choices)
+class_id_rev = '5812982'
+url_rev = (base_url +
+           '/classes/' + class_id_rev +
+           '/sets' +
+           '?client_id=' + client_id)
+data_rev = json.loads(requests.get(url_rev).text)
 
 
-pprint(questions)
-print(len(questions))
+def parse_terms(terms):
+    questions = []
+    for term in terms:
+        choices = qr.get_options(term['term'])
+        question = qr.get_question(term['term'])
+        answer = term['definition']
+        if choices and question:
+            questions.append(Question(question, choices, answer))
+
+    return questions
+
+
+def parse_terms_rev(terms):
+    questions = []
+    for term in terms:
+        choices = qr.get_options(term['definition'])
+        question = qr.get_question(term['definition'])
+        answer = term['term']
+        if choices and question:
+            questions.append(Question(question, choices, answer))
+
+    return questions
+
+
+test_questions = []
+for card_set in data:
+    for q in parse_terms(card_set['terms']):
+        test_questions.append(q)
+        # print(q)
+        # print('\n', '-' * 50, '\n')
+
+for card_set in data_rev:
+    for q in parse_terms_rev(card_set['terms']):
+        test_questions.append(q)
+        # print(q)
+        # print('\n', '-' * 50, '\n')
+
+
+print("Questions found:", len(test_questions))
+
+s = json.dumps([q.__dict__ for q in test_questions])
+with open('quizlet_data.txt', 'w') as outfile:
+    json.dump(s, outfile)
+
+with open('quizlet_data.pkl', 'wb') as output:
+    for q in test_questions:
+        pickle.dump(q, output, pickle.HIGHEST_PROTOCOL)
