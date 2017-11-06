@@ -11,72 +11,112 @@
 import json
 import requests
 import pickle
+import sys
 import quizlet_regex as qr
-from question import Question
+from questionmc import QuestionMC
+from questionid import QuestionID
 
 
 base_url = 'https://api.quizlet.com/2.0'
 client_id = 'dWM9nE2PR2'
-class_id = '5810856'
-url = (base_url +
-       '/classes/' + class_id +
-       '/sets' +
-       '?client_id=' + client_id)
-response = requests.get(url)
-data = json.loads(response.text)
+class_id_mc = '5810856'
+url_mc = (base_url +
+          '/classes/' + class_id_mc +
+          '/sets' +
+          '?client_id=' + client_id)
+data_mc = json.loads(requests.get(url_mc).text)
 
-class_id_rev = '5812982'
-url_rev = (base_url +
-           '/classes/' + class_id_rev +
-           '/sets' +
-           '?client_id=' + client_id)
-data_rev = json.loads(requests.get(url_rev).text)
+class_id_mc_rev = '5812982'
+url_mc_rev = (base_url +
+              '/classes/' + class_id_mc_rev +
+              '/sets' +
+              '?client_id=' + client_id)
+data_mc_rev = json.loads(requests.get(url_mc_rev).text)
+
+class_id_id = '5824458'
+url_id = (base_url +
+          '/classes/' + class_id_id +
+          '/sets' +
+          '?client_id=' + client_id)
+data_id = json.loads(requests.get(url_id).text)
 
 
-def parse_terms(terms):
+def parse_mc_terms(terms):
     questions = []
     for term in terms:
-        choices = qr.get_options(term['term'])
-        question = qr.get_question(term['term'])
+        choices = qr.get_choices_mc(term['term'])
+        question = qr.get_question_mc(term['term'])
         answer = term['definition']
         if choices and question:
-            questions.append(Question(question, choices, answer))
+            questions.append(QuestionMC(question, choices, answer))
 
     return questions
 
 
-def parse_terms_rev(terms):
+def parse_mc_terms_rev(terms):
     questions = []
     for term in terms:
-        choices = qr.get_options(term['definition'])
-        question = qr.get_question(term['definition'])
-        answer = term['term']
-        if choices and question:
-            questions.append(Question(question, choices, answer))
+        choices = qr.get_choices_mc(term['definition'])
+        question = qr.get_question_mc(term['definition'])
+        answer = term['term'].strip()
+        if choices and question and answer:
+            questions.append(QuestionMC(question, choices, answer))
 
     return questions
 
 
-test_questions = []
-for card_set in data:
-    for q in parse_terms(card_set['terms']):
-        test_questions.append(q)
-        # print(q)
-        # print('\n', '-' * 50, '\n')
+def parse_id_terms(terms):
+    questions = []
+    for term in terms:
+        question, answer = qr.get_question_id(term)
+        if question and answer:
+            questions.append(QuestionID(question, answer))
 
-for card_set in data_rev:
-    for q in parse_terms_rev(card_set['terms']):
-        test_questions.append(q)
-        # print(q)
-        # print('\n', '-' * 50, '\n')
+    return questions
 
 
-print("Questions found:", len(test_questions))
+mc_questions = []
+id_questions = []
 
-s = json.dumps([q.__dict__ for q in test_questions])
-with open('quizlet_data.txt', 'w') as outfile:
-    json.dump(s, outfile)
+for card_set in data_mc:
+    for q in parse_mc_terms(card_set['terms']):
+        mc_questions.append(q)
 
-with open('quizlet_data.pkl', 'wb') as output:
-    for q in test_questions:
+for card_set in data_mc_rev:
+    for q in parse_mc_terms_rev(card_set['terms']):
+        mc_questions.append(q)
+
+for card_set in data_id:
+    for q in parse_id_terms(card_set['terms']):
+        id_questions.append(q)
+
+
+print("Multiple choice questions found:", len(mc_questions))
+print("Defninition/SA questions found: ", len(id_questions))
+
+sys.stdout = open('question_data/mc_questions.txt', 'w')
+for q in mc_questions:
+    print(q)
+    print('\n', '-' * 50, '\n')
+
+sys.stdout = open('question_data/id_questions.txt', 'w')
+for q in id_questions:
+    print(q)
+    print('\n', '-' * 50, '\n')
+
+
+mc_json = json.dumps([q.__dict__ for q in mc_questions])
+with open('question_data/mc_questions.json', 'w') as outfile:
+    json.dump(mc_json, outfile)
+
+with open('question_data/mc_questions.pkl', 'wb') as output:
+    for q in mc_questions:
+        pickle.dump(q, output, pickle.HIGHEST_PROTOCOL)
+
+id_json = json.dumps([q.__dict__ for q in mc_questions])
+with open('question_data/id_questions.json', 'w') as outfile:
+    json.dump(id_json, outfile)
+
+with open('question_data/id_questions.pkl', 'wb') as output:
+    for q in id_questions:
         pickle.dump(q, output, pickle.HIGHEST_PROTOCOL)

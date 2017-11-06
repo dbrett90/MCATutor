@@ -11,7 +11,7 @@
 import sys
 import json
 from pprint import pprint
-from question import Question
+from questionmc import QuestionMC
 from section import Section
 
 
@@ -26,7 +26,7 @@ def parse_section(section):
         choices = json_question['choices']
         answer = json_question['answer']
 
-        questions.append(Question(question, choices, answer))
+        questions.append(QuestionMC(question, choices, answer))
 
     return Section(passage, questions)
 

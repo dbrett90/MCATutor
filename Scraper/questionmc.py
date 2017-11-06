@@ -1,7 +1,7 @@
 from pprint import pformat
 
 
-class Question:
+class QuestionMC:
 
     """A question, choices, and answer."""
 
