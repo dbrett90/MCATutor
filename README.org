@@ -54,9 +54,9 @@
   materials that the student can review. This will accomplished by
   using NLTK’s built in sentence complexity mechanism, which ranks the
   complexity of the sentence based off length, structure and other
-  variables (link below). The bot should also be able to answer very
-  basic clarifying questions about the problems (e.g. word and symbol
-  definitions).
+  variables (link below). Ideally, the bot should be able to answer basic 
+  clarifying questions, but due to time constraints, this may or may not
+  be implemented. 
 * Selected Topics
 1. Goal-Based Agent implementation
    - Goal is defined as providing user with appropriate question
