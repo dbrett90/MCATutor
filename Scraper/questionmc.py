@@ -1,5 +1,5 @@
 from pprint import pformat
-
+from string import ascii_uppercase
 
 class QuestionMC:
 
@@ -18,6 +18,12 @@ class QuestionMC:
 
     def answer(self):
         return self._answer
+
+    def print_question(self):
+        print(self.question(), '\n')
+
+        for i in range(len(self._choices)):
+            print(ascii_uppercase[i] + '. ' + self._choices[i])
 
     def __str__(self):
         str = (self.question() + '\n' +

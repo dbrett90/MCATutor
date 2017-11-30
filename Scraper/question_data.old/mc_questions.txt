@@ -831,6 +831,17 @@ Short-term glucocorticoid exposure causes a release of glucose and the hydrolysi
 
  -------------------------------------------------- 
 
+Which of the following correctly indicates the response of CD8+ T-cells when activated?
+['Secretion of cytotoxic chemicals',
+ 'Causing isotype switching',
+ 'Presentation of antigens',
+ 'Activation of B-cells']
+A.) Secretion of cytotoxic chemicals
+
+CD8+ T-cells are largely responsible for the cytotoxic immune response. By releasing toxic chemicals into virally infected cells, CD8+ T-cells are able to kill these cells in an effort to contain viral infections. Isotype switching refers to changes in the isotype of antibody produced, which is not caused by CD8+ cells, eliminating choice (B). Antigens are presented by macrophages, dendritic cells, certain epithelial cells, and some B-cells, eliminating choice (C). B-cells are not activated by cytotoxic T-lymphocytes, eliminating choice (D).
+
+ -------------------------------------------------- 
+
 Which of the following is a false statement regarding erythrocytes?
 ['They contain hemoglobin.',
  'They are anaerobic.',
@@ -1148,6 +1159,18 @@ Fe(OH)2 precipitation
 
 a decrease in temp causes a decrease in Ksp, so the saturated solution is now supersaturated 
 supersaturated solution tend to precipitate in order ot reach equilibrium
+
+ -------------------------------------------------- 
+
+For the most part, biological pH is slightly basic. However, the stomach is very acidic, and its contents must be swiftly neutralized by basic bicarbonate ions upon entering the small intestine, which has a basic pH. How many liters of 2 M Ba(OH)2 are needed to titrate a 4 L solution of 6 M H3PO4?
+['1.33 L', '12 L', '18 L', '56 L']
+[C] is the correct answer.
+
+Use the equivalence point equation:
+
+NaVa = NbVb
+
+Ba(OH)2 can dissociate to give two hydroxide ions, so its normality is 2 M × 2 = 4 N. H3PO4 can dissociate to give three hydronium ions, so its normality is 6 M × 3 = 18 N. Plugging into the equation, we get (18 N)(4 L) = (4 N)(Vb). Therefore, Vb is 18 L.
 
  -------------------------------------------------- 
 

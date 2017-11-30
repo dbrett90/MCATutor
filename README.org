@@ -1,40 +1,5 @@
 * MCATutor
   Lauren Becker, Daniel Brett, Isaiah Rawlinson
-
-  http://mcatutor.com/
-* Tasks
-** Organizationally, tasks also outlined in Slack Group
-   - Weekly Goals
-   - Relevant/useful links
-   - Tutorials, etc.
-   - Intra- Team Communication
-** Collect and Process Questions
-   - Find Exams
-   - Build scraper
-     + Pair questions with answers
-   - Collect relevant materials
-     + Google results for user to learn more about the topic
-     + Specific results
-     + Use NLTK to find key words, phrases
-   - Put results into database for chat bot
-** Chatbot
-   - Ask test question, receive answer from user
-     + Pull question and answers
-   - Ask user what style of question they want to practice
-     + Multiple choice, short answer, etc.
-   - Ask user what topic they want to practice
-     + Math
-** AI
-   - Constraint satisfaction
-     + Equal proficiency in all topics and question styles
-     + What topics does the user have trouble with?
-     + Is the user better at short answer than multiple choice?
-* Quizlet
-  | Client ID  | dWM9nE2PR2             |
-  | Secret Key | XFdv5VJ2YBhrMuZw4Nd5QX |
-** API Calls
-   - https://api.quizlet.com/2.0/sets/103436670?access_token=K8xMXJPz3FXtJ5HwCQJbN2XsFX2HTEhCBAN8jst9&whitespace=1
-     + Where 103436670 is the set number
 * Abstract
   Our project attempts to improve the study experience and preparation
   for the MCAT exam. The majority of students use one or two
@@ -54,61 +19,55 @@
   materials that the student can review. This will accomplished by
   using NLTK’s built in sentence complexity mechanism, which ranks the
   complexity of the sentence based off length, structure and other
-  variables (link below). Ideally, the bot should be able to answer basic 
-  clarifying questions, but due to time constraints, this may or may not
-  be implemented. 
-* Selected Topics
-1. Goal-Based Agent implementation
-   - Goal is defined as providing user with appropriate question
-     (increasing difficulty accordingly) or providing satisfactory
-     answer to clarifying question. Can ask user for feedback to
-     ensure that goal is reached.
+  variables (link below). The bot should also be able to answer very
+  basic clarifying questions about the problems (e.g. word and symbol
+  definitions).
+* System Requirements and Usage
+  MCATutor depends on several libraries and protocols available only
+  in python 3.x
 
-2. Basic Heuristic implementation when referring user to references.
-   - When referring resources, bot favors PDFs over webpages, favors
-     .edu sites, Wikipedia, and Pearson over everything else
-* Software and Hardware Platforms
-  Implementation of the proposed chatbot will be executed using Python
-  as the programming language and ChatterBot/Python Natural Language
-  Processing modules. Testing will be done using the Integrated
-  Development and Learning Environment (IDLE) on a Dell XPS 13 9350
-  (Windows) with a 2.40 GHz Intel Core i5-6200U processor. Running
-  time will be used as a measure of efficiency, specifically the time
-  it takes for the bot to provide questions and provide clarification.
-* Relevant References
-  1. Hill, J., et al. “Amazon Simple Storage Service (S3) - Cloud
-     Storage - AWS.” Amazon Web Services, Inc., George Washington
-     University, 2015. Article that discusses how effective
-     communication is between humans and chatbots versus with other
-     humans and potential solutions to make conversations with
-     intelligent agents more fluid.
-
-  2. Benotti, L., et al. “Engaging High School Students Using
-     Chatbots.”  Researchgate.net, June 2014.
-
-     This article discusses potential usages of chatbots in teaching
-     high school students basic CS concepts such as conditionals,
-     finite state automata and more. It would be useful if the
-     implementation of these bots could be rotated to teach a
-     different subject (i.e. MCAT topics).
-
-  3. Augello, A., et al. “A Modular Framework for Versatile
-     Conversational Agent Building.” A Modular Framework for Versatile
-     Conversational Agent Building - IEEE Conference Publication,
-     Boston College Libraries, 30 June 2011.
-
-     This article discusses how to create chatbots that are more
-     dynamic to user queries. Important to reference as users can ask
-     any number of clarifying questions that the bot will need to
-     address.
-* Conceptual & Implementation Issues
-  1. Pattern Matching - How to determine what type of question is
-     appropriate for the user. This might need to be hard-coded in,
-     but it's going to be difficult to supply the user with an
-     appropriate question (i.e. same area) and also one that is either
-     slightly more difficult or slightly easier.
-
-  2. Intent Classification - When user asks clarifying question, how
-     to extract actual intent of the question/provide relevant
-     resources. One option might be to just search Google using the
-     input text from the user.
+  To start the chatbot run the python file from a command prompt.
+  #+BEGIN_SRC sh
+python3 chatbot.py
+  #+END_SRC
+  Press =ctrl-d= or =ctrl-c= to quit out of the bot.
+* Goals and Features
+** Term Project
+*** Collect and Process Questions
+    - Use card decks from Quizlet
+      + Crowd-sourced collection of questions
+      + Taking advantage of the API for easily extensible scraping
+    - Scraper
+      + Pair questions with answers
+    - Put results into database for chat bot
+*** Chatbot
+    - Ask test question, receive answer from user
+      + Pull question and answers
+    - Ask user what style of question they want to practice
+      + Multiple choice, short answer, etc.
+    - Ask user what topic they want to practice
+      + Biology, chemistry, physics, behavioral sciences
+*** AI
+    - Constraint satisfaction
+      + Develop equal proficiency in all topics and question styles
+        - Suggest topics the user should study more
+        - Give the user more questions that they will find difficult
+          to give them better practice with the topics and question
+          styles
+      + What topics does the user have trouble with?
+      + Does the user do well with multiple choice but struggle with
+        short answer questions?
+    - Machine learning
+      + Train the bot to recognize correct answers on it's own through
+        guided learning
+** Stretch and Post-Semester Goals
+   - Collect relevant materials
+     + Google results for user to learn more about the topic
+     + Specific results
+     + Use natural language tools to find key words and phrases in the
+       question
+   - Train the scraper to identify the topic of a given question to
+     quickly sort data and increase the number of usable questions
+   - Build a website for the application with a more
+     friendly/intuitive UI
+     + Domain: http://mcatutor.com/
