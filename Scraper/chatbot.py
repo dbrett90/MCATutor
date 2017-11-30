@@ -10,7 +10,7 @@ import os
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 from chatterbot.trainers import ChatterBotCorpusTrainer
-from load_questions import ask_questions
+from load_questions import ask_questions, subjects
 
 # Uncomment the following lines to enable verbose logging
 # import logging
@@ -32,20 +32,47 @@ bot = ChatBot(
     database="database"
 )
 
+
+def train_subject_prompts():
+    for s in subjects:
+        bot_res = "\nAbsolutely, here are some " + s + " questions:\n"
+        phrases = [
+            s,
+            "Please quiz me on " + s,
+            "Ask me questions about " + s,
+            "Can you quiz me on " + s,
+            "Can you give me " + s + " questions?",
+            "How about some " + s + " questions?",
+            "I would like to practice " + s + " questions"
+        ]
+
+        for phrase in phrases:
+            bot.train([phrase, bot_res])
+
+
 if not db_exists:
     bot.set_trainer(ChatterBotCorpusTrainer)
     bot.train("chatterbot.corpus.english")
     bot.train("chatterbot.corpus.english.greetings")
 
-bot.set_trainer(ListTrainer)
+    bot.set_trainer(ListTrainer)
+    train_subject_prompts()
 
 
-bot.train(["I'd like some MCAT Questions Please",
-           "Absolutely, from what section of the exam?",
-           "Please quiz me on some Multiple Choice Questions",
-           "Absolutely, here are some questions:\n"])
+welcome_msg = ("""
+Welcome to MCATutor!
 
-print("Type something to begin...")
+I am an AI chatbot that would like to help you study for your MCAT
+exam. I have a collection of questions from subjects including:
+""" +
+               '- ' +
+               '\n- '.join(s for s in subjects) +
+               " science" +
+               '\n' * 2 +
+               'What would you like to study today?\n')
+
+
+print(welcome_msg)
 
 
 # The following loop will execute each time the user enters input
@@ -55,8 +82,10 @@ while True:
         # is not used by the TerminalAdapter
         bot_input = bot.get_response(None)
 
-        if bot_input == "Absolutely, here are some questions:\n":
-            ask_questions()
+        if bot_input[:26] == "\nAbsolutely, here are some":
+            print("(Enter 'q' to quit and select a new topic.)\n")
+            subject = bot_input.split()[4]
+            ask_questions(subject)
 
     # Press ctrl-c or ctrl-d on the keyboard to exit
     except (KeyboardInterrupt, EOFError, SystemExit):
