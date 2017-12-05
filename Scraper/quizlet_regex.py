@@ -13,6 +13,8 @@ strip_patterns = ["[ABCDEabcde][\.\)]+.*", "[ABCDEabcde].*"]
 
 answer_pattern = "^(?![ABCDEabcde]{1}\.*\s*$).*"
 
+expl_pattern = "\n([\w\s\n\W]*)"
+
 
 def get_question_mc(question):
     matchObject = re.search(question_pattern, question, flags=0)
@@ -49,6 +51,15 @@ def get_answer_mc(definition):
     matchObject = re.search(answer_pattern, definition, flags=0)
     if matchObject:
         return matchObject.group(0).strip()
+
+
+def get_expl_mc(definition):
+    matchObject = re.search(expl_pattern, definition, flags=0)
+    if matchObject:
+        if matchObject.group(1):
+            return matchObject.group(1).strip()
+    else:
+        return ''
 
 
 def get_question_id(question):

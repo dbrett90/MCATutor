@@ -19,8 +19,9 @@ Two objects, one having three times the mass of the other, are dropped from the 
  'all objects reach the same terminal velocity',
  'the acceleration of the larger object is three times greater than that of '
  'the smaller object',
- 'the force of gravity is the same for both objects']
-none of the above
+ 'the force of gravity is the same for both objects',
+ 'none of the above']
+e. none of the above
 
  -------------------------------------------------- 
 
@@ -134,19 +135,19 @@ a. mass
 
 A man walks 30m east and then 40m north. What is the difference between his traveled distance and his displacement? 
 ['0m', '20m', '50m', '70m']
-B
+B. 20m
 
  -------------------------------------------------- 
 
 A 1000 kg rocket ship, traveling at 100 m/s, is acted upon by an average force of 20 kN applied in the direction of its motion for 8 s. What is the change in velocity of the rocket?
 ['160 m/s', '260 m/s', '160,000 m/s', '260,000 m/s']
-A
+A. 160 m/s
 
  -------------------------------------------------- 
 
 A car is traveling at 40 km/hr and the driver puts on the brakes, bringing the car to rest in a time of 6 s. What is the magnitude of the average acceleration of the car?
 ['240 km/hr^2', '12,000 km/hr^2', '24,000 km/hr^2', '30,000 km/hr^2']
-C
+C. 24,000 km/hr^2
 
  -------------------------------------------------- 
 
@@ -155,7 +156,7 @@ An elevator is designed to carry a maximum weight of 9800 N (including its own w
  'The tension is less than 9800 N',
  'The tension equals 9800 N',
  'It cannot be determined from the information given']
-A
+A. The tension is greater than 9800 N
 
  -------------------------------------------------- 
 
@@ -164,7 +165,7 @@ At a place where g= 9.8 m/s^2, an object is thrown vertically downward with a sp
  'The second object has a greater change in speed',
  'Both objects undergo the same change in speed.',
  'It cannot be determined from the information given.']
-A
+A. The first object has a greater change in speed
 
  -------------------------------------------------- 
 
@@ -173,13 +174,13 @@ A firefighter jumps horizontally from a burning building with an initial speed o
  'When he reaches terminal velocity',
  'Halfway through his fall',
  'Right before he lands on the ground']
-A
+A. The instant he jumps
 
  -------------------------------------------------- 
 
 A 10 kg wagon rests on a frictionless inclined plane. The plane makes an angle of 30 degrees with the horizontal. Approximately how large is the force required to keep the wagon from sliding down the plane?
 ['10 N', '49 N', '85 N', '98 N']
-B
+B. 49 N
 
  -------------------------------------------------- 
 
@@ -188,7 +189,7 @@ Which of the following expressions correctly illustrates the SI base units for e
  'kg x m/s = N x s',
  'kg x m/s = (kg x m)/s^2 x s',
  'g x m/s = (g x m)/s^2 x s']
-C
+C. kg x m/s = (kg x m)/s^2 x s
 
  -------------------------------------------------- 
 
@@ -197,13 +198,13 @@ A 20 kg wagon is released from rest from the top of a 15 m long lane, which is a
  'The frictional force decreases',
  'The frictional force remains the same',
  'It cannot be determined from the information given']
-B
+B. The frictional force decreases
 
  -------------------------------------------------- 
 
 Which of the following quantities is NOT a vector? 
 ['Velocity', 'Force', 'Displacement', 'Distance']
-D
+D. Distance
 
  -------------------------------------------------- 
 
@@ -212,13 +213,13 @@ A 30 kg girl sits on a seesaw at a distance of 2m from the fulcrum. Where must h
  '67 cm from the fulcrum',
  '133 cm from the girl',
  '267 cm from the fulcrum']
-B
+B. 67 cm from the fulcrum
 
  -------------------------------------------------- 
 
 A BASE jumper runs off a cliff with a speed of 3 m/s. Which of the following is closest to his speed after 0.5 seconds?
 ['3 m/s', '6 m/s', '8 m/s', '10 m/s']
-B
+B. 6 m/s
 
  -------------------------------------------------- 
 
@@ -227,7 +228,7 @@ A rock (m= 2 kg) is shot up vertically at the same time that a ball ( m= 0.5 kg)
  'The rock will reach the ground first.',
  'The ball will reach the ground first.',
  'The rock and ball and collide in the air before reaching the ground']
-C
+C. The ball will reach the ground first.
 
  -------------------------------------------------- 
 
@@ -238,13 +239,13 @@ Centrifugal force is an apparent outward force during circular motion. It has be
  'centripetal acceleration.',
  'Centrifugal force always acts antiparallel to the centripetal force vector.',
  'Centrifugal force is the result of repulsive electrostatic interactions.']
-C
+C. Centrifugal force always acts antiparallel to the centripetal force vector.
 
  -------------------------------------------------- 
 
 Which of the following is true of movement on a plane with friction? 
 ['I only', 'II only', 'I an II only', 'I and III only']
-B
+B. II only
 
  -------------------------------------------------- 
 

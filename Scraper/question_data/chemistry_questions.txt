@@ -1,6 +1,8 @@
 Which of the following *inhibit* hexokinase?
 ['Insulin', 'AMP', 'Glucose-6-Phosphate', 'PFK stimulation', 'Glucose']
-c. Glucose-6-Phosphate
+c.
+Explanation:
+Glucose-6-Phosphate
 
  -------------------------------------------------- 
 
@@ -231,8 +233,8 @@ Which of the following statements accurately describes the difference between a 
  'The maximum number of σ versus π bonds between two atoms are different, but '
  'the energy level of the two bonds are the same.',
  'Only sigma bonds use hybridized orbitals to overlap in forming the bond.']
-Only sigma bonds use hybridized orbitals to overlap in forming the bond.
-
+d. Only sigma bonds use hybridized orbitals to overlap in forming the bond.
+Explanation:
 In regards to the total possible number of bonds between two atoms, the total possible number of bonds for a σ bond is one and for a π bond is two. In regards to the energy level, a sigma bond is lower in energy than a π bond.
 
 A sigma σ bond will form from an end-to-end overlap of an s, p, or hybridized orbital.
@@ -243,10 +245,20 @@ Since π bonds only use unhybridized orbitals, only sigma bonds use hybridized o
 
  -------------------------------------------------- 
 
-Which of the following best describes a chemical species that is measured to have Kb = 3.2 x 10^-18?
-['strong b']
-A strong acid
+Suppose a weak acid has a Ka = 4.0 x 10^-9. Which of the following gives its equivalent Kb?
+['4.0 x 10^-8', '1.5 x 10^-10', '2.5 x 10^-6', '3.0 x 10^-11']
+c. 2.5 x 10^-6
+Explanation:
+Kw = 10^-14
+Ka x Kb = Kw
+(10^-14) / (4.0 x 10^-9) = 2.5 x 10^-6
 
+ -------------------------------------------------- 
+
+Which of the following best describes a chemical species that is measured to have Kb = 3.2 x 10^-18?
+['A strong base', 'A weak base', 'A strong acid', 'A weak acid']
+c. A strong acid
+Explanation:
 Whether a chemical is an acid or base depends on whether Ka or Kb is greater
 
 Because Ka x Kb = Kw, Ka = 2.3 x 10^3, suggesting that it is an acid
@@ -255,17 +267,88 @@ Because Ka >> 1, it is a strong acid
 
  -------------------------------------------------- 
 
+What is the pH of a solution with a hydronium concentration [H3O+] = 10^4 M
+['-4', '-8', '10', '4']
+a. -4
+Explanation:
+pH is the negative logarithm of the molar concentration of hydrogen ions
+
+Equivalently, the pH is the logarithm of the molar concentration of hydronium
+
+pH = -log[H3O+] = -4
+
+ -------------------------------------------------- 
+
+Nitrogen dioxide (NO2) is a toxic pollutant that has been implicated as a risk factor for Sudden Infant Death Syndrome. The following system obeys second-order kinetics:
+['Rate = k[NO2][CO]',
+ 'Rate = k[NO2]^2[CO]',
+ 'Rate = k[NO2][NO3]',
+ 'Rate = k[NO2]^2']
+d. Rate = k[NO2]^2
+Explanation:
+To answer this question, recall that the slow step of a reaction is the rate-determining step. The rate is always related to the concentrations of the reactants in the rate-determining step (not the overall reaction), so NO2 is the only compound that should be included in the correct answer. The concentration of NO2 is squared in the rate law because the stoichiometric coefficient of NO2 in the rate-determining step is 2.
+
+ -------------------------------------------------- 
+
+33 mL of 3 M Hydrochloric acid is titrated with sodium hydroxide to form water and sodium chloride. How many mmols of sodium hydroxide are consumed in this reaction?
+['3 mmol', '10 mmol', '33 mmol', '100 mmol']
+d. 100mmol
+Explanation:
+The balanced reaction is HCl + NaOH -> H2O + NaCl
+
+Convert the molarity into a number of mols, 33mL × 3 M ≈100 mmol
+
+Using the balanced equation, one mol of sodium hydroxide is required for each mol of hydrochloric acid consumed (1:1) 
+
+The reaction consumes 100 mmol of sodium hydroxide
+
+ -------------------------------------------------- 
+
+10 mL of 0.5 M calcium hydroxide is required to titrate 50 mL hydrochloric acid. Which of the following gives the initial concentration of the acid?
+['1/5 M', '1/10 M', '5 M', '10 M']
+a. 1/5 M
+Explanation:
+The balanced reaction is Ca(OH)2 + 2 HCl -> 2 H2O + CaCl2Ca(OH)
+​
+First find the number of mols that reacted, 0.5 x 10 = 5. According to the balanced reaction, this requires 10 mmol of HCl
+
+Find the concentration of the acid using the definition of molarity, 10/50 = 1/5
+
+ -------------------------------------------------- 
+
+Given that nicotinamide adenine dinucleotide (NAD), in its reduced form as NADH, is a key electron-donating molecule in many metabolic reactions, which of the following is a good prediction for the standard reduction potential (E) of the reduction half-reaction of NAD?
+['Large and positive', 'Less than zero', 'Zero', 'Between zero and 1']
+b. Less than zero
+Explanation:
+The standard reduction potential is a measure of the tendency of a chemical species to be reduced.
+
+Electron accepting molecules like NAD have a strong tendency to be reduced under physiological conditions. The result is the electron-carrying molecule NADH
+
+A good prediction for the standard reduction potential of the reduction half-reaction of NAD is "less than zero."
+
+ -------------------------------------------------- 
+
 If an archaebacterial species lives in a pool that is 0.01 M HCl(aq), what is the pH of the water?
 ['12', '6', '2', '0.01']
-2
+c. 2
+Explanation:
 The pH of a solution is defined as the -log[H+]. The strong acid HCl completely dissociates in water, so an HCl concentration of 0.01M means that the H+ concentration is 0.01 M (10^-2), and the pH is 2.
 
  -------------------------------------------------- 
 
 A solution contains 7.15g of Na2CO3 x 10 H20. How many sodium ions are in the initial 50mL solution of Na2CO3?
 ['1.50 x 10^22', '3.00 x 10^22', '6.02 x 10^23', '12.0 x 10^23']
-3.00 x 10^22
+b. 3.00 x 10^22
+Explanation:
 (7.15g) x (1 mol/286.14g) = 0.025 mol. Because each mole of Na2CO3 x 10 H20 contains 2 mol Na+, there is 0.05 mol Na+. Using Avagadro's number, the number of sodium ions is (0.05mol)(6.022x10^23 ions/mol) = 3.01 x 10^22 ions
+
+ -------------------------------------------------- 
+
+What is the maximum number of moles of nickel carbonate (NiCO3) that can form based on the following reactions?
+['0.025 mol', '0.25 mol', '1.00 mol', '2.25 mol']
+a. 0.025 mol
+Explanation:
+There is 0.025 mol Ni from NiSO4 x 6 H2O: (6.57g) x (1 mol/262.84g). There is also 0.025 mol CO3^2- from Na2CO3 x 10 H20: (7.15g) x (1 mol/286.14g). The maximum number of moles of NiCO3 that can form is 0.025 mol.
 
  -------------------------------------------------- 
 
@@ -274,15 +357,65 @@ A student uses thin layer chromatography on silica plates to monitor the progres
  'Higher, because the product if less polar than the starting material',
  'Lower, because the product if less polar than the starting material',
  'Lower, because the product if more polar than the starting material']
-Lower, because the product if more polar than the starting material
+d. Lower, because the product if more polar than the starting material
+Explanation:
 Because of the OH group on the alcohol, the product interacts with the silica more strongly than the starting material and has a lower Rf than the ketone.
 
  -------------------------------------------------- 
 
+What mass of CDP (403 g/mol) is in 10 mL of the buffered solution with 16 mmol of CDP in 1 L of buffer?
+['6.4 x 10^-4 g', '6.4 x 10^-3 g', '6.4 x 10^-2 g', '6.4 x 10^-1 g']
+c. 6.4 x 10^-2 g
+Explanation:
+The solution is 16mM in CDP. Since each mole of CDP weighs 403g, then 16 mmol (or 16 x 10^-3 mol) weighs:
+(403g/mol) (16 x 10^-3 mol) = 6.4g
+That amount was dissolved in 1 L of solution. The mass in 10mL (0.01 L) of solution would be proportionate:
+(6.4 g/L) x (0.01 L) = 0.064g = 6.4 x 10^-2 g
+
+ -------------------------------------------------- 
+
+What is the sum of the protons, neutrons, and electrons in strontium-90?
+['124', '126', '128', '130']
+c. 128
+Explanation:
+The number of protons in the nucleus of an element is given by the atomic number. In a neutral atom, the number of electrons if equal to the number of protons. The number of neutrons can be found by subtracting the atomic number from the mass number. The atomic number of strontium is 38, so the number of neutrons is 90-38=52. The sum of protons, neutrons, and electrons is 38 + 38 + 52 = 128.
+
+ -------------------------------------------------- 
+
 According to trends in electronegativity, which of the following pairs of atoms is most likely to form an ionic bond?
-['and']
-Ca and I
+['N and O', 'C and F', 'Ca and I', 'Si and Cl']
+c. Ca and I
+Explanation:
 An ionic bond is likely to form between elements of very high and very low electronegativity. In practice this generally means elements at the far right and far left of the periodic table.
+
+ -------------------------------------------------- 
+
+Na2CO3 + HCl -> CO2 + H2O + NaCl
+['125 mL', '250 mL', '375 mL', '500 mL']
+b. 250 ml
+Explanation:
+Balance the equation
+Na2CO3 + 2 HCl -> CO2 + H2O + 2 NaCl
+1 mole of an ideal gas at STP will occupy a volume of 22.4 L
+(11.2 L CO2) x (1 mol CO2/22.4L) x (1 mol Na2CO3/1 mol CO2) x (1L sol'n/2 mol Na2CO3) x (1000 mL/1 L sol'n) = 250 mL Na2CO3
+
+ -------------------------------------------------- 
+
+What is the molar concentration of Na+ in a solution that is prepared by mixing 10 mL of a 0.01 M NaHCO3 solution with 10 mL of a 0.01 M Na2CO3 solution?
+['0.010 mol/L', '0.015 mol/L', '0.020 mol/L', '0.025 mol/L']
+b. 0.015 mol/L
+Explanation:
+Since 1 equivalent of NaHCO3 provides 1 equivalent of Na+, the molar concentration of Na+ in 0.010 M NaHCO3 is also 0.010 M = 0.010 mol/L. The molar concentration of Na+ in 0.010 M Na2CO3 solution is 0.020 mol/L since 1 equivalent of Na2CO3 provides 2 equivalents of Na+. When equal volumes of these two solutions are mixed, the resulting molar concentration is equal to their average, which is 0.015 mol/L
+
+ -------------------------------------------------- 
+
+Suppose that CH4 (g) reacts completely with O2 (g) to form CO2 (g) and H20 (g) with a total pressure of 1.2 torr. What is the partial pressure of H2O (g)?
+['0.4 torr', '0.6 torr', '0.8 torr', '1.2 torr']
+c. 0.8 torr
+Explanation:
+The balanced equation for the complete combustion of CH4 (g) is:
+CH4 + 2O2 -> CO2 + 2H2O
+The pressure of the gaseous products is 1.2 torr. For every three product molecules, two are water. therefore the partial pressue of water is 2/3 the total pressure, because the total pressure is a function of the total number but not kind of molecules. Two-thirds of 1.2 torr is 0.8 torr.
 
  -------------------------------------------------- 
 
@@ -291,8 +424,65 @@ Ba^2+ is an ion that is very toxic to mammals when taken internally. Which of th
  'BaCO3, Ksp = 8.1 x 10^-9',
  'BaSO3, Ksp = 8.0 x 10^-7',
  'BaF2, Ksp = 1.7 x 10^-6']
-BaSO4, Ksp = 1.1 x 10^-10
+a. BaSO4, Ksp = 1.1 x 10^-10
+Explanation:
 The lower the value of Ksp is, the loewr the concentrations of the cation and anion in an aqueous solution and the lower the solubility of the compound in water. If mixed with water and accidentally swallowed, the Ba salt with the lowest Ksp would be the safest.
+
+ -------------------------------------------------- 
+
+What is the oxidation number of aluminum in Na[Al(OH)4]?
+['+1', '+2', '+3', '+4']
+c. +3
+Explanation:
+The oxidation number of Na is +1, and the charge on a hydroxide ion is -1. For the compound to be neutral, aluminum would have to have an oxidation number of +3.
+
+ -------------------------------------------------- 
+
+What is the pH of a 0.001 M NaOH solution?
+['0.001', '3', '7', '11']
+d. 11
+Explanation:
+A 0.001 M NaOH solution was a pOH (-log[OH-]) of 3. 
+0.001 = 10^-3
+-log10 10^-3 = 3
+14-3=11
+
+ -------------------------------------------------- 
+
+A closed container holds four gases: 1 mole of Gas A, 1 mole of Gas B, 3 moles of Gas C, and 4 moles of Gas D. If the total pressure inside the container is 3 atm, what is the partial pressure of Gas C?
+['0.33 atm', '1 atm', '1.33 atm', '9 atm']
+b. 1 atm
+Explanation:
+The partial pressure of a gas in a closed container is equal to the mole fraction of that gas multiplied by the total pressure in the container. The total pressure in the container is given as 3 atm. The mole fraction is of Gas C is:
+
+3 mol / ( 1 mol + 1 mol + 3mol + 4 mol) = 3/9 = 1/3
+
+Therefore, the partial pressure of Gas C is: 1/3 × 3 atm = 1 atm
+
+ -------------------------------------------------- 
+
+Calcium carbonate is a dietary supplement taken to remedy a calcium deficit. Aluminum salts, though potentially toxic, are used in the manufacture of some antiperspirants. Calcium carbonate and aluminum nitrate react in solution, as demonstrated by the following reactants shown in Figure 1. Select the answer choice which best completes the equation.
+['3CaCO3 + Al(NO3)3 → 3CaNO3 + Al(CO3)3',
+ 'CaCO3 + 2Al(NO3)3 → Ca(NO3)6 + Al2CO3',
+ '3CaCO3 + 2Al(NO3)3 → 3Ca(NO3)2 + Al2(CO3)3',
+ '2CaCO3 + Al(NO3)3 → 2CaNO3 + Al2(CO3)3']
+c. 3CaCO3 + 2Al(NO3)3 → 3Ca(NO3)2 + Al2(CO3)3
+Explanation:
+This question tests our ability to balance a double-displacement reaction based on the charges of each compound. Ionic calcium has a charge of +2, carbonate has a charge of -2, aluminum has a charge of +3, and finally, nitrate has a charge of -1. The answer choices confirm that a double displacement is occurring, so we can start with the following template:
+
+CaCO3 + Al(NO3)3 → Ca(NO3)2 + Al2(CO3)3
+
+So far, we've accounted for the ionic charges and figured out how many moles of anion will bind to each cation. Now, we can adjust coefficients so that the same number of moles are on each side of the reaction. The final answer is:
+
+3CaCO3 + 2Al(NO3)3 → 3Ca(NO3)2 + Al2(CO3)3
+
+ -------------------------------------------------- 
+
+Halothane is an alkyl halide used as an inhalational general anesthetic. Which of the following could be used to reduce an alkyl halide to an alkane?
+['LiAlH4', 'Zn, H+', 'Mg in anhydrous ether, then water', 'All of the above']
+d. All of the above
+Explanation:
+All of the above because all of these methods could be used to reduce an alkyl halide to its corresponding alkane. In answers (A) and (B), a hydrogen atom replaces the halogen atom, reducing the alkyl halide to an alkane. Choice (C) describes a Grignard reaction with the Mg forming an organometallic with the reactant followed by a reaction with water to form the alkane.
 
  -------------------------------------------------- 
 
@@ -307,13 +497,35 @@ Hydrocarbons of varying lengths and shapes form fatty acids and other structural
  'branched because the increased branching gives the molecule a greater net '
  'dipole moment than n-octane.']
 A.
+Explanation:
 A general rule of thumb is that increased branching decreases the boiling point of any particular alkane due to sterics; thus, Choices (C) and (D) are incorrect. n-Octane (left molecule), being linear and having more places to interact with other molecules through van der Waals forces, has a higher boiling point than 2,3,4-trimethylpentane (right molecule.) Choice (B) is incorrect because the electronegativity difference between C-H bonds in different alkane isomers are the same, or any differences are negligible.
+
+ -------------------------------------------------- 
+
+For the most part, biological pH is slightly basic. However, the stomach is very acidic, and its contents must be swiftly neutralized by basic bicarbonate ions upon entering the small intestine, which has a basic pH. How many liters of 2 M Ba(OH)2 are needed to titrate a 4 L solution of 6 M H3PO4?
+['1.33 L', '12 L', '18 L', '56 L']
+c. 18 L
+Explanation:
+Use the equivalence point equation:
+NaVa = NbVb
+
+Ba(OH)2 can dissociate to give two hydroxide ions, so its normality is 2 M × 2 = 4 N. H3PO4 can dissociate to give three hydronium ions, so its normality is 6 M × 3 = 18 N. Plugging into the equation, we get (18 N)(4 L) = (4 N)(Vb). Therefore, Vb is 18 L.
+
+ -------------------------------------------------- 
+
+Which of the following inequalities accurately describes the relationship between the two ionic species in terms of size?
+['I- < Ca2+', 'As3- > Y3+', 'Se2- > P5-', 'Li+ > At-']
+b. As3- > Y3+
+Explanation:
+In comparing ionic radii, there are two guiding rules. First, in comparing isoelectronic species, anions are always bigger than the cations
+Secondly, in comparing elements in a group, the ionic radii always increases going down the group
 
  -------------------------------------------------- 
 
 Which one of the following has the highest boiling point?
 ['Water', 'Methane', 'Acetic Acid', 'Acetone']
-Question 10: C
+C. Acetic Acid
+Explanation:
 This question is asking for the molecule with the highest boiling point among the answer
 choices. There are three things to take into account when measuring relative boiling points:
 1) Molecular weight. Higher molecular weight makes for a higher boiling point.
@@ -335,7 +547,8 @@ out with the higher boiling point because of its higher molecular weight. Thus, 
 
 Which of the following elements releases energy when converted to a negatively charged ion?
 ['I only', 'III only', 'I and III only', 'I, II, and III']
-Question 11: D
+D. I, II, and III
+Explanation:
 This question is asking for element(s) that release energy when converted into negatively
 charged ions. Going from neutral to negatively charged means the atom gains an electron and
 releases energy. The change in energy associated with this process is called electron affinity.
@@ -355,8 +568,8 @@ Which of the following would most likely occur if a saturated solution of Fe(OH)
  'Additional dissolution',
  'Fe(OH)2 precipitation',
  'Equilibrium is achieved']
-Fe(OH)2 precipitation
-
+C. Fe(OH)2 precipitation
+Explanation:
 a decrease in temp causes a decrease in Ksp, so the saturated solution is now supersaturated 
 supersaturated solution tend to precipitate in order ot reach equilibrium
 
@@ -364,8 +577,8 @@ supersaturated solution tend to precipitate in order ot reach equilibrium
 
 For the most part, biological pH is slightly basic. However, the stomach is very acidic, and its contents must be swiftly neutralized by basic bicarbonate ions upon entering the small intestine, which has a basic pH. How many liters of 2 M Ba(OH)2 are needed to titrate a 4 L solution of 6 M H3PO4?
 ['1.33 L', '12 L', '18 L', '56 L']
-[C] is the correct answer.
-
+C. 18 L
+Explanation:
 Use the equivalence point equation:
 
 NaVa = NbVb

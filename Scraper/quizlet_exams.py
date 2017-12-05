@@ -16,10 +16,10 @@ from questionmc import QuestionMC
 base_url = 'https://api.quizlet.com/2.0'
 client_id = 'dWM9nE2PR2'
 supersets = {
-    "physics":    '248213509',
+    "physics":    '249834406',
     "biology":    '248213153',
-    "chemistry":  '248214260',
-    "behavioral": '248214589'
+    "chemistry":  '249826927',
+    "behavioral": '249836254'
 }
 subjects = {subject: [] for subject in supersets}
 
@@ -29,9 +29,10 @@ def parse_mc_terms(terms):
     for term in terms:
         choices = qr.get_choices_mc(term['term'])
         question = qr.get_question_mc(term['term'])
-        answer = term['definition']
-        if choices and question:
-            questions.append(QuestionMC(question, choices, answer))
+        answer = qr.get_answer_mc(term['definition'])
+        expl = qr.get_expl_mc(term['definition'])
+        if choices and question and answer:
+            questions.append(QuestionMC(question, choices, answer, expl))
 
     return questions
 

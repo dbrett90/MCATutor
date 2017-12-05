@@ -53,18 +53,34 @@ def ask_questions(subject):
         if response == 'q':
             break
 
-        print("\nThe answer we have is:\n",
-              questions[i].answer(),
-              '\n' * 2,
-              "Does this match your answer? y/n\n")
-        response = input()
+        correct = questions[i].check_answer(response)
         scoring[subject][0] += 1.0
-        response = response.lower()
-        if response == "yes" or response == 'y':
+        if correct:
             scoring[subject][1] += 1.0
+            print("Correct!")
+        else:
+            print("\nSorry, it looks like that isn't correct.\n" +
+                  "Would you like to see the answer? y/n\n")
+            response = input()
+            response = response.lower()
+            if response == "yes" or response == 'y':
+                print('\n' + questions[i].answer())
+
+            explanation = questions[i].explanation()
+            if explanation:
+                print("\nWould you like to see an explanation? y/n\n")
+                response = input()
+                response = response.lower()
+                if response == "yes" or response == 'y':
+                    print('\n' + explanation)
+
         print('\n', '-' * 50, '\n')
 
     summary()
 
     print("\nWhat subject would you like to study?\n" +
           "(press ctrl-d or ctrl-c to quit)\n")
+
+
+def build_exam():
+    return None
