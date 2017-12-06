@@ -1,0 +1,170 @@
+#subjects{
+    color: white;
+    font-family:'Letter Gothic Std';
+    list-style-type: none;
+    text-align: center; 
+    float: right;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+    
+}
+
+img{
+    width: 40%;
+    float: left;
+}
+
+
+.h_line { 
+    width:100%; height:2px; 
+    background: #fff; 
+    margin-top: 60px;
+    display: block;
+    clear: both;
+}
+
+#headerSection{
+    display: block;
+}
+
+html { 
+  background: url("../navyGrid-01.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+#bodyBox{
+    background-color: white;
+}
+
+/*Canvas for conversation*/
+#chatborder {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 15px;
+  /*background-image: url("navyCropped-01.png");*/
+}
+
+/*FOR ALL CHATLOGS*/
+.chatlog {
+    font: 15px arial, sans-serif;
+    position: relative;
+    padding: 15px;
+    margin: 1em 0 3em;
+    /*border: 5px solid #5a8f00;*/
+    color: #fff;
+    border-radius: 5px;
+    clear: both;
+}
+
+.chatlog.left{
+  background: rgba(255, 255, 255, 0.3);
+    float: left;
+}
+
+.chatlog.right{
+  background: rgba(255, 255, 255, 0.5);
+  float:right;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    width: 50%;
+    word-wrap: break-word;
+}
+
+/*FOR LEFT ARROWS*/
+
+.chatlog.left{
+  margin-left: 30px;
+}
+
+
+.chatlog.left:after {
+    top: 16px;
+    bottom: auto;
+    left: -21px;
+    border-width: 9px 21px 9px 0;
+    border-top-color: transparent;
+    border-right-color: rgba(255, 255, 255, 0.3);
+    border-bottom-color: transparent;
+    border-left-color: rgba(255, 255, 255, 0.3);
+}
+
+.chatlog:after {
+    content: "";
+    position: absolute;
+    bottom: -13px;
+    left: 47px;
+    border-width: 13px 13px 0;
+    border-style: solid;
+    border-color: #fff transparent;
+    display: block;
+    width: 0;
+}
+
+/*FOR RIGHT ARROWS*/
+
+.chatlog.right {
+    margin-right: 30px;
+}
+
+.chatlog.right:after {
+    top: 16px;
+    bottom: auto;
+    left: auto;
+    right: -21px;
+    border-width: 9px 0 9px 21px;
+    border-top-color: transparent;
+    border-right-color: rgba(255, 255, 255, 0.5);
+    border-bottom-color: transparent;
+    border-left-color: rgba(255, 255, 255, 0.5);
+}
+
+.chatlog:after {
+    content: "";
+    position: absolute;
+    bottom: -13px;
+    left: 47px;
+    border-width: 13px 13px 0;
+    border-style: solid;
+    border-color: #fff transparent;
+    display: block;
+    width: 0;
+}
+
+#chatbox {
+  font: 17px arial, sans-serif;
+  height: 35px;
+  width: 100%;
+  background-color: rgba(255,255,255,0.3);
+  outline: none;
+  border: none;
+}
+
+text,area input{
+    border: none;
+    outline: none;
+    color: white;
+}
+textarea:focus, input:focus {
+    color: white;
+    border: none;
+    outline: none;
+
+}
