@@ -1,0 +1,1098 @@
+Level: 2
+Which of the following is a false statement regarding erythrocytes?
+['They contain hemoglobin.',
+ 'They are anaerobic.',
+ "Their nuclei are located in the middle of the cells' disk-like depressions.",
+ 'They are phagocytized in the spleen and liver after a certain period of '
+ 'time.']
+C. Their nuclei are located in the middle of the cells' disk-like depressions
+Explanation:
+Explanation: Erythrocytes, or red blood cells, are produced in the red bone marrow and circulate in the blood for about 120 days, after which they are phagocytized in the spleen and the liver. Red blood cells have a disk-like shape and lose their membranous organelles, like mitochondria and nuclei, during maturation. Erythrocytes thus cannot multiply on their own and are anaerobic. Their main role is the transport of oxygen to the tissues and of the carbon dioxide to the lungs; this task is accomplished through the use of hemoglobin, which carries oxygen and limited amount of carbon dioxide.
+
+ -------------------------------------------------- 
+
+Level: 2
+Which of the correct sequence of a cardiac impulse?
+['SA node - AV node - Purkinje fibers - bundle of His - ventricles',
+ 'AV node - bundle of His - Purkinje fibers - SA node - ventricles - atria',
+ 'SA node - atria - AV node - bundle of His - Purkinje fibers - ventricles',
+ 'SA node - AV node - atria - bundle of His - Purkinje fibers - ventricles']
+C. SA node - atria - AV node - bundle of His - Purkinje fibers - ventricles
+Explanation:
+Explanation: An ordinary cardiac contraction originates in, and is regulated by, the sinoatrial (SA) node. The impulses travel through both atria, stimulating them to contract simultaneously. The impulse then arrives at the atrioventricular (AV) node, which momentarily slows conduction, allowing for completion of atrial contraction and ventricular filling. The impulse is then carried by the bundle of His, which branches into the right and left bundle branches and through the Purkinje fibers in the walls of both ventricles, generating a strong contraction.
+
+ -------------------------------------------------- 
+
+Level: 1
+Hemoglobin's affinity for Oxygen (O2):
+['increases in exercising muscle tissue.',
+ 'decreases as blood pH increases.',
+ 'decreases as blood pH decreases.',
+ 'is higher in maternal blood than in fetal blood.']
+C. decreases as blood pH decreases.
+Explanation:
+Explanation: According to the Bohr effect, decreasing pH in the blood decreases hemoglobin's affinity for O2. A decrease in pH of the blood generally occurs during heavy exercise, when the muscles produce a lot of lactic acid. This decreased affinity for O2 facilitates the unloading of O2 to tissues in need. Hemoglobin's affinity for O2 is higher in fetal blood than in adult blood.
+
+ -------------------------------------------------- 
+
+Level: 3
+Which of the following correctly traces the circulatory pathway?
+['Superior vena cava - right atrium - right ventricle - pulmonary artery - '
+ 'lungs - pulmonary veins - left atrium - left ventricle - aorta.',
+ 'Superior vena cava - left atrium - left ventricle - pulmonary artery - lungs '
+ '- pulmonary veins - right atrium - right ventricle - aorta.',
+ 'Aorta - right atrium - right ventricle - pulmonary artery - lungs - '
+ 'pulmonary veins - left atrium - left ventricle - superior vena cava.',
+ 'Superior vena cava - right atrium - right ventricle - pulmonary veins - '
+ 'lungs - pulmonary artery - left atrium - left ventricle - aorta.']
+A. Superior vena cava - right atrium - right ventricle - pulmonary artery - lungs - pulmonary veins - left atrium - left ventricle - aorta.
+Explanation:
+Explanation: Blood drains from the superior vena cava into the right atrium. It passes through the tricuspid valve and into the right ventricle, and then through the pulmonary valve into the pulmonary artery, which leads to the lungs. Oxygenated blood returns to the left atrium via the pulmonary veins. It flows through the mitral valve into the left ventricle. From the left ventricle, it is pumped through the aortic valve into the aorta for distribution throughout the body.
+
+ -------------------------------------------------- 
+
+Level: 1
+The tri-cuspid valve prevents backflow of blood from the:
+['left ventricle into the left atrium',
+ 'aorta into the left ventricle',
+ 'pulmonary artery into the right ventricle',
+ 'right ventricle into the right atrium']
+D. right ventricle into the right atrium
+Explanation:
+Explanation: The atrioventricular valves are located between the atria and the ventricles on both sides of the heart. Their role is to prevent backflow of blood into the atria. The valve on the right side of the heart has three cusps and is called the tricuspid valve. As such, it prevents backflow of blood from the right ventricle into the right atrium. The valve on the left side of heart has two cusps and is called the bicuspid or mitral valve. The mitral valve prevents backflow from the left ventricle into the left atrium.
+
+ -------------------------------------------------- 
+
+Level: 1
+At the venous end of a capillary bed, the osmotic pressure:
+['is greater than the hydrostatic pressure',
+ 'results in a net outflow of fluid',
+ 'results in a net reabsorption of fluid into the blood',
+ 'both A and C']
+D. both A and C
+Explanation:
+Explanation: The exchange of materials is greatly influenced by the relative balance between the hydrostatic and osmotic pressures of blood and tissue fluids. The osmotic pressure of the surrounding tissue remains constant. However, the hydrostatic pressure at the arterial end is greater than the hydrostatic pressure at the venous end. As a result, fluid moves out of the capillaries at the arterial end and back in a the venous end. Fluid is reabsorbed at the venous end because the osmotic pressure exceeds the hydrostatic pressure.
+
+ -------------------------------------------------- 
+
+Level: 3
+A patient's chart reveals that he has a cardiac output of 7,500 mL/min and a stroke volume of 50 mL. What is his pulse, in beats per minute?
+['50 beats/min', '100 beats/min', '150 beats/min', '400 beats/min']
+C. 150 beats/min
+Explanation:
+Explanation: Cardiac output equals heart rate times stroke volume. We are given stroke volume and cardiac output, so we can use heart rate equals cardiac output divided by stroke volume.
+
+ -------------------------------------------------- 
+
+Level: 4
+An unconscious patient is rushed into the emergency room and needs an immediate blood transfusion. Because there is no time to check her medical history or determine her blood type, which type of blood should you, as her doctor, give her?
+['A-', 'AB+', 'O+', 'O-']
+D. O-
+Explanation:
+Explanation: Without knowing a patient's blood type, the only type of transfusion that we can safely give is O-. People with O-blood are considered universal donors because their blood cells contain no surface antigens. Therefore, O- blood can be given to anyone without causing potentially life threatening consequences.
+
+ -------------------------------------------------- 
+
+Level: 2
+Which of the following is true regarding arteries and veins?
+['Arteries are thin-walled, muscular, and elastic, whereas veins are '
+ 'thick-walled and inelastic.',
+ 'Arteries always conduct oxygenated blood, whereas veins always carry '
+ 'deoxygenated blood.',
+ 'The blood pressure in the aorta is always higher than the pressure in the '
+ 'superior vena cava.',
+ 'Arteries facilitate blood transport by using skeletal muscle contractions, '
+ 'whereas veins make use of pumping of the heart to push blood.']
+C. The blood pressure in the aorta is always higher than the pressure in the superior vena cava.
+Explanation:
+Explanation: The pressure in the aorta is usually about 120 or 80 mmHg, depending on whether the heart is in systole or diastole, whereas the pressure in the superior vena cava is extremely low. Choice (A) is incorrect because arteries are thick walled and veins are thin walled. Choice (B) is also incorrect; this relationships is reversed in pulmonary circulation. Choice (D) is opposite. Arteries make use of the pumping of the heart and the "snapping back" of their elastic walls to transport blood, whereas venous blood is "pumped" by skeletal muscle contractions.
+
+ -------------------------------------------------- 
+
+Level: 3
+At any given time, there is more blood in the venous system than in the arterial system. Which of the following features of a vein allows this?
+['Relative lack of smooth muscle in the wall',
+ 'Presence of valves',
+ 'Proximity of veins to lymphatic vessels',
+ 'Thin endothelial lining']
+A. Relative lack of smooth muscle in the wall
+Explanation:
+Explanation: The relative lack of smooth muscle in venous walls allows stretching to store most of the blood in the body. Valves in the veins allow for one-way flow of blood toward the heart. Both arteries and veins are close to lymphatic vessels, which has no bearing on their relative difference in volume. Both arteries and veins have a thin endothelial lining.
+
+ -------------------------------------------------- 
+
+Level: 1
+Which of the following is involved in the body's primary blood-buffering mechanism?
+['Fluid intake',
+ 'Absorption of nutrients in the gastrointestinal system',
+ 'Carbon dioxide produced from metabolism',
+ 'Reabsorption in the kidney']
+C. Carbon dioxide produced from metabolism
+Explanation:
+Explanation: Carbon dioxide is a by-product of metabolism in cells, which later combines with water to form bicarbonate in a reaction catalyzed by carbonic anhydrase. This system is blood plasma's most important buffer system. Food and fluid absorption are not significant sources of buffering.
+
+ -------------------------------------------------- 
+
+Level: 1
+Glucose typically enters the cell through which mechanism?
+['Simple diffusion through the cell membrane',
+ 'Facilitated diffusion through a carrier protein',
+ 'Pinocytosis through a channel protein',
+ 'Active transport by a glucose transport protein']
+B. Facilitated diffusion through a carrier protein
+Explanation:
+Explanation: Glucose is too large and polar to move quickly through the cell membrane by simple diffusion.
+
+Typically the concentration of glucose outside the cell is higher than inside the cell.
+
+Since glucose is moving down a concentration gradient by entering the cell, the process does not require ATP.
+
+Glucose typically enters cells by facilitated diffusion through a carrier protein.
+
+ -------------------------------------------------- 
+
+Level: 1
+Which type of membrane protein is most likely to be a hormone?
+['Lipid-bound protein', 'Peripheral protein', 'Integral protein', 'Steroid']
+B. Peripheral protein
+Explanation:
+Explanation: Hormones move through the circulatory system, acting as signaling molecules to specific organs/cells.
+
+A steroid is not a membrane protein.
+
+An integral protein can not easily leave the cell membrane and would therefore be a poor signaling molecule.
+
+Lipid-bound proteins remain within the phospholipid bilayer by the fatty acid tails of phospholipids. They would also be poor signaling molecules.
+
+Peptide hormones like insulin and growth hormone interact with integral protein receptors in cell membranes. These hormones can be considered peripheral membrane proteins.
+
+ -------------------------------------------------- 
+
+Level: 4
+Pulmonary edema occurs when fluid builds up in the interstitium between the pulmonary capillaries and the alveoli, and eventually enters the alveoli. How do you decrease the risk of pulmonary edema?
+['Decrease hydrostatic pressure and increase osmotic pressure',
+ 'Decrease hydrostatic pressure and decrease osmotic pressure',
+ 'Increase hydrostatic pressure and decrease osmotic pressure',
+ 'Increase hydrostatic pressure and increase osmotic pressure']
+A. Decrease hydrostatic pressure and increase osmotic pressure
+Explanation:
+Explanation: Hydrostatic pressure is the pressure a liquid exerts on its container, and reflects the volume of liquid in a space.
+
+Osmotic pressure is the pressure required to prevent movement across a semipermeable membrane, and reflects the protein content of the blood.
+
+To decrease the risk of pulmonary edema, hydrostatic pressure exerted by the fluid must decrease, and osmotic pressure exerted on the fluid must increase.
+
+ -------------------------------------------------- 
+
+Level: 1
+At what point does crossing over between sister chromatids occur?
+['During anaphase I of meiosis',
+ 'During prophase I of meiosis',
+ 'During anaphase II of meiosis',
+ 'During prophase II of meiosis']
+B. During prophase I of meiosis
+Explanation:
+Explanation: Crossing over is a form of genetic recombination in which homologous chromosomes pair up and exchange pieces of their genetic material. Crossing over occurs in prophase I of meiosis, and is often referred to as synapsis. However, crossing over occurs between homologous chromosomes, and not between the sister chromatids of an individual chromosome. Sister chromatids are identical pieces of DNA joined at the centromere to make up one chromosome.
+
+ -------------------------------------------------- 
+
+Level: 3
+Your trachea have short hair-like cell process that move the mucus. What is the name of these hair like structures and which cytoskeletal elements form them?
+['Cilia, microfilaments',
+ 'Villi, microfilaments',
+ 'Villi, microtubules',
+ 'Cilia, microtubules']
+D. Cilia, microtubules
+Explanation:
+Explanation: Villi are macroscopic foldings of tissue
+
+Microvilli are foldings of the cell membrane that increase the surface area of cell but are not responsible for movement
+
+Cilia are eyelash like structures derived from microtubules, they are responsible for creating motion outside the cell.
+
+ -------------------------------------------------- 
+
+Level: 7
+An organic molecule has been isolated from the nucleus of a human cell. Nuclear magnetic resonance studies reveal the core structure of the molecule to be a six-membered ring containing carbon and nitrogen. The ring also expresses an amine group and a keto group, and is attached to a five carbon sugar moiety. No phosphate groups are noted. What is the most likely identity of the molecule?
+['Cytosine', 'Guanosine', 'Guanine', 'Cytidine']
+D. Cytidine
+Explanation:
+Explanation: First, realize that this question is asking you to identify a likely molecular component of the nucleus, DNA. DNA is largely made up of the nucleobases Adenine, Guanine, Cytosine, and Thymine.
+
+When these bases are attached to a ribose moiety, the five carbon sugar described in the question, they are called "nucleosides", and are named as Adenosine, Guanosine, Cytidine, and Thymidine.
+
+There are two main categories of nucleobases. Pyrimidines are made of a six membered heterocyclic ring of carbon and nitrogen with various substitutions on it's four carbon atoms. Purines are made of a pyrimidine plus an imidazole ring made of two nitrogens and a carbon atom.
+
+Adenosine and Guanosine are nucleosides made from purines while Thymidine and Cytidine are made from pyrimidines.
+
+The most likely identity of the molecule in question is Cytidine.
+
+ -------------------------------------------------- 
+
+Level: 2
+The synthesis of which of the following would be LEAST affected by a disease which selectively destroys the smooth endoplasmic reticulum?
+['Testosterone', 'Phospholipids', 'Insulin', 'Cholesterol']
+C. Insulin
+Explanation:
+Explanation: The smooth ER is responsible for many functions, including the production of various lipid products and degradation of steroid hormones such as testosterone.Key steps in the synthesis of cholesterol occur within the smooth ER.
+
+Insulin is a peptide hormone, which is a product of the translation of mRNA, which occurs in the cytoplasm.
+
+The synthesis of Insulin would be least affected by a disease which destroys the smooth ER, but would be affected if the rough ER were affected.
+
+ -------------------------------------------------- 
+
+Level: 3
+Von Gierke disease is an autosomal recessive disorder characterized by a deficiency in the enzyme Glucose-6-phosphatase. Which of the following would most likely be observed in an individual with Von Gierke disease?
+['Increased glycogen in the liver',
+ 'Decreased post-meal glycolysis',
+ 'Decreased glucose tolerance',
+ 'Increased gluconeogenesis']
+A. Increased glycogen in the liver
+Explanation:
+Explanation: Glucose-6-phosphatase hydrolyzes glucose-6-phosphate into a phosphate molecule plus glucose, which can then be used by cells to generate energy.
+
+Without this enzyme, gluconeogenesis cannot be completed.
+
+Glycolysis would not be affected, and glucose tolerance would be expected to be normal.
+
+Glycogenolysis produces glucose-6-phosphate from glycogen stores in the body during times of fasting, or when blood glucose is low. However, without glucose-6-phosphatase, glucose cannot be made from glucose-6-phosphate. Therefore, the breakdown of glycogen is impaired in these individuals.
+
+Increase glycogen in the liver would be expected in an individual with Von Gierke disease.
+
+ -------------------------------------------------- 
+
+Level: 4
+Which of the following is an example of lower motor neuron dysfunction?
+['An individual sits in a relaxed position with her knee partially flexed. '
+ 'When her foot is pulled upward, the individual involuntarily and '
+ 'rhythmically moves her foot up and down.',
+ 'An individual is told to relax her body. Despite attempts to relax, she '
+ 'experiences repeated, uncontrollable muscle spasticity.',
+ 'An individual is told to lift her left arm, and she has difficulty doing so. '
+ 'Her left arm appears shriveled and shorter than her right arm.',
+ "A metal object is dragged along the bottom of an individual's foot and her "
+ 'toes go into extension away from the bottom of her foot.']
+C. An individual is told to lift her left arm, and she has difficulty doing so. Her left arm appears shriveled and shorter than her right arm.
+Explanation:
+The extensor plantar response (or babinski reflex) is a sign of upper motor neuron dysfunction and can be seen when a noxious stimuli is placed on the bottom of the foot, causing the toes to go into extension away from the bottom of the foot, rather than flexing down in the direction of the bottom of the foot.
+
+Explanation: The involuntary rhythmic contraction of antagonist muscles is known as clonus and is a sign of upper motor neuron dysfunction.
+
+Muscle spasticity is a feature of hypertonia, or increased tone of skeletal muscle, and is an upper motor neuron sign.
+
+Extreme weakness and shrunken muscle is an example of atrophy, which is a sign of lower motor neuron dysfunction.
+
+ -------------------------------------------------- 
+
+Level: 3
+The many steps of glycolysis all exist in a state of dynamic equilibrium between reactant and product concentrations. Which of the following actions does NOT affect the equilibrium position of a reaction?
+['Adding or subtracting heat',
+ 'Adding or removing a catalyst',
+ 'Increasing or decreasing concentrations of reactants',
+ 'Increasing or decreasing volumes of reactants']
+B. Adding or removing a catalyst
+Explanation:
+Explanation: The equilibrium of a reaction can be changed by several factors. Adding or subtracting heat, choice (A), would shift the equilibrium based on the enthalpy change of the reaction. Increasing reactant concentrations would shift the equilibrium in the direction of the product, and the opposite would occur if reactant concentrations were decreased, eliminating choice (C). Changing the volume of a reactant would affect any reaction with gaseous reactants or products, eliminating choice (D). While adding or removing a catalyst would change the reaction rate, it would not change where the equilibrium lies.
+
+ -------------------------------------------------- 
+
+Level: 3
+A 23-year old female reports experiencing severe bloating and water retention at certain points during her menstrual cycle. Which hormone associated with the regulation of salt and water retention could be causing her problem?
+['Estrogen', 'Prolactin', 'Cortisol', 'Progesterone']
+A. Estrogen
+Explanation:
+Explanation: Prolactin is associated with milk production during pregnancy.
+
+Progesterone does not play a major role in fluid balance.
+
+Estrogen has a major role in fluid balance and could be linked to bloating and water retention during the menstrual cycle.
+
+ -------------------------------------------------- 
+
+Level: 2
+The most effective method for producing an increase in the total amount of water lost through the skin during a certain period would be:
+['inhibiting kidney function',
+ 'decreasing salt consumption',
+ 'raising the environmental temperature',
+ 'increasing water consumption']
+C. raising the environmental temperature
+Explanation:
+Explanation: This would cause a person to perspire, releasing water to the environment where it can evaporate and cool the body.
+
+ -------------------------------------------------- 
+
+Level: 3
+If oligonucleotides such as mRNA were not degraded rapidly by intracellular agents, which of the following processes would be most affected?
+['the production of tRNA in the nucleus',
+ 'the coordination of cell differentiation during development',
+ 'the diffusion of respiratory gases across the cell membrane',
+ 'the replication of DNA in the nucleus']
+B. the coordination of cell differentiation during development
+Explanation:
+Explanation: The destruction of mRNA prevents continuous protein production, allowing the cell to change its protein expression over time. The coordination of cell differentiation during development is very sensitive to the timing of mRNA turnover, while the other responses are not affected as much by the timing of mRNA turnover
+
+ -------------------------------------------------- 
+
+Level: 4
+Which of the following statements about the systemic effect of bacterial cells are true?
+['Gram-negative bacteria are more likely to cause systemic effects because '
+ 'their outer membrane protects them from several antibiotics, making '
+ 'treatment more difficult.',
+ 'Gram-positive bacteria are more likely to cause system effects because the '
+ 'peptidoglycan in their cell walls is tough and hard for medicine to '
+ 'penetrate.',
+ 'Gram-positive bacteria are more likely to cause systemic effects because the '
+ 'lipopolysaccharide (LPS) in their membranes can act as a toxin to the '
+ 'circulatory system.',
+ 'Gram-negative bacteria are more likely to cause systemic effects because '
+ 'their lack of an outer membrane means they can more quickly infect host '
+ 'cells.']
+A. Gram-negative bacteria are more likely to cause systemic effects because their outer membrane protects them from several antibiotics, making treatment more difficult.
+Explanation:
+Explanation: The cell envelopes of gram-negative bacteria have more layers than those of gram-positive bacteria.
+
+Gram-negative bacteria are considered to be more dangerous, because components of the outer membrane make them more resistant to antibiotics and the host's immune system. Additionally, the lipopolysaccharide found in its outer membrane is an endotoxin that damages the host.
+
+ -------------------------------------------------- 
+
+Level: 9
+Scientists have developed a dye for galactose, which turns darker shades of blue as the concentration of this monosaccharide increases (dose dependent). In an experiment using bacteria that can metabolize both lactose and glucose, researchers set up test tubes as shown in Table 1. A plus sign indicates a sugar was added to the test tube, and a minus sign indicates the sugar is absent. Assuming bacterial concentrations stay constant, which test tube will show the strongest blue color?
+['+ +', '+ -', '- +', '- -']
+B. +-
+Explanation:
+Explanation: The lac operon that controls lactose digestion in prokaryotes normally operates at a very low basal level, and is upregulated by the presence of its substrate.
+
+Lactose is a dimer of galactose and glucose.
+
+The absence of glucose leads to an increase in cAMP, because now the cell must rely much more heavily on the lac operon for energy. This sets off a cascade of events that upregulate the enzymes that cleaves lactose.
+
+The presence of lactose and absence of glucose will lead to the most galactose and thus will dye the most strongly blue (Answer B).
+
+ -------------------------------------------------- 
+
+Level: 1
+Where does energy production take place in bacteria that can perform aerobic metabolism?
+['Mitochondria', 'Nucleus', 'Inclusion Bodies', 'Plasma membrane']
+D. Plasma membrane
+Explanation:
+Explanation: Bacteria, like eukaryotes, rely on a concentration gradient to drive an ATP synthase molecule.
+
+Bacteria are prokaryotes, and do not have membrane-bound organelles.
+
+Energy production in bacteria takes place across the plasma membrane, with the gradient between the extra- and intracellular environment providing the appropriate concentration gradient.
+
+ -------------------------------------------------- 
+
+Level: 3
+While diving, when your heart rate and breathing rate are increase, you notice that you are producing more urine. Why?
+['increased blood pressure caused by excitement or anxiety',
+ 'reduced blood pressure caused by excitement or anxiety',
+ 'absorption of water from the ocean',
+ 'inability to cool the skin through evaporative water loss']
+A. increased blood pressure caused by excitement or anxiety
+Explanation:
+Explanation: 
+increased urine production can be explained by an an increased blood pressure caused by adrenaline, released in response to excitement or anxiety - the flight or fight response
+
+ -------------------------------------------------- 
+
+Level: 3
+After an accident, your physician detected the protein myoglobin in your urine. What type of injury is consistent with this observation?
+
+I. Broken bone
+II. Damaged muscle
+III. Damaged kidney
+['I only', 'III only', 'I and III only', 'II and III only']
+D. II and III only
+Explanation:
+Explanation: Myoglobin is the substance that holds oxygen in the muscles and organs. This observation is consistent with an injury to muscle or organs, but not bone.
+
+ -------------------------------------------------- 
+
+Level: 1
+Which characteristic distinguishes fungi as eukaryotes?
+['They have cell walls',
+ 'They contain ribosomes',
+ 'They contain mitochondria',
+ 'They exhibit sexual reproduction']
+C. They contain mitochondria
+Explanation:
+Explanation: A characteristic that distinguishes eukaryotes from prokaryotes is that they contain membrane bound organelles
+
+ -------------------------------------------------- 
+
+Level: 2
+Increased vasoconstriction has an important role in which of the following situations?
+['Causing the decrease in blood pressure associated with fainting',
+ 'Increasing blood flow to muscle during exercise',
+ 'Increasing blood flow to skin during blushing',
+ 'Maintaining blood pressure during a hemorrhage']
+D. Maintaining blood pressure during a hemorrhage
+Explanation:
+Explanation: As blood is lost from the circulation, reduction in vessel size helps maintain the necessary pressure to keep the blood circulating to all body tissues. Vasoconstriction, the narrowing or a vessel, restricts blood flow to an organ and can increase blood pressure, whereas vasodilation has the opposite effect. Vasodilation increases blood flow to both the muscle during exercise and the skin during blushing.
+
+ -------------------------------------------------- 
+
+Level: 3
+An intravenous infusion causes a sharp rise in the serum level of albumin (the major osmoregulatory protein in the blood). This will most likely cause an:
+['increase in the immune response',
+ 'influx of tissue fluid to the bloodstream',
+ 'outflow of blood fluid to the tissues',
+ 'increase in tissue albumin levels']
+B. influx of tissue fluid to the bloodstream
+Explanation:
+Explanation: Albumin is one of the major plasma proteins. 
+Plasma proteins can't cross the walls of the blood vessels, but water molecules can. The wall of the artery acts as a semipermeable membrane setting up the conditions needed for osmosis to occur. An increase in the plasma albumin will upset the osmotic balance because the blood will become hypertonic with respect to the tissue. Water will have to flow into the blood stream to reestablish equilibrium. So an increase in the plasma protein would cause fluid to enter the bloodstream
+
+ -------------------------------------------------- 
+
+Level: 3
+Would an increase in the level of plasma aldosterone be expected to follow ingestion of excessive quantities of NaCl?
+['No; aldosterone causes Na+ reabsorption in the kidney tubules',
+ 'No; aldosterone causes Na+ secretion by the kidney tubules',
+ 'Yes; aldosterone causes Na+ reabsorption by the kidney tubules',
+ 'Yes; aldosterone causes Na+ secretion by the kidney tubules']
+B. No; aldosterone causes Na+ reabsorption in the kidney tubules
+Explanation:
+Explanation: Aldosterone, which is produced in the adrenal cortex, causes Na+ reabsorption by kidney tubules. Such a mechanism decreases Na+ levels in the urine. The steroid aldosterone does not cause Na+ secretion into the urine. Because the ingestion of excessive NaCl would trigger Na+ secretion into the urine, plasma-aldosterone levels would not increase. Rather, the body would rely on those homeostatic mechanisms that excreted the excess Na+.
+
+ -------------------------------------------------- 
+
+Level: 1
+Most bacterial cells and human cells are alike in:
+['the ability to produce ATP via ATP synthase',
+ 'the chemical composition of their ribosomes',
+ 'their enclosure within cell walls',
+ 'the shape of the self-replicating structures that carry their DNA']
+A. the ability to produce ATP via ATP synthase
+Explanation:
+Explanation: Both types of cells possess a membrane-embedded ETC capable of generating a H+ gradient, which drives ATP synthesis via ATP synthase. This ATP synthesis takes place on the plasma membrane of bacteria and on the inner mitochondrial membrane in human cells. 
+The chemical composition of eukaryotic and prokaryotic ribosomes are similar, but are distinct enough that several types of antibiotics are able to preferentially target prokaryotic ribosomes over eukaryotic ribosomes.
+
+ -------------------------------------------------- 
+
+Level: 2
+What would be the results of complete removal of the parathyroid glands?
+['Severe neural and muscular problems due to deficiency of calcium in the '
+ 'plasma',
+ 'An increase in calcitonin production to compensate for calcium deficiency in '
+ 'the plasma',
+ 'A drastic change in the ratio of mineral to matrix tissue in bones',
+ 'Calcification of some organs due to accumulation of calcium in the plasma']
+A. Severe neural and muscular problems due to deficiency of calcium in the plasma
+Explanation:
+Explanation: Removal of the parathyroid gland would lead to hypocalcemia, a condition of low blood calcium, resulting from the lack of parathyroid hormone. This would cause increased neuromuscular excitability because of the change in membrane potential, which under normal physiological conditions, is partially kept in balance with the extracellular calcium.
+
+ -------------------------------------------------- 
+
+Level: 3
+Aldosterone stimulates Na+ reabsorption by the kidneys. What changes in the blood volume and pressure would be expected as a result of aldosterone deficiency?
+['Increased volume and increased pressure',
+ 'Decreased volume and decreased pressure',
+ 'Increased volume and decreased pressure',
+ 'Decreased volume and increased pressure']
+B. Decreased volume and decreased pressure
+Explanation:
+Explanation: An aldosterone deficiency would result in lower Na+ reabsorption in the kidney. Because water passively follows Na+ during reabsorption in the kidney, less Na+ reabsorption would result in less water reabsorption in the blood stream. This would cause a reduction in blood volume and pressure.
+
+ -------------------------------------------------- 
+
+Level: 1
+Of the following tissues, which is NOT derived from embryonic mesoderm?
+['Circulatory', 'Bone', 'Nerve', 'Dermal']
+C. Nerve
+Explanation:
+Explanation: Nervous tissue comes form ectoderm
+
+ -------------------------------------------------- 
+
+Level: 5
+The chemical valinomycin inserts into membranes and causes the movement of K+ into the mitochondria. Based on the ETC, if mitochondria are treated with valinomycin, the rate of ATP synthesis in the mitochondria will most likely:
+['decrease, because the K+will compete with protons at the active site on ATP '
+ 'synthetase',
+ 'decrease, because movement of K+ into the mitochondrial compartments will '
+ 'disrupt proton movement into the intermembrane space.',
+ 'increase, because the net positive charge in the mitochondria will cause '
+ 'increased movement of protons into the intermembrane space.',
+ 'increase, because the additional positive charge will further activate ATP '
+ 'synthetase']
+B. decrease, because movement of K+ into the mitochondrial compartments will disrupt proton movement into the intermembrane space.
+Explanation:
+Explanation: Any disruption of the mitochondria will likely decrease ATP production. An influx of another positively charged ion into the compartment would disrupt the electrochemical gradient responsible for the necessary flow of protons.
+
+ -------------------------------------------------- 
+
+Level: 5
+In a laboratory population of Drosophila, all the males are XsY. Among the females, 15% are XiXi, 50% are XiXs, and 35% are XsXs. Assuming random mating, what proportion of male flies in the next generation will be XiY?
+['12%', '30%', '40%', '65%']
+C. 40%
+Explanation:
+Explanation: All the males in the next generation will acquire a Y chromosome form their male parent, so the contribution of the male can be ignored. All the XiXi females will have XiY sons, so 15% of the XiY flies in the next generation will come from this type of female. Half of the sons the XiXs females produce will be XiY. Since XiXs females make up 50% of the population, 25% of the males in the next generation will come from this type of female. non of the sons of XsXs females will be XiY. So 15+25=40%
+
+ -------------------------------------------------- 
+
+Level: 1
+Muscles with striated fibers are the primary muscle type in:
+['the heart', 'the uterus', 'arteries and veins', 'the small intestine']
+A. the heart
+Explanation:
+Explanation: Skeletal and cardiac muscle contain striated muscle fibers, smooth muscles do not
+the heart - is cardiac muscle, striated
+uterus, arteries and veins, and the small intestine are smooth muscle
+
+ -------------------------------------------------- 
+
+Level: 4
+What is the net volume of fresh air that enters the alveoli each minute, assuming the breathing rate is 10 breaths/min, the tidal volume is 800mL/breath, and the nonalveolar respiratory system volume (dead space) is 150mL?
+['5000mL', '9500mL', '6500mL', '7850 mL']
+C. 6500mL
+Explanation:
+Explanation: Of the 800 mL of air that enter the lungs in a single breath (tidal volume), only 650mL reach the alveoli per breath (800mL - 150mL). Therefore the net volume of air that reaches the alveoli each minut is equal to 650mL/breath multiplied by 10 breaths/min, or 6500mL.
+
+ -------------------------------------------------- 
+
+Level: 2
+A drug that increases the risk of tubal pregnancy is most likely to inhibit which of the following actions?
+['Contraction of the uterus',
+ 'Secretion of follicle-stimulating hormone',
+ 'Onset of menstruation',
+ 'Transport of the ovum from ovary to uterus']
+D. Transport of the ovum from ovary to uterus
+Explanation:
+Explanation:The main reason for ectopic pregnancy is the failure of the fertilized egg to be transported from the oviducts to the uterus.
+
+ -------------------------------------------------- 
+
+Level: 2
+Delayed ovulation, as a cause of tubal pregnancy, would most likely be associated with delayed secretion of which of the following hormones?
+['Progesterone',
+ 'Luteinizing hormone',
+ 'Estrogen',
+ 'Human Chorionic Growth hormone']
+B. Luteinizing hormone
+Explanation:
+Explanation: because is the hormone responsible for triggering ovulation.
+
+ -------------------------------------------------- 
+
+Level: 3
+When the environmental temperature is 33C, vasodilation of cutaneous blood vessels helps to regulate the body temperature of a human by:
+['slowing blood flow through the skin',
+ 'maintaining an even distribution of heat throughout the body',
+ 'radiating excess body heat into the environment',
+ 'reventing needed body heat from being lost to the environment']
+C. radiating excess body heat into the environment
+Explanation:
+Explanation: When vasodilation occurs, the blood vessels relax, allowing more blood to enter the area. The presence of increased blood within dilated vasculature in cutaneous tissue allows heat to escape from the surface of the body into the environment. Vasodilation increases blood flow and facilitates heat loss.
+
+ -------------------------------------------------- 
+
+Level: 2
+When the environmental temperature is 45C, which of the following organisms will have the highest body temperature?
+['Human', 'Kangaroo rat', 'Lizard', 'Camel']
+C. Lizard
+Explanation:
+Explanation: Kangaroo rats and Camels have great cooling mechanisms. Humans have some cooling mechanisms, while lizards have the worst cooling mechanisms because they can't sweat and can''t do vasodilation.
+
+ -------------------------------------------------- 
+
+Level: 1
+Kidney failure during severs dehydration is most likely due to:
+['inadequate blood volume for effective filtration',
+ 'inability to produce sufficient urine',
+ 'buildup of salts in the distal tubules',
+ 'increased body temperature']
+A. inadequate blood volume for effective filtration
+Explanation:
+Explanation: Severe dehydration greatly reduces the volume of filtrate moving through the nephrons of the kidney. If fluid volume is too drastically reduced, the kidney will be unable to effectively do its job of filtering and maintaining homeostasis.
+
+ -------------------------------------------------- 
+
+Level: 4
+People who are born without sweat glands are likely to die of heat stroke in the tropics. This indicated that, under tropical conditions, the human body may:
+['gain, rather than lose, heat by evaporation',
+ 'gain, rather than lose, heat by radiation',
+ 'need to use different mechanisms than in the temperature zones to maintain '
+ 'body temperature',
+ 'be better able to regulate body temperature than under temperature '
+ 'conditions']
+B. gain, rather than lose, heat by radiation
+Explanation:
+Explanation: If people lack sweat glands, they are unable to make sweat nor capitalize upon the evaporative cooling of sweat. These individuals nearly solely rely on vasodilation (radiation) for responding to elevated external temperature. This indicates that radiation alone is ineffective for cooling under these conditions. In fact, the human body may gain heat by absorbing radiation from the sun leading to an elevation in body temperature.
+
+ -------------------------------------------------- 
+
+Level: 1
+If a person's gallbladder is removed, the person should restrict the consumption of:
+['proteins', 'triglycerides', 'polysaccharides', 'lactose']
+B. triglycerides
+Explanation:
+Explanation: The gallbladder stores bile produced by the lover. The major dissolved components of bile are breakdown products of hemoglobin such as bilirubin and bile salts. Bile salts are amphipathic. Since triglycerides are hydrophobic fats, bile would aid in their digestion.
+
+ -------------------------------------------------- 
+
+Level: 3
+When viewing an X ray of the bones of a leg, a doctor can tell if the patient is a growing child because the X ray shows:
+['cartilaginous areas in the long bones',
+ 'bone cells that are actively growing',
+ 'the presence of haversian cells',
+ 'shorter than average bones']
+A. cartilaginous areas in the long bones
+Explanation:
+Explanation: Long bones grow via endochondral ossification, which requires cartilaginous growth plates at the ends of long bones, that thicken as cartilage and later become ossified.
+
+ -------------------------------------------------- 
+
+Level: 2
+Reduced permeability of potassium leak channels would affect which of the following aspects of action potentials in a neuron?
+['The activation threshold',
+ 'The time to reach maximum repolarization',
+ 'The time to reach maximum depolarization',
+ 'The size of the depolarization wave']
+C. The time to reach maximum depolarization
+Explanation:
+Explanation: Potassium leak channels allow potassium to exit a neuron in response to depolarization.
+
+Reduced permeability of a leak channel to its natural ion means that the rate the ions are able to cross the channel is reduced.
+
+Reduced permeability of potassium leak channels would affect the time to reach maximum repolarization in a neuron.
+
+ -------------------------------------------------- 
+
+Level: 2
+In a bacteria possessing the lac operon, which of the following occurs when glucose is low and lactose is abundant?
+['Beta-galactosidase acetylases the operon',
+ 'Lactose permease cleaves lactose to glucose and galactose',
+ 'Lactose metabolism is increased by lactose binding to the operon',
+ 'Transport of lactose into the cell is enhanced']
+B. Lactose permease cleaves lactose to glucose and galactose
+Explanation:
+Explanation: The lac operon contains genes necessary to enhance lactose metabolism.
+
+Cleavage of lactose is carried out by the beta-galactosidase encoded for by lacZ, not by lactose permease.
+
+When glucose is low but lactose is readily available, the lac operon is activated, enhancing transport of lactose into the cell as well as lactose utilization.
+
+ -------------------------------------------------- 
+
+Level: 2
+Which of the following is NOT a function of the 5' terminus of mRNA?
+['Protects the mRNA from degradation',
+ 'Regulates nuclear export of mRNA',
+ 'Promotes ribosomal binding for translation',
+ 'Promotes polyadenylation']
+D. Promotes polyadenylation
+Explanation:
+Explanation: The 5' terminus does, in fact, protect mRNA from degradation.
+
+The 5' terminus is required for ribosomal binding, and regulates nuclear export of mRNA.
+
+However, the 5' terminus has no role in polyadenylation of the 3' terminus.
+
+ -------------------------------------------------- 
+
+Level: 2
+Micro RNA (miRNA) primarily aids in transcriptional and post-transcriptional regulation by which method?
+['RNA editing via deamination of specific DNA sequences',
+ 'Gene amplification through binding directly to critical DNA promoter regions',
+ "Cleavage of telomeres from 5' termini",
+ 'Gene silencing through translational repression or target degradation']
+D. Gene silencing through translational repression or target degradation
+Explanation:
+Explanation: Recall that microRNA does bind directly to mRNA, however it does not bind to promoter regions.
+
+miRNA has no role in RNA editing or cleavage of telomeres.
+
+The role of miRNA is to cause repression or degradation of the target through mRNA binding.
+
+ -------------------------------------------------- 
+
+Level: 3
+There are two main types of neurotransmitter receptors. Which of the following statements about receptors accurately describes how they function?
+['Ionotropic neurotransmitter receptors move more slowly than metabotropic '
+ 'neurotransmitter receptors.',
+ 'Metabotropic neurotransmitter receptors move more slowly than ionotropic '
+ 'neurotransmitter receptors.',
+ 'Ionotropic neurotransmitter receptors activate a second messenger inside the '
+ 'neuron.',
+ 'Metabotropic neurotransmitter receptors directly allow ions to pass through '
+ 'the membrane.']
+B. Metabotropic neurotransmitter receptors move more slowly than ionotropic neurotransmitter receptors.
+Explanation:
+Explanation: Ionotropic neurotransmitter receptors are the type of receptor that directly allows ions to pass through the membranes.
+
+Metabotropic neurotransmitter receptors are the type of receptor that activate a second messenger inside the neuron.
+
+Metabotropic neurotransmitter receptors move more slowly than ionotropic receptors, but their results may be larger and more widespread.
+
+ -------------------------------------------------- 
+
+Level: 3
+One specific type of antidepressant medication works by blocking the removal of neurotransmitters. Which of the following neurotransmitters is most likely the target of the antidepressant medication?
+['Serotonin', 'Acetylcholine', 'GABA', 'Dopamine']
+A. Seratonin
+Explanation:
+Explanation: The neurotransmitter must be classified as one of the types that is associated with attention, cognition, and emotion.
+
+The medication works by blocking the removal of the neurotransmitter; acetylcholine is not removed from the receptor, but is broken down by enzymes.
+
+Selective Serotonin Reuptake Inhibitors (SSRI's) function by blocking the reuptake of serotonin, which allows more serotonin to be present.
+
+ -------------------------------------------------- 
+
+Level: 1
+Mutations in receptor tyrosine kinases would most likely be associated with:
+['Endocrine diseases',
+ 'Neurologic diseases',
+ 'Cancers',
+ 'Metabolic abnormalities']
+C. Cancers
+Explanation:
+Explanation: RTKs are often associated with growth factors.
+
+Mutations in specific RTKs may cause uncontrolled growth, leading to cancers.
+
+ -------------------------------------------------- 
+
+Level: 3
+In the ABO blood group system in humans, if a person of type-B blood has children with a person of type-AB blood, what blood types could their children have?
+['Type-AB, type-A, and type-B',
+ 'Type-A and type-B',
+ 'Type-B and type-AB',
+ 'Type-AB, type-A, type-B, and type-O']
+A. Type-AB, type-A, and type-B
+Explanation:
+Explanation: A person of type-B blood could be homozygous (BB) or heterozygous (BO). The question intentionally leaves this ambiguous.
+
+One way to answer this question is to draw Punnett squares. To account for both possibilities of the genotype of the type-B blood person, you will have to draw two Punnett squares- one for an ABxBB cross and one for an ABxBO cross.
+
+In an ABxBB cross, the possible genotypes are AB and BB. For an ABxBO cross, the possible genotypes are AB, AO, and BO.
+
+Since the A and B alleles are codominant, the possible blood types of the children are type-AB, type-A, and type-B.
+
+ -------------------------------------------------- 
+
+Level: 1
+Which type of membrane receptor protein best describes receptor tyrosine kinases?
+['G-Protein coupled receptor',
+ 'Intracellular receptor',
+ 'Enzyme-linked receptor',
+ 'Ligand-gated ion channel']
+C. Enzyme-linked receptor
+Explanation:
+Explanation: Receptor tyrosine kinases are integral membrane proteins that relay a "message" from the extracellular side of the cell to the intracellular side of the cell.
+
+Upon activation, receptor tyrosine kinases dimerize and phosphorylate tyrosine residues on each other's tails.
+
+This enzymatic kinase action makes receptor tyrosine kinases enzyme-linked receptors
+
+ -------------------------------------------------- 
+
+Level: 7
+Scientists isolate the lymph fluid from the right thoracic duct of a fasted ( ~24 hours) experimental animal 20 minutes after a meal. After chemical analysis, they find a high concentration of fatty acid ( ~2% of total volume) and no detectable amounts a free carbohydrates: what does such data indicate about the composition of the meal?
+['The meal contained carbohydrates but not fats',
+ 'No conclusions can be drawn regarding the fat or carbohydrate content of the '
+ 'meal from this data',
+ 'The meal contained fats, but no conclusion about carbohydrates is warranted '
+ 'from the data',
+ 'The meal contained fats but no carbohydrates']
+C. The meal contained fats, but no conclusion about carbohydrates is warranted from the data
+Explanation:
+Explanation: The vast majority of ingested fats are absorbed from the digestive tract by the lymphatic system and enter the systemic circulation through the thoracic duct.
+
+Carbohydrates enter the systemic circulation at the hepatic portal vein; they do not travel in the lymphatic system.
+
+The data suggest that the meal contained fats, but no conclusion about carbohydrates is warranted.
+
+ -------------------------------------------------- 
+
+Level: 1
+Which of the following will increase lymph flow?
+['Decreased interstitial fluid colloid osmotic pressure',
+ 'Decreased cardiovascular capillary permeability',
+ 'Increased plasma colloid osmotic pressure',
+ 'Elevated cardiovascular capillary pressure']
+D. Elevated cardiovascular capillary pressure
+Explanation:
+Explanation: The rate of lymph flow is proportional to factors that tend to pull liquid out of the circulatory system and into the interstitial spaces of tissue.
+
+Fluid moves from regions of high pressure to low pressure; Elevated cardiovascular capillary pressure will cause fluid to move out of capillaries, to regions of lower pressure.
+
+Elevated capillary pressure will increase lymph flow.
+
+The lymph circulatory system is an open system; its purpose is to take up fluid from the interstitial space and transport it to the blood circulatory system.
+
+ -------------------------------------------------- 
+
+Level: 1
+What phenomenon likely causes hyperpolarization?
+['Excessive influx of K+',
+ 'Excessive influx of Na+',
+ 'Excessive outflow of K+',
+ 'Excessive outflow of Na+']
+C. Excessive outflow of K+
+Explanation:
+Explanation: During an action potential, Na+ flows in and K+ flows out. Thus, choices (A) and (D) may be eliminated. More specifically, Na+ first flows in down its electrochemical gradient to depolarize the cell membrane. K+ flows out down its electrochemical gradient to repolarize the cell. It is when this outflow is excessive that the membrane becomes hyperpolarized. Thus, choice (C) is the correct answer.
+
+ -------------------------------------------------- 
+
+Level: 2
+In human females, mitotic division of oogonia that lead to formation of presumptive egg cells (primary oocytes) occur between:
+['fertilization and birth only',
+ 'fertilization and puberty only',
+ 'birth and puberty only',
+ 'puberty and menopause only']
+A. fertilization and birth only
+Explanation:
+Explanation: All of the mitotic divisions that form primary oocytes occur prior to birth
+
+ -------------------------------------------------- 
+
+Level: 4
+A hiker becomes lost and has no drinking water for 2 days. At the end of this time, which of the following changes in hormone production would be expected to be significant in this individual?
+['Decreased glucocorticoid secretion',
+ 'Decreased aldosterone secretion',
+ 'Increased insulin secretion',
+ 'Increased antidiuretic hormone secretion']
+D. Increased antidiuretic hormone secretion
+Explanation:
+Explanation: Antidiuretic hormone (also called ADH or vasopressin) secretion increases in times of stress and when the osmotic pressure in the blood stream increases as it would if the blood became more concentrated due to water loss.
+
+ -------------------------------------------------- 
+
+Level: 1
+Which participant in the electron transport chain has the greatest attraction for electrons?
+['FAD', 'NAD+', 'Oxygen', 'Cytochrome c']
+C. Oxygen
+Explanation:
+Explanation: The final electron acceptor, Oxygen, has the greatest attraction for electrons
+
+ -------------------------------------------------- 
+
+Level: 2
+Production of which of the following hormones will be inhibited by the administration of dietary calcium to prevent osteoporosis?
+['Growth hormone', 'Calcitonin', 'Thyroid hormone', 'Parathyroid hormone']
+D. Parathyroid hormone, which is inhibited by high levels of calcium.
+Explanation:
+Explanation: Mnemonic for which hormone puts calcium into bone and which gets rid of it: Calcitonin-in parathyroid-rid
+
+ -------------------------------------------------- 
+
+Level: 2
+The cells type in the male reproductive system that is most analogous to the female ovum is the:
+['Spermatogonium', 'Primary spermatocyte', 'Spermatid', 'Spermatozoon']
+D. Spermatozoon
+Explanation:
+Explanation: The mature ovum is the female gamete that has completed meiosis and contains the haploid number of maternally derived chromosomes. This makes it most analogous to spermatozoa, the mature male gametes that contain the haploid number of paternally derived chromosomes.
+
+ -------------------------------------------------- 
+
+Level: 3
+Which of the following statements correctly describes the distinction between the exocrine and endocrine portions of the testis?
+['The exocrine portion secretes only peptides; the endocrine portions secretes '
+ 'only steroids',
+ 'The exocrine portion releases its products into ducts; the endocrine portion '
+ 'releases its products into the blood',
+ 'The exocrine portion secretes only cellular elements; the endocrine portions '
+ 'secretes only chemical substances',
+ 'The exocrine portion is the target tissue for the products of the endocrine '
+ 'portion']
+B. The exocrine portion releases its products into ducts; the endocrine portion releases its products into the blood
+
+ -------------------------------------------------- 
+
+Level: 2
+What is the danger of giving a patient with a bacterial infection an anti-inflammatory drug?
+['It may decrease endogenous antibacterial activities',
+ 'It may increase the platelet count',
+ 'It may decrease the red blood cell count',
+ 'It may increase the blood pressure']
+A. It may decrease endogenous antibacterial activities
+Explanation:
+Explanation: The proliferation of inflammatory cells, including T cells, B cells, and other leukocytes, helps in fighting infections. Therefore, giving an infected patient anti-inflammatory drugs has the potential to reduce their ability to fight infection.
+
+ -------------------------------------------------- 
+
+Level: 1
+Fever in septic shock leads to which of the following compensation mechanisms?
+['Dilation of capillary beds in the skin',
+ 'Increased skeletal muscle activity',
+ 'Decreased respiration rate',
+ 'Decreased fluid loss']
+A. Dilation of capillary beds in the skin
+Explanation:
+Explanation: To compensate for the increased body temperature in a fever, skin capillaries dilate to dissipate heat throughout the skin.
+
+ -------------------------------------------------- 
+
+Level: 2
+In comparison with the wall of the right ventricle of the heart, the left ventricular wall is:
+['thinner and generates a higher pressure when it contracts',
+ 'thinner and generates a lower pressure when it contracts',
+ 'thicker and generates a higher pressure when it contracts',
+ 'thicker and generates a lower pressure when it contracts']
+C. thicker and generates a higher pressure when it contracts
+Explanation:
+Explanation: The right ventricle pumps blood through the lungs, the left ventricle pumps blood through the entire body.
+
+ -------------------------------------------------- 
+
+Level: 3
+If an artery that supplies blood to a lung lobe was blocked but ventilation to the lobe was unaffected, how would alveolar gas partial pressures change?
+['Both PO2 and PCO2 would increase',
+ 'Both PO2 and PCO2 would decrease',
+ 'PO2 would increase and PCO2 would decrease',
+ 'PO2 would decrease and PCO2 would increase']
+C. PO2 would increase and PCO2 would decrease
+Explanation:
+Explanation: If the blood flow to an alveolus were blocked there would be no flow of hemoglobin-rich red blood cells to take away O2 and no influx of CO2 from the blood.
+
+ -------------------------------------------------- 
+
+Level: 1
+Which of the following organelles plays a key role in apoptosis (programmed cell death)?
+['endoplasmic reticulum', 'mitochondria', 'lysozome', 'golgi apparatus']
+B. mitochondria
+Explanation:
+Explanation: Programmed cell death initiates with the degradation of organelles that are essential for cellular processes
+
+The mitochondria of a cell are perhaps the most essential for the immediate life of the cell, as this is where the energy to power enzymes and maintain ion gradients comes from
+
+Degradation of the mitochondria plays a key role in apoptosis
+
+ -------------------------------------------------- 
+
+Level: 1
+The products of the liver and pancreas participate in what type of digestion?
+['Mechanical and chemical, respectively',
+ 'Both mechanical',
+ 'Both chemical',
+ 'Chemical and mechanical, respectively']
+A. Mechanical and chemical, respectively
+Explanation:
+Explanation: Mechanical digestion separates molecules of a substance, without changing its chemical properties, and is also known as physical digestion.
+
+Chemical digestion breaks intramolecular bonds and changes the "identity" of a substance.
+
+Bile from the liver is involved in emulsification of fats, a mechanical process, while pancreatic enzymes chemically cleave apart macromolecules.
+
+ -------------------------------------------------- 
+
+Level: 3
+What is the pressure of gas within the alveoli at the peak of inspiration, just before expiration, relative to that of atmospheric air?
+['Less than atmospheric air',
+ 'Cannot be predicted without more information',
+ 'Greater than atmospheric air',
+ 'The same as atmospheric air']
+D. The same as atmospheric air
+Explanation:
+Explanation: The flow of air (and all gases) is determined by pressure gradients. Air flows from areas of higher pressure to lower pressure.
+
+During inspiration, the diaphragm contracts which generates a negative pressure within the alveoli, which draws air into the lungs.
+
+During expiration, the elastic force of the thoracic wall and the alveoli themselves exert a positive pressure on the air within the alveoli. This pressure is greater than that of atmospheric air, and the air flows out of the lungs.
+
+At the peak of inspiration or expiration, the airflow momentarily stops. However, the airway is still open to the atmosphere.
+
+The halt of airflow is because the alveolar pressure is 'zero' relative to the atmosphere.
+
+The pressure within the alveoli at the peak of inspiration is the same as atmospheric air.
+
+ -------------------------------------------------- 
+
+Level: 6
+The partial pressures of carbon dioxide pCO2 and oxygen pO2 in the atmosphere at sea level are 0.3 mmHg and 160 mmHg respectively, but the partial pressures of these gases in blood leaving the lungs are 40 mmHg pCO2 and 95 mmHg pO2. What factor most likely accounts for this difference?
+['CO2 end subscript is less soluble in the blood than O2',
+ 'O2 penetrates more deeply into small airways than CO2',
+ 'CO2 penetrates more d']
+D. CO2 is more soluble in the blood than O2
+Explanation:
+Explanation: The lungs do not mechanically discriminate between gasses. Both carbon dioxide and oxygen 'penetrate' throughout the entire lung.
+
+Henry's law states that the amount of gas that dissolves in a given liquid is directly proportional to the partial pressure of the gas in equilibrium with that liquid.
+
+If the only factor influencing dissolved gas concentrations is the partial pressure of the gas in the air in contact with the liquid, then we would assume that the ratio of oxygen to carbon dioxide would be equal both within and outside of the liquid.
+
+However, if a given gas were more soluble in a given liquid, a greater proportion of the gas could be dissolved within that liquid.
+
+CO2 is more soluble in the blood than O2
+
+ -------------------------------------------------- 
+
+Level: 1
+Which of the following does not help to make up the cytoskeleton?
+['microfilaments', 'microtubules', 'intermediate fibers', 'ribosomes']
+D. Ribosomes are part of a cell.
+
+ -------------------------------------------------- 
+
+Level: 1
+What is the name for an enzyme secreted in an inactive form?
+['cryogen', 'cytogen', 'zymogen', 'zytogen']
+C. It is important to know the names of all the major types of enzymes.
+
+ -------------------------------------------------- 
+
+Level: 1
+What is the name of the process whereby prokaryotes divide?
+['binary fission', 'binary fusion', 'binary collision', 'binary occlusion']
+A. Fission means to break apart.
+
+ -------------------------------------------------- 
+
+Level: 2
+What is it called when a single zygote divides into 2 embryos, resulting in identical twins?
+['heterozygotic twins',
+ 'monozygotic twins',
+ 'polyzygotic twins',
+ 'homozygotic twins']
+B. Monozygotic literally means 'one zygote.'
+
+ -------------------------------------------------- 
+
+Level: 2
+What is the name for the rhythmic movements of the involuntary muscles that move food through the body?
+['catharsis', 'peritonitis', 'peristalsis', 'sepsis']
+C. There are a number of disorders that can disrupt the process of peristalsis.
+
+ -------------------------------------------------- 
+
+Level: 2
+What is the name of the enzyme produced in the pancreas that hydrolyzes specific peptide bonds and converts chymotrypsinogen to chymotrypsin?
+['chymosin', 'tryptophan', 'trymsin', 'trypsin']
+D. It is important to know the names of all the major enzymes.
+
+ -------------------------------------------------- 
+
+Level: 2
+What is the name of the vein that transports glucose and other sugars that are absorbed in digestion to the liver?
+['renal vein', 'hepatic occludal vein', 'carotid vein', 'hepatic portal vein']
+D. It is important to know the names of all the major veins.
+
+ -------------------------------------------------- 
+
+Level: 1
+What is a heterozygous organism?
+['an organism that carries one allele',
+ 'an organism that carries two different alleles',
+ 'an organism that carries no alleles',
+ 'an organism that carries two identical alleles']
+B. A heterozygous organism carries multiple different alleles.
+
+ -------------------------------------------------- 
+
+Level: 1
+What is the name for the existence of more than one phenotypic forms in a population
+['polymorphism', 'heteromorphism', 'homomorphism', 'monomorphism']
+A. The word polymorphism literally means 'many forms.'
+
+ -------------------------------------------------- 
+
+Level: 1
+What is another name for the evolution of a new species?
+['individuation', 'devolution', 'mass production', 'speciation']
+D. The word species is contained within speciation.
+
+ -------------------------------------------------- 
+
