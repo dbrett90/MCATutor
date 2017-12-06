@@ -10,13 +10,14 @@ import os
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 from chatterbot.trainers import ChatterBotCorpusTrainer
-from ChatBot.load_questions import ask_questions, subjects
+from ChatBot.load_questions import subjects
 
 # Uncomment the following lines to enable verbose logging
 # import logging
 # logging.basicConfig(level=logging.INFO)
 
-def train_subject_prompts():
+
+def train_subject_prompts(bot):
     for s in subjects:
         bot_res = "\nAbsolutely, here are some " + s + " questions:\n"
         phrases = [
@@ -32,6 +33,7 @@ def train_subject_prompts():
         for phrase in phrases:
             bot.train([phrase, bot_res])
 
+
 def createChatbot():
     db_exists = os.path.exists("../Data/database.db")
 
@@ -44,7 +46,6 @@ def createChatbot():
             "chatterbot.logic.TimeLogicAdapter",
             "chatterbot.logic.BestMatch"
         ],
-        # input_adapter="chatterbot.input.TerminalAdapter",
         input_adapter="chatterbot.input.VariableInputTypeAdapter",
         output_adapter="chatterbot.output.TerminalAdapter",
         database="../Data/database"
@@ -56,6 +57,6 @@ def createChatbot():
         bot.train("chatterbot.corpus.english.greetings")
 
         bot.set_trainer(ListTrainer)
-        train_subject_prompts()
+        train_subject_prompts(bot)
 
     return bot

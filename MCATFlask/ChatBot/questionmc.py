@@ -72,6 +72,14 @@ class QuestionMC:
         for i in range(len(self.choices)):
             print(ascii_uppercase[i] + '. ' + self._choices[i])
 
+    def getQuestion(self):
+        question = self.question + '\n'
+
+        for i in range(len(self.choices)):
+            question += ascii_uppercase[i] + '. ' + self._choices[i] + '\n'
+
+        return question
+
     def __str__(self):
         output = ("Level: " + str(self.difficulty) + '\n' +
                   self.question + '\n' +

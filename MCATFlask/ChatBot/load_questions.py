@@ -38,6 +38,22 @@ def summary():
             print(msg)
 
 
+def ask_question(subject):
+    for s in subjects:
+        input_file = '../Data/question_data/' + s + '_questions.pkl'
+        subjects[s] = load_pkl_data(input_file)
+
+    response = ''
+    questions = subjects[subject]
+
+    i = randint(0, len(questions) - 1)
+    q = questions[i]
+    response += "Difficulty: " + str(q.difficulty) + "\n"
+    response += q.getQuestion()
+
+    return response
+
+
 def ask_questions(subject):
     for s in subjects:
         input_file = '../Data/question_data/' + s + '_questions.pkl'

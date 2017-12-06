@@ -1,22 +1,24 @@
 #!flask/bin/python
 
-import sys
+# import sys
 
 from flask import Flask, render_template, request, redirect, Response
-import random, json
+import json
 from ChatBot.chatbot import createChatbot
-from ChatBot.load_questions import subjects
+from ChatBot.load_questions import subjects, ask_question
 
 app = Flask(__name__)
 
 bot = createChatbot()
+
 
 @app.route('/output')
 def output():
     # serve index template
     return render_template('index.html', name='Joe')
 
-@app.route('/receiver', methods = ['POST'])
+
+@app.route('/receiver', methods=['POST'])
 def worker():
     # read json + reply
     data = request.get_json()
@@ -30,17 +32,36 @@ def worker():
 
         result = bot.get_response(userResponse)
 
-        # if bot_input[:26] == "\nAbsolutely, here are some":
-        #     print("(Enter 'q' to quit and select a new topic.)\n")
-        #     subject = bot_input.split()[4]
-        #     ask_questions(subject)
+        question_request = result[:26] == "\nAbsolutely, here are some"
+        subject = ''
+        print(question_request)
 
-        # if(userResponse == 'Platypus'):
-        #     result += 'Hi Platypus'
-        # else:
-        #     result += 'Hi'
+        if question_request:
+            subject = result.split()[4]
 
-    return json.dumps({'botResponse' : result})
+        # print("(Enter 'q' to quit and select a new topic.)\n")
+        # ask_questions(subject)
+
+    json_obj = {'botResponse': result,
+                'question_request': question_request,
+                'subject': subject}
+
+    return json.dumps(json_obj)
+
+
+@app.route('/practice', methods=['POST'])
+def administerQuestions():
+    data = request.get_json()
+
+    subject = ''
+    for item in data:
+        print(item)
+        subject = str(item['subject'])
+
+    question = ask_question(subject).replace('\n', '<br>')
+
+    return json.dumps({'botResponse': question})
+
 
 welcome_msg = ("""
 Welcome to MCATutor!
