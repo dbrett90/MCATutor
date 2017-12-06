@@ -10,7 +10,7 @@ import os
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 from chatterbot.trainers import ChatterBotCorpusTrainer
-from load_questions import ask_questions, subjects
+from ChatBot.load_questions import ask_questions, subjects
 
 # Uncomment the following lines to enable verbose logging
 # import logging
@@ -59,38 +59,3 @@ def createChatbot():
         train_subject_prompts()
 
     return bot
-
-bot = createChatbot()
-welcome_msg = ("""
-Welcome to MCATutor!
-
-I am an AI chatbot that would like to help you study for your MCAT
-exam. I have a collection of questions from subjects including:
-""" +
-               '- ' +
-               '\n- '.join(s for s in subjects) +
-               " science" +
-               '\n' * 2 +
-               'What would you like to study today?\n')
-
-
-print(welcome_msg)
-
-
-# The following loop will execute each time the user enters input
-while True:
-    try:
-        # We pass None to this method because the parameter
-        # is not used by the TerminalAdapter
-        txt = input()
-        bot_input = bot.get_response(txt)
-        # bot_input = bot.get_response(None)
-
-        if bot_input[:26] == "\nAbsolutely, here are some":
-            print("(Enter 'q' to quit and select a new topic.)\n")
-            subject = bot_input.split()[4]
-            ask_questions(subject)
-
-    # Press ctrl-c or ctrl-d on the keyboard to exit
-    except (KeyboardInterrupt, EOFError, SystemExit):
-        break
