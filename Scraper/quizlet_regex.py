@@ -1,7 +1,8 @@
 import re
 from orderedset import OrderedSet
 
-question_pattern = "^(?!\n\s*[Aa].*\n*\s*.*\n*\s*[Bb][\w\s\W]*$).*"
+# question_pattern = "^(?!\n\s*[Aa].*\n*\s*.*\n*\s*[Bb][\w\s\W]*$).*"
+question_pattern = "^(?!\n\s*[Aa].*\n*\s*.*\n*\s*[Bb][\w\s\W]*$).*\n*(I.*\n)*"
 
 choice_patterns = ["\n\s*[Aa][.\s\n]+.*\n*\s*[Bb]",
                    "\n\s*[Bb][.\s\n]+.*\n*\s*[Cc]",
@@ -19,7 +20,7 @@ expl_pattern = "\n([\w\s\n\W]*)"
 def get_question_mc(question):
     matchObject = re.search(question_pattern, question, flags=0)
     if matchObject:
-        return matchObject.group(0)
+        return matchObject.group(0).strip()
 
 
 def get_choices_mc(question):

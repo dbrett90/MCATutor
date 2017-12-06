@@ -32,7 +32,9 @@ def parse_mc_terms(terms):
         answer = qr.get_answer_mc(term['definition'])
         expl = qr.get_expl_mc(term['definition'])
         if choices and question and answer:
-            questions.append(QuestionMC(question, choices, answer, expl))
+            q = QuestionMC(question, choices, answer, expl)
+            q.set_initial_difficulty()
+            questions.append(q)
 
     return questions
 
@@ -51,7 +53,7 @@ for subject in supersets:
 
 
 for subject in subjects:
-    txt_outfile = 'question_data/' + subject + '_questions.txt'
+    txt_outfile = '../Data/question_data/' + subject + '_questions.txt'
     sys.stdout = open(txt_outfile, 'w')
     for q in subjects[subject]:
         print(q)
@@ -60,11 +62,11 @@ for subject in subjects:
     sys.stdout = sys.__stdout__
 
     json_qs = json.dumps([q.__dict__ for q in subjects[subject]])
-    json_outfile = 'question_data/' + subject + '_questions.json'
+    json_outfile = '../Data/question_data/' + subject + '_questions.json'
     with open(json_outfile, 'w') as outfile:
         json.dump(json_qs, outfile)
 
-    pkl_outfile = 'question_data/' + subject + '_questions.pkl'
+    pkl_outfile = '../Data/question_data/' + subject + '_questions.pkl'
     with open(pkl_outfile, 'wb') as outfile:
         for q in subjects[subject]:
             pickle.dump(q, outfile, pickle.HIGHEST_PROTOCOL)

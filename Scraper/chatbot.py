@@ -16,7 +16,7 @@ from load_questions import ask_questions, subjects
 # import logging
 # logging.basicConfig(level=logging.INFO)
 
-db_exists = os.path.exists("database.db")
+db_exists = os.path.exists("../Data/database.db")
 
 # Create a new instance of a ChatBot
 bot = ChatBot(
@@ -27,9 +27,10 @@ bot = ChatBot(
         "chatterbot.logic.TimeLogicAdapter",
         "chatterbot.logic.BestMatch"
     ],
-    input_adapter="chatterbot.input.TerminalAdapter",
+    # input_adapter="chatterbot.input.TerminalAdapter",
+    input_adapter="chatterbot.input.VariableInputTypeAdapter",
     output_adapter="chatterbot.output.TerminalAdapter",
-    database="database"
+    database="../Data/database"
 )
 
 
@@ -80,7 +81,9 @@ while True:
     try:
         # We pass None to this method because the parameter
         # is not used by the TerminalAdapter
-        bot_input = bot.get_response(None)
+        txt = input()
+        bot_input = bot.get_response(txt)
+        # bot_input = bot.get_response(None)
 
         if bot_input[:26] == "\nAbsolutely, here are some":
             print("(Enter 'q' to quit and select a new topic.)\n")

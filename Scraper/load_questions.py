@@ -39,7 +39,7 @@ def summary():
 
 def ask_questions(subject):
     for s in subjects:
-        input_file = 'question_data/' + s + '_questions.pkl'
+        input_file = '../Data/question_data/' + s + '_questions.pkl'
         subjects[s] = load_pkl_data(input_file)
 
     response = ''
@@ -47,6 +47,7 @@ def ask_questions(subject):
 
     while response != 'q':
         i = randint(0, len(questions) - 1)
+        print("Difficulty:", questions[i].difficulty)
         questions[i].print_question()
         print()
         response = input()
@@ -56,17 +57,19 @@ def ask_questions(subject):
         correct = questions[i].check_answer(response)
         scoring[subject][0] += 1.0
         if correct:
+            questions[i].update_difficulty(1)
             scoring[subject][1] += 1.0
             print("Correct!")
         else:
+            questions[i].update_difficulty(0)
             print("\nSorry, it looks like that isn't correct.\n" +
                   "Would you like to see the answer? y/n\n")
             response = input()
             response = response.lower()
             if response == "yes" or response == 'y':
-                print('\n' + questions[i].answer())
+                print('\n' + questions[i].answer)
 
-            explanation = questions[i].explanation()
+            explanation = questions[i].explanation
             if explanation:
                 print("\nWould you like to see an explanation? y/n\n")
                 response = input()
