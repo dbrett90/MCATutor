@@ -16,7 +16,6 @@ bot = createChatbot()
 @app.route('/')
 def output():
     # serve index template
-    # return redirect("http://www.mcatutor.com", code=302)
     return render_template('index.html', name='Joe')
 
 
@@ -40,11 +39,9 @@ def worker():
     if question_request:
         subject = result.split()[4]
 
-    # print("(Enter 'q' to quit and select a new topic.)\n")
-    # ask_questions(subject)
-
     json_obj = {'botResponse': result,
                 'question_request': question_request,
+                'index': -1,
                 'subject': subject}
 
     return json.dumps(json_obj)
@@ -61,6 +58,7 @@ def administerQuestions():
     subject = str(item['subject'])
     state = item['state']
     json_obj = {}
+    botResponse = ''
 
     # quiz states:
     #     0: ask question
@@ -68,58 +66,40 @@ def administerQuestions():
     #     2: show correct answer
     #     3: give explanation
     if state == 0:
-        question, index = ask_question(subject)
-        # question = question.replace('\n', '<br>')
-        json_obj = {'botResponse': question,
-                    'index': index,
-                    'subject': subject,
-                    'state': 1}
+        botResponse, index = ask_question(subject)
+        state = 1
     elif state == 1:
-        print("in state 1")
         userResponse = str(item['input'])
         index = item['index']
         if userResponse:
             userResponse = userResponse.lower()
             if userResponse in ['quit', 'q', 'stop']:
-                json_obj = {'botResponse': summary(),
-                            'index': -1,
-                            'subject': '',
-                            'state': -1}
+                botResponse = summary()
+                index = -1
+                subject = ''
+                state = -1
             else:
-                botResponse = ''
                 result = check_answer(subject, index, userResponse)
                 if result:
                     next_question, index = ask_question(subject)
                     botResponse = "Correct!<br><br>" + next_question
-                    json_obj = {'botResponse': botResponse,
-                                'index': index,
-                                'subject': subject,
-                                'state': 1}
+                    state = 1
                 else:
                     botResponse = (
-                        "Sorry, it looks like that isn't correct.\n" +
+                        "Sorry, it looks like that isn't correct.<br>" +
                         "Would you like to see the answer? y/n"
                     )
-                    json_obj = {'botResponse': botResponse,
-                                'index': index,
-                                'subject': subject,
-                                'state': 2}
+                    state = 2
         else:
             botResponse = "Sorry, I didn't get that."
-            json_obj = {'botResponse': botResponse,
-                        'index': index,
-                        'subject': subject,
-                        'state': 1}
+            state = 1
     elif state == 2:
         userResponse = str(item['input'])
         index = item['index']
-        # if userResponse:
         userResponse = userResponse.lower()
         if userResponse in ['quit', 'q', 'stop']:
-            json_obj = {'botResponse': summary(),
-                        'index': -1,
-                        'subject': '',
-                        'state': -1}
+            botResponse = summary()
+            index, subject, state = -1, '', -1
         elif userResponse in ['yes', 'y']:
             answer, has_explanation = get_answer(subject, index)
             botResponse = answer
@@ -130,61 +110,33 @@ def administerQuestions():
                 q, index = ask_question(subject)
                 botResponse += '<br><br><br>' + q
                 state = 1
-
-            json_obj = {'botResponse': botResponse,
-                        'index': index,
-                        'subject': subject,
-                        'state': state}
         else:
             botResponse, index = ask_question(subject)
-            json_obj = {'botResponse': botResponse,
-                        'index': index,
-                        'subject': subject,
-                        'state': 1}
+            state = 1
     elif state == 3:
         userResponse = str(item['input'])
         index = item['index']
-        # if userResponse:
         userResponse = userResponse.lower()
         if userResponse in ['quit', 'q', 'stop']:
-            json_obj = {'botResponse': summary(),
-                        'index': -1,
-                        'subject': '',
-                        'state': -1}
+            botResponse = summary()
+            index, subject, state = -1, '', -1
         elif userResponse in ['yes', 'y']:
             explanation = get_explanation(subject, index)
             question, index = ask_question(subject)
             botResponse = explanation + '<br><br><br>' + question
-            json_obj = {'botResponse': botResponse,
-                        'index': index,
-                        'subject': subject,
-                        'state': 1}
+            state = 1
         else:
-            question, index = ask_question(subject)
-            json_obj = {'botResponse': question,
-                        'index': index,
-                        'subject': subject,
-                        'state': 1}
+            botResponse, index = ask_question(subject)
+            state = 1
     else:
-        json_obj = {'botResponse': "Something went wrong",
-                    'index': -1,
-                    'subject': '',
-                    'state': -1}
+        botResponse = "Something went wrong<br><br><br>" + summary()
+        index, subject, state = -1, '', -1
 
+    json_obj = {'botResponse': botResponse,
+                'index': index,
+                'subject': subject,
+                'state': state}
     return json.dumps(json_obj)
-
-
-welcome_msg = ("""
-Welcome to MCATutor!
-
-I am an AI chatbot that would like to help you study for your MCAT
-exam. I have a collection of questions from subjects including:
-""" +
-               '- ' +
-               '\n- '.join(s for s in subjects) +
-               " science" +
-               '\n' * 2 +
-               'What would you like to study today?\n')
 
 if __name__ == '__main__':
     app.debug = True
