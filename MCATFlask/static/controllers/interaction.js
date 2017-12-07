@@ -9,15 +9,10 @@ var messages = [], //array that hold the record of each string in chat
     botName = 'MCATutor', //name of the chatbot
     talking = true, //when false the speech function doesn't work
     question_request = false,
-    subject = "";
-
-// setup some JSON to use
-/*var cars = [
-	{ "make":"Porsche", "model":"911S" },
-	{ "make":"Mercedes-Benz", "model":"220SE" },
-	{ "make":"Jaguar","model": "Mark VII" }
-  ];*/
-
+    subject = "",
+    asking_questions = false,
+    index = -1,
+    state = 0;
 
 window.onload = function() {
 	// setup the button click
@@ -33,39 +28,47 @@ function chatbotResponse() {
     {"input": lastUserMessage}
 	];
 
-	// ajax the JSON to the server
-  $.ajax({
-    type: 'POST',
-    url: '/receiver',
-    data: JSON.stringify (userMessage),
-    //success: function(data) { alert('data: ' + data); },
-    success: function(response){
-    	botMessage = response.botResponse;
+  console.log(asking_questions);
 
-      question_request = response.question_request;
-      console.log(question_request);
-      console.log(response);
-      subject = response.subject;
-      if (question_request) {
-        administerQuestions(subject);
-      } else {
-    	  updateUI();
-      }
-    },
-    contentType: "application/json",
-    dataType: 'json'
-	  // ajax the JSON to the server
-	  //$.post("receiver", cars, function(){
-	});
+  if (!asking_questions) {
+    // The user is not being quized, operate normally
+    // ajax the JSON to the server
+    $.ajax({
+      type: 'POST',
+      url: '/receiver',
+      data: JSON.stringify (userMessage),
+      success: function(response){
+    	  botMessage = response.botResponse;
+        question_request = response.question_request;
+        if (question_request) {
+          subject = response.subject;
+          state = 0;
+          administerQuestions(subject);
+        } else {
+    	    updateUI();
+        }
+      },
+      contentType: "application/json",
+      dataType: 'json'
+	    // ajax the JSON to the server
+	    //$.post("receiver", cars, function(){
+	  });
+  }
+  else {
+    administerQuestions(subject);
+  }
 }
 
 
 // TODO: Add a variable telling whether or not to continue asking
 //       questions. Pass this variable to the backend
 function administerQuestions(s) {
+  question_request = false;
   var userMessage = [
     {"input": lastUserMessage,
-     "subject": s}
+     "subject": s,
+     "index": index,
+     "state": state}
 	];
 
   console.log("in administerQuestions");
@@ -76,6 +79,17 @@ function administerQuestions(s) {
     data: JSON.stringify (userMessage),
     success: function(response){
     	botMessage = response.botResponse;
+      index = response.index;
+      subject = response.subject;
+      state = response.state;
+
+      if (state == -1){
+        asking_questions = false;
+      }
+      else {
+        asking_questions = true;
+      }
+
       console.log(botMessage);
     	updateUI();
     },
@@ -112,7 +126,6 @@ function newEntry() {
 }
 
 function updateUI(){
-  console.log("updating");
   //add the chatbot's name and message to the array messages
   messages.push("<b>" + botName + ":</b> " + botMessage);
   // says the message using the text to speech function written below

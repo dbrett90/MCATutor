@@ -29,19 +29,25 @@ def load_pkl_data(file_name):
     return objects
 
 
+for s in subjects:
+    input_file = '../Data/question_data/' + s + '_questions.pkl'
+    subjects[s] = load_pkl_data(input_file)
+
+
 def summary():
-    print("\nHere's a summary your record so far:")
+    msg = "Here's a summary your record so far:<br>"
     for s in scoring:
         if scoring[s][0] > 0.0:
             pctg = "{0:.0f}%".format(scoring[s][1] / scoring[s][0] * 100)
-            msg = s + ': ' + pctg
-            print(msg)
+            msg += s + ': ' + pctg + '<br>'
+
+    return msg
 
 
 def ask_question(subject):
-    for s in subjects:
-        input_file = '../Data/question_data/' + s + '_questions.pkl'
-        subjects[s] = load_pkl_data(input_file)
+    # for s in subjects:
+    #     input_file = '../Data/question_data/' + s + '_questions.pkl'
+    #     subjects[s] = load_pkl_data(input_file)
 
     response = ''
     questions = subjects[subject]
@@ -51,13 +57,42 @@ def ask_question(subject):
     response += "Difficulty: " + str(q.difficulty) + "\n"
     response += q.getQuestion()
 
-    return response
+    return response.replace('\n', '<br>'), i
+
+
+def check_answer(subject, index, guess):
+    # for s in subjects:
+    #     input_file = '../Data/question_data/' + s + '_questions.pkl'
+    #     subjects[s] = load_pkl_data(input_file)
+
+    questions = subjects[subject]
+
+    correct = questions[index].check_answer(guess)
+    scoring[subject][0] += 1.0
+    if correct:
+        questions[index].update_difficulty(1)
+        scoring[subject][1] += 1.0
+        print("Correct!")
+        return True
+
+    return False
+
+
+def get_answer(subject, index):
+    q = subjects[subject][index]
+    ans = q.answer.replace('\n', '<br>')
+    has_explanation = q.explanation != ''
+    return ans, has_explanation
+
+
+def get_explanation(subject, index):
+    return subjects[subject][index].explanation.replace('\n', '<br>')
 
 
 def ask_questions(subject):
-    for s in subjects:
-        input_file = '../Data/question_data/' + s + '_questions.pkl'
-        subjects[s] = load_pkl_data(input_file)
+    # for s in subjects:
+    #     input_file = '../Data/question_data/' + s + '_questions.pkl'
+    #     subjects[s] = load_pkl_data(input_file)
 
     response = ''
     questions = subjects[subject]
