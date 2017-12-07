@@ -13,9 +13,10 @@ app = Flask(__name__)
 bot = createChatbot()
 
 
-@app.route('/output')
+@app.route('/')
 def output():
     # serve index template
+    # return redirect("http://www.mcatutor.com", code=302)
     return render_template('index.html', name='Joe')
 
 
@@ -165,7 +166,10 @@ def administerQuestions():
                         'subject': subject,
                         'state': 1}
     else:
-        json_obj = {'botResponse': "Something went wrong"}
+        json_obj = {'botResponse': "Something went wrong",
+                    'index': -1,
+                    'subject': '',
+                    'state': -1}
 
     return json.dumps(json_obj)
 

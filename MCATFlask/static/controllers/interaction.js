@@ -12,7 +12,9 @@ var messages = [], //array that hold the record of each string in chat
     subject = "",
     asking_questions = false,
     index = -1,
-    state = 0;
+    state = 0,
+    messageID=0,
+    delayInMilliseconds = 350; //.5 second;
 
 window.onload = function() {
 	// setup the button click
@@ -27,8 +29,6 @@ function chatbotResponse() {
 	var userMessage = [
     {"input": lastUserMessage}
 	];
-
-  console.log(asking_questions);
 
   if (!asking_questions) {
     // The user is not being quized, operate normally
@@ -45,7 +45,14 @@ function chatbotResponse() {
           state = 0;
           administerQuestions(subject);
         } else {
-    	    updateUI();
+          //add the chatbot's name and message to the array messages
+          messages.push("<b>" + botName + ":</b> " + botMessage);
+
+          setTimeout(function() {
+            addBubble();
+            Speech(botMessage);
+          }, delayInMilliseconds);
+    	    // updateUI();
         }
       },
       contentType: "application/json",
@@ -60,8 +67,6 @@ function chatbotResponse() {
 }
 
 
-// TODO: Add a variable telling whether or not to continue asking
-//       questions. Pass this variable to the backend
 function administerQuestions(s) {
   question_request = false;
   var userMessage = [
@@ -70,8 +75,6 @@ function administerQuestions(s) {
      "index": index,
      "state": state}
 	];
-
-  console.log("in administerQuestions");
 
   $.ajax({
     type: 'POST',
@@ -90,8 +93,13 @@ function administerQuestions(s) {
         asking_questions = true;
       }
 
-      console.log(botMessage);
-    	updateUI();
+      // console.log(botMessage);
+    	// updateUI();
+      messages.push("<b>" + botName + ":</b> " + botMessage);
+    	setTimeout(function() {
+        addBubble();
+        Speech(botMessage);
+      }, delayInMilliseconds);
     },
     contentType: "application/json",
     dataType: 'json'
@@ -117,6 +125,8 @@ function newEntry() {
     //adds the value of the chatbox to the array messages
     messages.push(lastUserMessage);
 
+    addBubble();
+    //updateUI();
     chatbotResponse();
 
     // stop link reloading the page
@@ -125,15 +135,35 @@ function newEntry() {
   }
 }
 
+//CHANGE CLASS OF CHATLOG FROM LEFT TO RIGHT ONCE CSS IS UPDATED
+function addBubble(){
+   messageID++;
+   var chatlogID = "chatlog" + messageID;
+   if (messageID % 2 ==0){
+    var chatlogClass = "chatlog left";
+   }
+   else{
+    var chatlogClass = "chatlog right";
+   }
+   var para = document.createElement('p');
+   //para.appendChild(message);
+   para.setAttribute("id", chatlogID);
+   para.setAttribute("class", chatlogClass);
+   para.innerHTML = messages[messages.length - 1];
+   document.getElementById("chatborder").appendChild(para);
+
+   //automatically scroll to bottom of conversation
+   var objDiv = document.getElementById("chatborder");
+   objDiv.scrollTop = objDiv.scrollHeight;
+
+}
+
 function updateUI(){
-  //add the chatbot's name and message to the array messages
-  messages.push("<b>" + botName + ":</b> " + botMessage);
   // says the message using the text to speech function written below
   //Speech(lastUserMessage);  //says what the user typed outlou
-  Speech(botMessage);
 
   //outputs the last few array elements of messages to html
-  for (var i = 1; i < 8; i++) {
+  for (var i = 1; i < messageID; i++) {
     if (messages[messages.length - i])
       document.getElementById("chatlog" + i).innerHTML = messages[messages.length - i];
   }
