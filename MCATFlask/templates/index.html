@@ -13,7 +13,7 @@
 
       <div class='headerSection'>
         <div class='header'>
-          <img src="../static/MCATlogo-01.png" id='logo'>
+          <img id="logo" src="../static/MCATlogo-01.png" id='logo'>
           <div id='subjects'>
               <ul>
                   <li>Biology || </li>
@@ -30,22 +30,17 @@
 
         <div id='bodybox'>
           <div id='chatborder' style="overflow-y: scroll; height: 425px">
-            <p id="chatlog7" class="chatlog left">&nbsp;</p>
-            <p id="chatlog6" class="chatlog right">&nbsp;</p>
-            <p id="chatlog5" class="chatlog left">&nbsp;</p>
-            <p id="chatlog4" class="chatlog right">&nbsp;</p>
-            <p id="chatlog3" class="chatlog left">&nbsp;</p>
-            <p id="chatlog2" class="chatlog right">&nbsp;</p>
-            <p id="chatlog1" class="chatlog left">&nbsp;</p>
-
+              <!--Where bubbles will be dynamically added-->
           </div>
         </div>
 
          <input type="text" name="chat" id="chatbox" placeholder="Hi there! Type here to talk to me." onfocus="placeHolder()">
 
+         <input type= "image" title="Click to enable/disable MCATutor's audio response" id="speechToggle" onclick="changeSpeechSetting()" src="../static/images/soundOn.png" />
+
 
           <br>
-          <br>
+
 
 
     </body>
@@ -55,5 +50,4 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="../static/controllers/interaction.js"></script>
-<!--This will send data using AJAX to Python:<br /><br />-->
-<a href="" id="theButton">Click Me</a>
+

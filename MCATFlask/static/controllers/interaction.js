@@ -14,13 +14,14 @@ var messages = [], //array that hold the record of each string in chat
     index = -1,
     state = 0,
     messageID=0,
-    delayInMilliseconds = 350; //.5 second;
+    delayInMilliseconds = 350, //.5 second;
+    speech=true; //enabled and disabled by user
 
 window.onload = function() {
 	// setup the button click
-	document.getElementById("theButton").onclick = function() {
-		newEntry();
-	};
+  botMessage = "I am an AI chatbot that would like to help you study for your MCAT exam. I have a collection of questions from subjects including: Biology, Physics, Chemistry, Psychology, and Sociology. What would you like to study today?";
+  messages.push("<b>" + botName + ":</b> " + botMessage);
+  addBubble();
 };
 
 function chatbotResponse() {
@@ -50,15 +51,14 @@ function chatbotResponse() {
 
           setTimeout(function() {
             addBubble();
-            Speech(botMessage);
+            if (speech) {
+              Speech(botMessage);
+            }
           }, delayInMilliseconds);
-    	    // updateUI();
         }
       },
       contentType: "application/json",
       dataType: 'json'
-	    // ajax the JSON to the server
-	    //$.post("receiver", cars, function(){
 	  });
   }
   else {
@@ -92,13 +92,12 @@ function administerQuestions(s) {
       else {
         asking_questions = true;
       }
-
-      // console.log(botMessage);
-    	// updateUI();
       messages.push("<b>" + botName + ":</b> " + botMessage);
     	setTimeout(function() {
         addBubble();
-        Speech(botMessage);
+        if (speech){
+          Speech(botMessage);
+        }
       }, delayInMilliseconds);
     },
     contentType: "application/json",
@@ -126,7 +125,6 @@ function newEntry() {
     messages.push(lastUserMessage);
 
     addBubble();
-    //updateUI();
     chatbotResponse();
 
     // stop link reloading the page
@@ -140,10 +138,10 @@ function addBubble(){
    messageID++;
    var chatlogID = "chatlog" + messageID;
    if (messageID % 2 ==0){
-    var chatlogClass = "chatlog left";
+     var chatlogClass = "chatlog left";
    }
    else{
-    var chatlogClass = "chatlog right";
+     chatlogClass = "chatlog right";
    }
    var para = document.createElement('p');
    //para.appendChild(message);
@@ -158,30 +156,21 @@ function addBubble(){
 
 }
 
-function updateUI(){
-  // says the message using the text to speech function written below
-  //Speech(lastUserMessage);  //says what the user typed outlou
-
-  //outputs the last few array elements of messages to html
-  for (var i = 1; i < messageID; i++) {
-    if (messages[messages.length - i])
-      document.getElementById("chatlog" + i).innerHTML = messages[messages.length - i];
+function changeSpeechSetting(){
+  if (speech){
+    speech=false;
+    document.getElementById("speechToggle").src="../static/images/soundOff.png";
+  }
+  else{
+    speech=true;
+    document.getElementById("speechToggle").src="../static/images/soundOn.png";
   }
 }
 
-
 //text to Speech
-//https://developers.google.com/web/updates/2014/01/Web-apps-that-talk-Introduction-to-the-Speech-Synthesis-API
 function Speech(say) {
   if ('speechSynthesis' in window && talking) {
     var utterance = new SpeechSynthesisUtterance(say);
-    //msg.voice = voices[10]; // Note: some voices don't support altering params
-    //msg.voiceURI = 'native';
-    //utterance.volume = 1; // 0 to 1
-    //utterance.rate = 0.1; // 0.1 to 10
-    //utterance.pitch = 1; //0 to 2
-    //utterance.text = 'Hello World';
-    //utterance.lang = 'en-US';
     speechSynthesis.speak(utterance);
   }
 }

@@ -12,9 +12,15 @@ ul li{
     
 }
 
-img{
+#logo{
     width: 40%;
     float: left;
+}
+
+#speechToggle{
+  width: 25px;
+  height: 25px;
+  padding-top: 15px;
 }
 
 
@@ -86,6 +92,7 @@ p {
     -webkit-margin-end: 0px;
     width: 50%;
     word-wrap: break-word;
+    min-height: 15px;
 }
 
 /*FOR LEFT ARROWS*/
@@ -168,3 +175,4 @@ textarea:focus, input:focus {
     outline: none;
 
 }
+
