@@ -58,13 +58,17 @@ class QuestionMC:
 
         return len(entities)
 
+    @staticmethod
+    def approx_avg(input_list):
+        return sum(input_list) // len(input_list)
+
     def set_initial_difficulty(self):
         question_complexity = self.txt_complexity(self.question)
         choice_complexity = [self.txt_complexity(c) for c in self.choices]
-        choice_complexity = sum(choice_complexity) // len(choice_complexity)
+        choice_complexity = self.approx_avg(choice_complexity)
 
         compl = (question_complexity + choice_complexity)
-        self._initial_difficulty = compl // 10
+        self._initial_difficulty = compl // 20 + 1
 
     def print_question(self):
         print(self.question, '\n')

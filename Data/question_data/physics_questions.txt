@@ -16,7 +16,7 @@ e. horizontal component of projectile motion
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 Two objects, one having three times the mass of the other, are dropped from the same height in a vacuum. At the end of their fall, their velocities are equal because:
 ['anything falling in a vacuum has constant velocity',
  'all objects reach the same terminal velocity',
@@ -28,7 +28,7 @@ e. none of the above
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 A physics textbook is suspended on a spring scale in an elevator. Of the following, the scale shows the highest reading when the elevator:
 ['moves downward with increasing speed',
  'moves downward with decreasing speed',
@@ -50,7 +50,7 @@ a. putting a second brick on top
 
  -------------------------------------------------- 
 
-Level: 5
+Level: 3
 A professor holds an eraser against a vertical chalkboard by pushing horizontally on it. He pushes with a force that is much greater than is required to hold the eraser. The force friction exerted by the board on the eraser increases if he:
 ['pushed with a slightly greater force',
  'pushed with a slightly less force',
@@ -63,7 +63,7 @@ d. raises his elbow so the force he exerts is slightly downward but has the same
 
  -------------------------------------------------- 
 
-Level: 5
+Level: 3
 A block is first placed on its long side and then on its short side on the same inclined plane. The block slides down the plant on its short side but remains at rest on its long side. A possible explanation is:
 ['the short side is smoother',
  'Force friction is less because contact area is lead',
@@ -96,7 +96,7 @@ e. its acceleration is toward the Earth
 
  -------------------------------------------------- 
 
-Level: 6
+Level: 4
 A person riding a Ferris wheel is strapped into her seat by a seat belt. The wheel is spun so that the centripetal acceleration is g. Selected the correct combination of forces that act on her when she is at the top. Fg=force of gravity, down; Fb=seat belt force, down; Fs=seat force, up.
 ['Fg=0, Fb=mg, Fs=0',
  'Fg=mg, Fb=0, Fs=0',
@@ -118,7 +118,7 @@ b. weight is a force and mass is not
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 A physics textbook is suspended on a spring scale in an elevator. Of the following, the scale shows the highest reading when the elevator:
 ['moves upward with increasing speed',
  'moves upward with decreasing speed',
@@ -129,7 +129,7 @@ a. moves upward with increasing speed
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 A force F, larger than the largest possible force of static friction, is applied to the left to an object moving to the right on a horizontal surface. Then:
 ['the object must be moving at constant speed',
  'F and the friction force act in opposite directions',
@@ -154,21 +154,21 @@ B. 20m
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 A 1000 kg rocket ship, traveling at 100 m/s, is acted upon by an average force of 20 kN applied in the direction of its motion for 8 s. What is the change in velocity of the rocket?
 ['160 m/s', '260 m/s', '160,000 m/s', '260,000 m/s']
 A. 160 m/s
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 A car is traveling at 40 km/hr and the driver puts on the brakes, bringing the car to rest in a time of 6 s. What is the magnitude of the average acceleration of the car?
 ['240 km/hr^2', '12,000 km/hr^2', '24,000 km/hr^2', '30,000 km/hr^2']
 C. 24,000 km/hr^2
 
  -------------------------------------------------- 
 
-Level: 7
+Level: 4
 An elevator is designed to carry a maximum weight of 9800 N (including its own weight), and to move upward at a speed of 5 m/s after an initial period of acceleration. What is the relationship between the maximum tension in the elevator cable and the maximum weight of the elevator cable and the maximum weight of the elevator while the elevator is accelerating upward?
 ['The tension is greater than 9800 N',
  'The tension is less than 9800 N',
@@ -178,7 +178,7 @@ A. The tension is greater than 9800 N
 
  -------------------------------------------------- 
 
-Level: 5
+Level: 3
 At a place where g= 9.8 m/s^2, an object is thrown vertically downward with a speed of 5 m/s while a different object is thrown vertically upward with a speed of 10 m/s. Which object undergoes a greater change in speed in a time 2s?
 ['The first object has a greater change in speed',
  'The second object has a greater change in speed',
@@ -188,7 +188,7 @@ A. The first object has a greater change in speed
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 A firefighter jumps horizontally from a burning building with an initial speed of 1.5 m/s. At what time is the angle between his velocity and acceleration vectors the greatest?
 ['The instant he jumps',
  'When he reaches terminal velocity',
@@ -198,14 +198,14 @@ A. The instant he jumps
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 A 10 kg wagon rests on a frictionless inclined plane. The plane makes an angle of 30 degrees with the horizontal. Approximately how large is the force required to keep the wagon from sliding down the plane?
 ['10 N', '49 N', '85 N', '98 N']
 B. 49 N
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 Which of the following expressions correctly illustrates the SI base units for each of the variables in the formula below?
 ['lb x mph= ft x lb x s',
  'kg x m/s = N x s',
@@ -215,7 +215,7 @@ C. kg x m/s = (kg x m)/s^2 x s
 
  -------------------------------------------------- 
 
-Level: 6
+Level: 4
 A 20 kg wagon is released from rest from the top of a 15 m long lane, which is angled at 30 degrees with the horizontal. Assuming that there is friction between the ramp and the wagon , how is this frictional force affected if the angle of the incline is increased?
 ['The friction force increases',
  'The frictional force decreases',
@@ -232,7 +232,7 @@ D. Distance
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 A 30 kg girl sits on a seesaw at a distance of 2m from the fulcrum. Where must her father sit to balance the seesaw if he has a mass of 90kg?
 ['67 cm from the girl',
  '67 cm from the fulcrum',
@@ -249,7 +249,7 @@ B. 6 m/s
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 A rock (m= 2 kg) is shot up vertically at the same time that a ball ( m= 0.5 kg) is projected horizontally. If both start from the same height:
 ['The rock and ball will reach the ground at the same time',
  'The rock will reach the ground first.',
@@ -259,7 +259,7 @@ C. The ball will reach the ground first.
 
  -------------------------------------------------- 
 
-Level: 5
+Level: 3
 Centrifugal force is an apparent outward force during circular motion. It has been described as a reaction force according to Newton's third law. Which of the following statements is most likely to be correct regarding centrifugal force?
 ['Centrifugal force exists only for uniform circular motion, not nonuniform '
  'circular motion',
@@ -271,7 +271,7 @@ C. Centrifugal force always acts antiparallel to the centripetal force vector.
 
  -------------------------------------------------- 
 
-Level: 5
+Level: 3
 Which of the following is true of movement on a plane with friction? 
 
 I. Acceleration is a function of applied force only. 

@@ -1,4 +1,4 @@
-Level: 0
+Level: 1
 Which of the following *inhibit* hexokinase?
 ['Insulin', 'AMP', 'Glucose-6-Phosphate', 'PFK stimulation', 'Glucose']
 c.
@@ -7,14 +7,14 @@ Glucose-6-Phosphate
 
  -------------------------------------------------- 
 
-Level: 0
+Level: 1
 Which of the following *inhibit* hexokinase?
 ['Insulin', 'AMP', 'PFK inhibition', 'Glucose']
 c. PFK inhibition
 
  -------------------------------------------------- 
 
-Level: 0
+Level: 1
 Which of the following *stimulate* hexokinase?
 ['AMP', 'Fructose', 'Glucose', 'Glucose 6 phosphate']
 c. Glucose
@@ -32,35 +32,35 @@ a. It has a lower Km than glucokinase
 
  -------------------------------------------------- 
 
-Level: 0
+Level: 1
 Which of the following *stimulate* pyruvate dehydrogenase?
 ['NADH', 'Acetyl CoA', 'ADP', 'NAD']
 c. ADP
 
  -------------------------------------------------- 
 
-Level: 0
+Level: 1
 Which of the following *inhibit* phosphoglycerate kinase?
 ['ATP', 'Oxaloacetate', 'Low Energy Charge', 'NAD']
 a. ATP
 
  -------------------------------------------------- 
 
-Level: 0
+Level: 1
 Which of the following *inhibit* glucokinase?
 ['Glucose', 'Glucose 6 Phosphate', 'Glucagon', 'NAD']
 c. Glucagon
 
  -------------------------------------------------- 
 
-Level: 0
+Level: 1
 Which of the following *stimulate* glucokinase?
 ['Glucose', 'Glucose 6 phosphate', 'Glucagon', 'Fructose']
 d. Fructose
 
  -------------------------------------------------- 
 
-Level: 0
+Level: 1
 Which of the following *stimulate* glucokinase?
 ['Glucose', 'Glucose 6 phosphate', 'Insulin', 'NAD']
 c. Insulin
@@ -84,21 +84,21 @@ b. Fructose-1, 6-bisphosphate
 
  -------------------------------------------------- 
 
-Level: 0
+Level: 1
 Which of the following *inhibit* pyruvate kinase?
 ['Alanine', 'Fructose-1, 6-bisphosphate', 'ATP', 'NAD']
 c. ATP
 
  -------------------------------------------------- 
 
-Level: 0
+Level: 1
 Which of the following *stimulate* phosphofructokinase?
 ['ATP', 'Alanine', 'Fructose 6 Phosphate', 'Pyruvate']
 c. Fructose 6 Phosphate
 
  -------------------------------------------------- 
 
-Level: 0
+Level: 1
 Which of the following *inhibit* phosphofructokinase?
 ['ATP', 'Enolase', 'Fructose 6 Phosphate', 'Fructose-1, 6-Bisphosphate']
 d. Fructose-1, 6-Bisphosphate
@@ -255,7 +255,7 @@ e. Succinate Dehydrogenase
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 Which of the following statements accurately describes the difference between a sigma (σ) and a pi (π) bond?
 ['Pi bonds form from the side-to-side overlap of hybridized sp, sp^2, sp^3 '
  'superscript orbitals.',
@@ -313,7 +313,7 @@ pH = -log[H3O+] = -4
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 Nitrogen dioxide (NO2) is a toxic pollutant that has been implicated as a risk factor for Sudden Infant Death Syndrome. The following system obeys second-order kinetics:
 ['Rate = k[NO2][CO]',
  'Rate = k[NO2]^2[CO]',
@@ -325,7 +325,7 @@ To answer this question, recall that the slow step of a reaction is the rate-det
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 33 mL of 3 M Hydrochloric acid is titrated with sodium hydroxide to form water and sodium chloride. How many mmols of sodium hydroxide are consumed in this reaction?
 ['3 mmol', '10 mmol', '33 mmol', '100 mmol']
 d. 100mmol
@@ -340,7 +340,7 @@ The reaction consumes 100 mmol of sodium hydroxide
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 10 mL of 0.5 M calcium hydroxide is required to titrate 50 mL hydrochloric acid. Which of the following gives the initial concentration of the acid?
 ['1/5 M', '1/10 M', '5 M', '10 M']
 a. 1/5 M
@@ -353,7 +353,7 @@ Find the concentration of the acid using the definition of molarity, 10/50 = 1/5
 
  -------------------------------------------------- 
 
-Level: 5
+Level: 3
 Given that nicotinamide adenine dinucleotide (NAD), in its reduced form as NADH, is a key electron-donating molecule in many metabolic reactions, which of the following is a good prediction for the standard reduction potential (E) of the reduction half-reaction of NAD?
 ['Large and positive', 'Less than zero', 'Zero', 'Between zero and 1']
 b. Less than zero
@@ -393,7 +393,7 @@ There is 0.025 mol Ni from NiSO4 x 6 H2O: (6.57g) x (1 mol/262.84g). There is al
 
  -------------------------------------------------- 
 
-Level: 5
+Level: 3
 A student uses thin layer chromatography on silica plates to monitor the progress of a reaction of a ketone to an alcohol. Does the product (alcohol) have a higher or lower Rf that the starting material?
 ['Higher, because the product if more polar than the starting material',
  'Higher, because the product if less polar than the starting material',
@@ -405,7 +405,7 @@ Because of the OH group on the alcohol, the product interacts with the silica mo
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 What mass of CDP (403 g/mol) is in 10 mL of the buffered solution with 16 mmol of CDP in 1 L of buffer?
 ['6.4 x 10^-4 g', '6.4 x 10^-3 g', '6.4 x 10^-2 g', '6.4 x 10^-1 g']
 c. 6.4 x 10^-2 g
@@ -447,7 +447,7 @@ Na2CO3 + 2 HCl -> CO2 + H2O + 2 NaCl
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 What is the molar concentration of Na+ in a solution that is prepared by mixing 10 mL of a 0.01 M NaHCO3 solution with 10 mL of a 0.01 M Na2CO3 solution?
 ['0.010 mol/L', '0.015 mol/L', '0.020 mol/L', '0.025 mol/L']
 b. 0.015 mol/L
@@ -456,7 +456,7 @@ Since 1 equivalent of NaHCO3 provides 1 equivalent of Na+, the molar concentrati
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 Suppose that CH4 (g) reacts completely with O2 (g) to form CO2 (g) and H20 (g) with a total pressure of 1.2 torr. What is the partial pressure of H2O (g)?
 ['0.4 torr', '0.6 torr', '0.8 torr', '1.2 torr']
 c. 0.8 torr
@@ -467,7 +467,7 @@ The pressure of the gaseous products is 1.2 torr. For every three product molecu
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 Ba^2+ is an ion that is very toxic to mammals when taken internally. Which of the following compounds, mixed in water, would be the safest if accidentally swallowed?
 ['BaSO4, Ksp = 1.1 x 10^-10',
  'BaCO3, Ksp = 8.1 x 10^-9',
@@ -500,7 +500,7 @@ A 0.001 M NaOH solution was a pOH (-log[OH-]) of 3.
 
  -------------------------------------------------- 
 
-Level: 5
+Level: 3
 A closed container holds four gases: 1 mole of Gas A, 1 mole of Gas B, 3 moles of Gas C, and 4 moles of Gas D. If the total pressure inside the container is 3 atm, what is the partial pressure of Gas C?
 ['0.33 atm', '1 atm', '1.33 atm', '9 atm']
 b. 1 atm
@@ -513,7 +513,7 @@ Therefore, the partial pressure of Gas C is: 1/3 × 3 atm = 1 atm
 
  -------------------------------------------------- 
 
-Level: 7
+Level: 4
 Calcium carbonate is a dietary supplement taken to remedy a calcium deficit. Aluminum salts, though potentially toxic, are used in the manufacture of some antiperspirants. Calcium carbonate and aluminum nitrate react in solution, as demonstrated by the following reactants shown in Figure 1. Select the answer choice which best completes the equation.
 ['3CaCO3 + Al(NO3)3 → 3CaNO3 + Al(CO3)3',
  'CaCO3 + 2Al(NO3)3 → Ca(NO3)6 + Al2CO3',
@@ -531,7 +531,7 @@ So far, we've accounted for the ionic charges and figured out how many moles of 
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 Halothane is an alkyl halide used as an inhalational general anesthetic. Which of the following could be used to reduce an alkyl halide to an alkane?
 ['LiAlH4', 'Zn, H+', 'Mg in anhydrous ether, then water', 'All of the above']
 d. All of the above
@@ -540,7 +540,7 @@ All of the above because all of these methods could be used to reduce an alkyl h
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 Hydrocarbons of varying lengths and shapes form fatty acids and other structural compounds. Does a linear or branched hydrocarbon have a higher boiling point and why?
 ['linear because linear, unbranched alkanes experience more surface area '
  'contact than comparable branched alkanes and have greater Van der Waals '
@@ -557,7 +557,7 @@ A general rule of thumb is that increased branching decreases the boiling point 
 
  -------------------------------------------------- 
 
-Level: 6
+Level: 4
 For the most part, biological pH is slightly basic. However, the stomach is very acidic, and its contents must be swiftly neutralized by basic bicarbonate ions upon entering the small intestine, which has a basic pH. How many liters of 2 M Ba(OH)2 are needed to titrate a 4 L solution of 6 M H3PO4?
 ['1.33 L', '12 L', '18 L', '56 L']
 c. 18 L
@@ -626,7 +626,7 @@ the elements on this list have an exergonic first electron affinity, and thus (D
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 Which of the following would most likely occur if a saturated solution of Fe(OH)2 at 150C is subsequently reduced in temperature to 50C?
 ['No change',
  'Additional dissolution',
@@ -639,7 +639,7 @@ supersaturated solution tend to precipitate in order ot reach equilibrium
 
  -------------------------------------------------- 
 
-Level: 6
+Level: 4
 For the most part, biological pH is slightly basic. However, the stomach is very acidic, and its contents must be swiftly neutralized by basic bicarbonate ions upon entering the small intestine, which has a basic pH. How many liters of 2 M Ba(OH)2 are needed to titrate a 4 L solution of 6 M H3PO4?
 ['1.33 L', '12 L', '18 L', '56 L']
 C. 18 L

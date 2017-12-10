@@ -5,10 +5,18 @@
 # usage          : python load_questions.py
 # ==================================================
 
-import os
 import pickle
-from random import randint
+from random import randint, sample
+from util import listify
 
+exam_length = 5
+
+# scoring = {
+#     "physics":    [3.0, 1.0],
+#     "biology":    [3.0, 2.0],
+#     "chemistry":  [3.0, 1.0],
+#     "behavioral": [4.0, 3.0]
+# }
 scoring = {
     "physics":    [0.0, 0.0],
     "biology":    [0.0, 0.0],
@@ -45,10 +53,6 @@ def summary():
 
 
 def ask_question(subject):
-    # for s in subjects:
-    #     input_file = '../Data/question_data/' + s + '_questions.pkl'
-    #     subjects[s] = load_pkl_data(input_file)
-
     response = ''
     questions = subjects[subject]
 
@@ -61,10 +65,6 @@ def ask_question(subject):
 
 
 def check_answer(subject, index, guess):
-    # for s in subjects:
-    #     input_file = '../Data/question_data/' + s + '_questions.pkl'
-    #     subjects[s] = load_pkl_data(input_file)
-
     questions = subjects[subject]
 
     correct = questions[index].check_answer(guess)
@@ -89,53 +89,20 @@ def get_explanation(subject, index):
     return subjects[subject][index].explanation.replace('\n', '<br>')
 
 
-def ask_questions(subject):
-    # for s in subjects:
-    #     input_file = '../Data/question_data/' + s + '_questions.pkl'
-    #     subjects[s] = load_pkl_data(input_file)
+def exam_ready():
+    return all([scoring[s][1] >= 1.0 for s in scoring])
 
-    response = ''
-    questions = subjects[subject]
 
-    while response != 'q':
-        i = randint(0, len(questions) - 1)
-        print("Difficulty:", questions[i].difficulty)
-        questions[i].print_question()
-        print()
-        response = input()
-        if response == 'q':
-            break
+def heuristic(subject, num):
+    questions = sample(range(len(subjects[subject])), num)
 
-        correct = questions[i].check_answer(response)
-        scoring[subject][0] += 1.0
-        if correct:
-            questions[i].update_difficulty(1)
-            scoring[subject][1] += 1.0
-            print("Correct!")
-        else:
-            questions[i].update_difficulty(0)
-            print("\nSorry, it looks like that isn't correct.\n" +
-                  "Would you like to see the answer? y/n\n")
-            response = input()
-            response = response.lower()
-            if response == "yes" or response == 'y':
-                print('\n' + questions[i].answer)
-
-            explanation = questions[i].explanation
-            if explanation:
-                print("\nWould you like to see an explanation? y/n\n")
-                response = input()
-                response = response.lower()
-                if response == "yes" or response == 'y':
-                    print('\n' + explanation)
-
-        print('\n', '-' * 50, '\n')
-
-    summary()
-
-    print("\nWhat subject would you like to study?\n" +
-          "(press ctrl-d or ctrl-c to quit)\n")
+    return questions
 
 
 def build_exam():
-    return None
+    inv_pcts = {s: 1.0 / scoring[s][1] / scoring[s][0] for s in subjects}
+    rel_pcts = {s: inv_pcts[s] / sum(inv_pcts.values()) for s in subjects}
+    num_qs = {s: int(round(exam_length * rel_pcts[s])) for s in rel_pcts}
+    exam = {s: heuristic(s, num_qs[s]) for s in scoring}
+
+    return listify(exam)

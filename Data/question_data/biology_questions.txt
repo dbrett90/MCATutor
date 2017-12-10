@@ -35,7 +35,7 @@ Explanation: According to the Bohr effect, decreasing pH in the blood decreases 
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 Which of the following correctly traces the circulatory pathway?
 ['Superior vena cava - right atrium - right ventricle - pulmonary artery - '
  'lungs - pulmonary veins - left atrium - left ventricle - aorta.',
@@ -75,7 +75,7 @@ Explanation: The exchange of materials is greatly influenced by the relative bal
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 A patient's chart reveals that he has a cardiac output of 7,500 mL/min and a stroke volume of 50 mL. What is his pulse, in beats per minute?
 ['50 beats/min', '100 beats/min', '150 beats/min', '400 beats/min']
 C. 150 beats/min
@@ -84,7 +84,7 @@ Explanation: Cardiac output equals heart rate times stroke volume. We are given 
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 An unconscious patient is rushed into the emergency room and needs an immediate blood transfusion. Because there is no time to check her medical history or determine her blood type, which type of blood should you, as her doctor, give her?
 ['A-', 'AB+', 'O+', 'O-']
 D. O-
@@ -109,7 +109,7 @@ Explanation: The pressure in the aorta is usually about 120 or 80 mmHg, dependin
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 At any given time, there is more blood in the venous system than in the arterial system. Which of the following features of a vein allows this?
 ['Relative lack of smooth muscle in the wall',
  'Presence of valves',
@@ -168,7 +168,7 @@ Peptide hormones like insulin and growth hormone interact with integral protein 
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 Pulmonary edema occurs when fluid builds up in the interstitium between the pulmonary capillaries and the alveoli, and eventually enters the alveoli. How do you decrease the risk of pulmonary edema?
 ['Decrease hydrostatic pressure and increase osmotic pressure',
  'Decrease hydrostatic pressure and decrease osmotic pressure',
@@ -196,7 +196,7 @@ Explanation: Crossing over is a form of genetic recombination in which homologou
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 Your trachea have short hair-like cell process that move the mucus. What is the name of these hair like structures and which cytoskeletal elements form them?
 ['Cilia, microfilaments',
  'Villi, microfilaments',
@@ -212,7 +212,7 @@ Cilia are eyelash like structures derived from microtubules, they are responsibl
 
  -------------------------------------------------- 
 
-Level: 7
+Level: 4
 An organic molecule has been isolated from the nucleus of a human cell. Nuclear magnetic resonance studies reveal the core structure of the molecule to be a six-membered ring containing carbon and nitrogen. The ring also expresses an amine group and a keto group, and is attached to a five carbon sugar moiety. No phosphate groups are noted. What is the most likely identity of the molecule?
 ['Cytosine', 'Guanosine', 'Guanine', 'Cytidine']
 D. Cytidine
@@ -242,7 +242,7 @@ The synthesis of Insulin would be least affected by a disease which destroys the
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 Von Gierke disease is an autosomal recessive disorder characterized by a deficiency in the enzyme Glucose-6-phosphatase. Which of the following would most likely be observed in an individual with Von Gierke disease?
 ['Increased glycogen in the liver',
  'Decreased post-meal glycolysis',
@@ -262,7 +262,7 @@ Increase glycogen in the liver would be expected in an individual with Von Gierk
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 Which of the following is an example of lower motor neuron dysfunction?
 ['An individual sits in a relaxed position with her knee partially flexed. '
  'When her foot is pulled upward, the individual involuntarily and '
@@ -285,7 +285,7 @@ Extreme weakness and shrunken muscle is an example of atrophy, which is a sign o
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 The many steps of glycolysis all exist in a state of dynamic equilibrium between reactant and product concentrations. Which of the following actions does NOT affect the equilibrium position of a reaction?
 ['Adding or subtracting heat',
  'Adding or removing a catalyst',
@@ -297,7 +297,7 @@ Explanation: The equilibrium of a reaction can be changed by several factors. Ad
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 A 23-year old female reports experiencing severe bloating and water retention at certain points during her menstrual cycle. Which hormone associated with the regulation of salt and water retention could be causing her problem?
 ['Estrogen', 'Prolactin', 'Cortisol', 'Progesterone']
 A. Estrogen
@@ -322,7 +322,7 @@ Explanation: This would cause a person to perspire, releasing water to the envir
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 If oligonucleotides such as mRNA were not degraded rapidly by intracellular agents, which of the following processes would be most affected?
 ['the production of tRNA in the nucleus',
  'the coordination of cell differentiation during development',
@@ -334,7 +334,7 @@ Explanation: The destruction of mRNA prevents continuous protein production, all
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 Which of the following statements about the systemic effect of bacterial cells are true?
 ['Gram-negative bacteria are more likely to cause systemic effects because '
  'their outer membrane protects them from several antibiotics, making '
@@ -356,7 +356,7 @@ Gram-negative bacteria are considered to be more dangerous, because components o
 
  -------------------------------------------------- 
 
-Level: 9
+Level: 5
 Scientists have developed a dye for galactose, which turns darker shades of blue as the concentration of this monosaccharide increases (dose dependent). In an experiment using bacteria that can metabolize both lactose and glucose, researchers set up test tubes as shown in Table 1. A plus sign indicates a sugar was added to the test tube, and a minus sign indicates the sugar is absent. Assuming bacterial concentrations stay constant, which test tube will show the strongest blue color?
 ['+ +', '+ -', '- +', '- -']
 B. +-
@@ -384,7 +384,7 @@ Energy production in bacteria takes place across the plasma membrane, with the g
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 While diving, when your heart rate and breathing rate are increase, you notice that you are producing more urine. Why?
 ['increased blood pressure caused by excitement or anxiety',
  'reduced blood pressure caused by excitement or anxiety',
@@ -397,7 +397,7 @@ increased urine production can be explained by an an increased blood pressure ca
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 After an accident, your physician detected the protein myoglobin in your urine. What type of injury is consistent with this observation?
 
 I. Broken bone
@@ -434,7 +434,7 @@ Explanation: As blood is lost from the circulation, reduction in vessel size hel
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 An intravenous infusion causes a sharp rise in the serum level of albumin (the major osmoregulatory protein in the blood). This will most likely cause an:
 ['increase in the immune response',
  'influx of tissue fluid to the bloodstream',
@@ -447,7 +447,7 @@ Plasma proteins can't cross the walls of the blood vessels, but water molecules 
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 Would an increase in the level of plasma aldosterone be expected to follow ingestion of excessive quantities of NaCl?
 ['No; aldosterone causes Na+ reabsorption in the kidney tubules',
  'No; aldosterone causes Na+ secretion by the kidney tubules',
@@ -486,7 +486,7 @@ Explanation: Removal of the parathyroid gland would lead to hypocalcemia, a cond
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 Aldosterone stimulates Na+ reabsorption by the kidneys. What changes in the blood volume and pressure would be expected as a result of aldosterone deficiency?
 ['Increased volume and increased pressure',
  'Decreased volume and decreased pressure',
@@ -507,7 +507,7 @@ Explanation: Nervous tissue comes form ectoderm
 
  -------------------------------------------------- 
 
-Level: 5
+Level: 3
 The chemical valinomycin inserts into membranes and causes the movement of K+ into the mitochondria. Based on the ETC, if mitochondria are treated with valinomycin, the rate of ATP synthesis in the mitochondria will most likely:
 ['decrease, because the K+will compete with protons at the active site on ATP '
  'synthetase',
@@ -523,7 +523,7 @@ Explanation: Any disruption of the mitochondria will likely decrease ATP product
 
  -------------------------------------------------- 
 
-Level: 5
+Level: 3
 In a laboratory population of Drosophila, all the males are XsY. Among the females, 15% are XiXi, 50% are XiXs, and 35% are XsXs. Assuming random mating, what proportion of male flies in the next generation will be XiY?
 ['12%', '30%', '40%', '65%']
 C. 40%
@@ -543,7 +543,7 @@ uterus, arteries and veins, and the small intestine are smooth muscle
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 What is the net volume of fresh air that enters the alveoli each minute, assuming the breathing rate is 10 breaths/min, the tidal volume is 800mL/breath, and the nonalveolar respiratory system volume (dead space) is 150mL?
 ['5000mL', '9500mL', '6500mL', '7850 mL']
 C. 6500mL
@@ -576,7 +576,7 @@ Explanation: because is the hormone responsible for triggering ovulation.
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 When the environmental temperature is 33C, vasodilation of cutaneous blood vessels helps to regulate the body temperature of a human by:
 ['slowing blood flow through the skin',
  'maintaining an even distribution of heat throughout the body',
@@ -609,7 +609,7 @@ Explanation: Severe dehydration greatly reduces the volume of filtrate moving th
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 People who are born without sweat glands are likely to die of heat stroke in the tropics. This indicated that, under tropical conditions, the human body may:
 ['gain, rather than lose, heat by evaporation',
  'gain, rather than lose, heat by radiation',
@@ -632,7 +632,7 @@ Explanation: The gallbladder stores bile produced by the lover. The major dissol
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 When viewing an X ray of the bones of a leg, a doctor can tell if the patient is a growing child because the X ray shows:
 ['cartilaginous areas in the long bones',
  'bone cells that are actively growing',
@@ -708,7 +708,7 @@ The role of miRNA is to cause repression or degradation of the target through mR
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 There are two main types of neurotransmitter receptors. Which of the following statements about receptors accurately describes how they function?
 ['Ionotropic neurotransmitter receptors move more slowly than metabotropic '
  'neurotransmitter receptors.',
@@ -728,7 +728,7 @@ Metabotropic neurotransmitter receptors move more slowly than ionotropic recepto
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 One specific type of antidepressant medication works by blocking the removal of neurotransmitters. Which of the following neurotransmitters is most likely the target of the antidepressant medication?
 ['Serotonin', 'Acetylcholine', 'GABA', 'Dopamine']
 A. Seratonin
@@ -755,7 +755,7 @@ Mutations in specific RTKs may cause uncontrolled growth, leading to cancers.
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 In the ABO blood group system in humans, if a person of type-B blood has children with a person of type-AB blood, what blood types could their children have?
 ['Type-AB, type-A, and type-B',
  'Type-A and type-B',
@@ -789,7 +789,7 @@ This enzymatic kinase action makes receptor tyrosine kinases enzyme-linked recep
 
  -------------------------------------------------- 
 
-Level: 7
+Level: 4
 Scientists isolate the lymph fluid from the right thoracic duct of a fasted ( ~24 hours) experimental animal 20 minutes after a meal. After chemical analysis, they find a high concentration of fatty acid ( ~2% of total volume) and no detectable amounts a free carbohydrates: what does such data indicate about the composition of the meal?
 ['The meal contained carbohydrates but not fats',
  'No conclusions can be drawn regarding the fat or carbohydrate content of the '
@@ -849,7 +849,7 @@ Explanation: All of the mitotic divisions that form primary oocytes occur prior 
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 A hiker becomes lost and has no drinking water for 2 days. At the end of this time, which of the following changes in hormone production would be expected to be significant in this individual?
 ['Decreased glucocorticoid secretion',
  'Decreased aldosterone secretion',
@@ -888,7 +888,7 @@ Explanation: The mature ovum is the female gamete that has completed meiosis and
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 Which of the following statements correctly describes the distinction between the exocrine and endocrine portions of the testis?
 ['The exocrine portion secretes only peptides; the endocrine portions secretes '
  'only steroids',
@@ -938,7 +938,7 @@ Explanation: The right ventricle pumps blood through the lungs, the left ventric
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 If an artery that supplies blood to a lung lobe was blocked but ventilation to the lobe was unaffected, how would alveolar gas partial pressures change?
 ['Both PO2 and PCO2 would increase',
  'Both PO2 and PCO2 would decrease',
@@ -979,7 +979,7 @@ Bile from the liver is involved in emulsification of fats, a mechanical process,
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 What is the pressure of gas within the alveoli at the peak of inspiration, just before expiration, relative to that of atmospheric air?
 ['Less than atmospheric air',
  'Cannot be predicted without more information',
@@ -1001,7 +1001,7 @@ The pressure within the alveoli at the peak of inspiration is the same as atmosp
 
  -------------------------------------------------- 
 
-Level: 6
+Level: 4
 The partial pressures of carbon dioxide pCO2 and oxygen pO2 in the atmosphere at sea level are 0.3 mmHg and 160 mmHg respectively, but the partial pressures of these gases in blood leaving the lungs are 40 mmHg pCO2 and 95 mmHg pO2. What factor most likely accounts for this difference?
 ['CO2 end subscript is less soluble in the blood than O2',
  'O2 penetrates more deeply into small airways than CO2',

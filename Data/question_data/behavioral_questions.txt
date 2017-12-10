@@ -1,4 +1,4 @@
-Level: 7
+Level: 4
 The blind spot is the area where the optic nerve connects to the retina. The 'night blind spot' occurs under conditions of low light and can extend 5 to 10 degrees from the center of the person's field of view. What is the cause of the 'night blind spot'?
 ['Mesopic vision, used in low light, does not receive input from the fovea due '
  'to the lack of rods.',
@@ -22,7 +22,7 @@ Scotopic vision, used in low light, does not receive input from the fovea due to
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 Which of these is the correct order to the steps of the phototransduction cascade in reaction to light?
 ['A rod turns from on to off => turns a bipolar cell off-center => activates a '
  'retinal ganglion cell.',
@@ -42,7 +42,7 @@ A rod turns from on to off => turns a bipolar cell on-center => activates a reti
 
  -------------------------------------------------- 
 
-Level: 5
+Level: 3
 Each individual in a group of teenagers is asked to estimate the height of a tree. One individual estimates the height to be 25 feet, but after discussing with the group is convinced that the height is likely closer to 40 feet. Which type of conformity is seen here?
 ['Obedience', 'Identification', 'Internalization', 'Compliance']
 c. Internalization
@@ -51,7 +51,7 @@ Internalization refers to the type of conformity in which an individual changes 
 
  -------------------------------------------------- 
 
-Level: 5
+Level: 3
 Repeated administration of some drugs will lead to a decrease in their effectiveness, an occurrence known as drug tolerance. When this occurs, doctors may need to increase the dosage in order to continue therapy. What is true of this increase?
 ['The increase in dosage will be the same for different patients',
  'Drugs of a certain type will exhibit the same drug tolerance rates',
@@ -68,7 +68,7 @@ The dosage increase is directly proportional to the initial dose - Weber's Law s
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 The tympanic reflex helps prevent damage from loud sounds. How does the tensor tympani work to protect one's hearing?
 ['The tensor tympani loosens the tympanic membrane. This allows the vibrations '
  'to pass more easily through the ear.',
@@ -88,7 +88,7 @@ The tensor tympani dampens loud sounds by tightening the tympanic membrane. This
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 Which of these is NOT a reason why low tones are represented near the apex, while high tones are represented near the base of the cochlea?
 ['The base of the basilar membrane is much stiffer than the apex.',
  'Pressure changes in the cochlea cause a peak amplitude at a certain area of '
@@ -106,7 +106,7 @@ Pressure changes in the cochlea cause a greater stiffening at the base than the 
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 How do the ossicles help to amplify the sound that reaches the tympanic membrane?
 ['By transferring vibration from a membrane of small area, the tympanic '
  'membrane, to a membrane of large area, the oval window.',
@@ -156,7 +156,7 @@ Environment is not a primary component of attitudes.
 
  -------------------------------------------------- 
 
-Level: 9
+Level: 5
 A group of employees from a local bakery are hard workers and are able to make delicious food quickly. They hear a rumor that the owner of the store is going to sell the business and that the bakery will close. Since hearing the rumor, the quality of the food and efficiency of the baking process has decreased, and the employees often spend time discussing what they would do if the rumor were true. According to Maslow's hierarchy, what are these workers currently motivated by?
 ['Safety needs',
  'Physiological needs',
@@ -194,7 +194,7 @@ Drive theory is associated with negative reinforcement, or the increase in behav
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 What is the main difference between an individual diagnosed with bipolar I and bipolar II?
 ['An individual diagnosed with bipolar II has never had a hypomanic episode. '
  'An individual diagnosed with bipolar I disorder has had at least one '
@@ -222,7 +222,7 @@ An individual diagnosed with bipolar II has never had a manic episode. An indivi
 
  -------------------------------------------------- 
 
-Level: 13
+Level: 7
 An individual goes to the clinic and describes problems with voluntary motor function. He tells the doctor that he is experiencing tremors and weakness that have led to a loss of function in his ankle. After running tests, the doctor cannot find any medical reason for the symptoms which obviously cause the man significant distress and impairment in his occupation (which requires him to stand all day). The individual is referred to a psychiatrist, who shows that the symptoms lack internal consistency by having the individual perform an ankle plantar flexion test both sitting (where he displayed weakness) and then asked the individual to stand on his toes. Having ruled out all other diagnosis, the psychiatrist diagnosed him with what somatic disorder?
 ['. Somatic symptom disorder',
  'illness anxiety disorder',
@@ -240,7 +240,7 @@ conversion disorder.
 
  -------------------------------------------------- 
 
-Level: 7
+Level: 4
 Unlike the DSM-IV-TR, the DSM-5 makes a distinction between paraphilias and paraphilic disorders by stating that "a paraphilia is a necessary but not a sufficient condition for having a paraphilic disorder". What does this difference in approach toward the description of paraphilic disorders imply?
 ['The APA is making a distinction between normative and nonnormative behavior, '
  'labeling nonnormative behavior as psychopathological.',
@@ -263,7 +263,7 @@ The APA did not change the description of paraphilic disorders, but rather empha
 
  -------------------------------------------------- 
 
-Level: 7
+Level: 4
 Matt and Cati discuss the reasons why they avoid driving above the speed limit. Matt says that he wants to avoid a traffic fine, while Cati says that speeding is dangerous and, if everyone did it, there would be more accidents and people would get hurt. According to Kohlberg, which of the following describes the phases of moral reasoning demonstrated by Matt and Cati, respectively?
 ['Preconventional; conventional',
  'Preconventional; postconventional',
@@ -275,7 +275,7 @@ Matt's reasoning reflects a desire to avoid punishment, which reflects stage one
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 A weight lifter is just able to tell the difference between 100 and 125 lbs. According to Weber's law, the lifter would notice a difference between:
 ['125 and 150 lbs', '5 and 6 lbs', '25 and 35 lbs', '225 and 275 lbs']
 C. 25 and 35 lbs
@@ -284,7 +284,7 @@ Going from 100 to 125 is a 25% increase, 25 to 35 is a 40% increase, all the oth
 
  -------------------------------------------------- 
 
-Level: 5
+Level: 3
 A man is at a party with his wife. There is loud music in the background and the location is crowded. While listening to the music he hears what he believes to be his wife laughing and turns around to investigate. The man is exhibiting:
 ['feature detection',
  'bottom up processing',
@@ -296,7 +296,7 @@ the man is experiencing a specific noise within a field of many noises. this is 
 
  -------------------------------------------------- 
 
-Level: 6
+Level: 4
 A woman is at a restaurant and orders a spicy entree. After the first bite, she experiences burning in her mouth and becomes concerned her food is too hot. The next bites are uncomfortable but after a while the spiciness subsides and disappears by the end of the meal. The end of meal experience is best described as:
 ['adaptation', 'signal detection', 'a difference threshold', 'pain perception']
 A. adaptation
@@ -321,7 +321,7 @@ A. cornea
 
  -------------------------------------------------- 
 
-Level: 7
+Level: 4
 A man is looking for change to do laundry. He decides to look under the seats of his car. He uses a flashlight but is unable to get more than an obscured look at the space below. There are various objects and the man sees a glint of silver from an object laying flat and determines it to be a coin. This man used:
 ['signal detection',
  'sensory adaptation',
@@ -382,7 +382,7 @@ A. pheremones
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 Prolonged vitamin B12 deficiency can be associated with subacute combined degeneration of the spinal cord. Patients with this disease have difficulty walking because they lose the ability to fell where their feet are in space. This represents a loss of:
 ['vestibular sense',
  'kinesthetic sense',
@@ -394,7 +394,7 @@ kinesthetic sense, or proprioception, refers to the ability to tell where body p
 
  -------------------------------------------------- 
 
-Level: 5
+Level: 3
 A person proofreading a paper reads over a long, mispelled word in which an "e" is replaced with an "o". The person does not recognize the error and reads the word as correct. Which of the following could explain why the proofreader read the word as correct?
 ['parallel processing',
  'feature detection',
@@ -406,14 +406,14 @@ the proofreader used a larger pattern to identify the word expected to see an 'e
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 A corporate logo uses five unconnected angles equally spaced in a circular fashion. When viewed it appears to be a star. Which of the following is the logo artist using to create a complete pattern to viewers?
 ['bottom up', 'top down', 'gate theory', 'gestalt principles']
 D. gestalt principles
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 A patient comes in with a tumor of the pituitary gland, which grows upwards into the optic chiasm and causes a visual defect. The most likely defect from compression of the optic chiasm is:
 ['complete blindness in one eye',
  'loss of the upper visual fields in both eyes',
@@ -425,7 +425,7 @@ the optic chiasm houses the crossing fibers from each optic nerve. The images on
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 Researchers startle a participant with a loud buzzer. After a while, the participant stops being startled by the buzzer. If the researchers interrupt the study with the sound of pans banging together, which of the following would likely be observed?
 ['increased startle response to buzzer',
  'decreased" "',
@@ -437,14 +437,14 @@ after while the participant was habituated to the buzzer. The new stimulus shoul
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 Many pets will run toward the kitchen when they hear the sound of a can opener opening a can of pet food. The sound of a can opener is a:
 ['conditioned response', 'unconditioned stimulus', 'conditioned stimulus']
 C. conditioned stimulus
 
  -------------------------------------------------- 
 
-Level: 3
+Level: 2
 A person suffers from food poisoning after eating a spoiled orange and later finds that the smell of lemon and other citrus fruits make her nauseated. This is an example of:
 ['acquisition', 'generalization', 'discrimination', 'negative reinforcement']
 B. generalization
@@ -477,7 +477,7 @@ adding something unpleasant as a consequence = positive punishment
 
  -------------------------------------------------- 
 
-Level: 4
+Level: 3
 A rat is trained to press a lever to obtain food under a fixed interval schedule. Which of the following behaviors would the rat most likely exhibit?
 ['pressing the lever continuously whenever it is hungry',
  'pressing the lever exactly once and waiting for the food pellet before '

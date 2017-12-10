@@ -8,14 +8,16 @@ var messages = [], //array that hold the record of each string in chat
     botMessage = "", //var keeps track of what the chatbot is going to say
     botName = 'MCATutor', //name of the chatbot
     talking = true, //when false the speech function doesn't work
-    question_request = false,
+    question_request = false, // User has asked for a subject
     subject = "",
-    asking_questions = false,
+    asking_questions = false, // User is answering practice questions
     index = -1,
     state = 0,
     messageID=0,
     delayInMilliseconds = 350, //.5 second;
-    speech=true; //enabled and disabled by user
+    speech=true, //enabled and disabled by user
+    start_exam = false, //User has taken enough questions to build exam
+    taking_exam = false;
 
 window.onload = function() {
 	// setup the button click
@@ -28,10 +30,17 @@ function chatbotResponse() {
 
 	//turns lastUserMessage into JSON object for ajax
 	var userMessage = [
-    {"input": lastUserMessage}
+    {"input": lastUserMessage,
+     "state": state}
 	];
-
-  if (!asking_questions) {
+  console.log(start_exam);
+  if (taking_exam) {
+    takeExam();
+  } else if (start_exam) {
+    state = 0;
+    takeExam();
+  }
+  else if (!asking_questions) {
     // The user is not being quized, operate normally
     // ajax the JSON to the server
     $.ajax({
@@ -41,20 +50,26 @@ function chatbotResponse() {
       success: function(response){
     	  botMessage = response.botResponse;
         question_request = response.question_request;
-        if (question_request) {
-          subject = response.subject;
+        start_exam = response.start_exam;
+        if (start_exam) {
           state = 0;
-          administerQuestions(subject);
+          takeExam();
         } else {
-          //add the chatbot's name and message to the array messages
-          messages.push("<b>" + botName + ":</b> " + botMessage);
+          if (question_request) {
+            subject = response.subject;
+            state = 0;
+            administerQuestions(subject);
+          } else {
+            //add the chatbot's name and message to the array messages
+            messages.push("<b>" + botName + ":</b> " + botMessage);
 
-          setTimeout(function() {
-            addBubble();
-            if (speech) {
-              Speech(botMessage);
-            }
-          }, delayInMilliseconds);
+            setTimeout(function() {
+              addBubble();
+              if (speech) {
+                Speech(botMessage);
+              }
+            }, delayInMilliseconds);
+          }
         }
       },
       contentType: "application/json",
@@ -85,13 +100,58 @@ function administerQuestions(s) {
       index = response.index;
       subject = response.subject;
       state = response.state;
+      start_exam = response.start_exam;
 
-      if (state == -1){
-        asking_questions = false;
+      if (start_exam){
+        state = 0;
+        takeExam();
+      } else {
+        if (state == -1){
+          asking_questions = false;
+        }
+        else {
+          asking_questions = true;
+        }
+
+        messages.push("<b>" + botName + ":</b> " + botMessage);
+    	  setTimeout(function() {
+          addBubble();
+          if (speech){
+            Speech(botMessage);
+          }
+        }, delayInMilliseconds);
       }
-      else {
-        asking_questions = true;
+    },
+    contentType: "application/json",
+    dataType: 'json'
+	});
+
+}
+
+function takeExam() {
+  console.log("here");
+  taking_exam = true;
+  var userMessage = [
+    {"input": lastUserMessage,
+     "state": state}
+	];
+
+  $.ajax({
+    type: 'POST',
+    url: '/exam',
+    data: JSON.stringify (userMessage),
+    success: function(response){
+      console.log("success");
+    	botMessage = response.botResponse;
+      state = response.state;
+      var finished = response.finished;
+      console.log(botMessage);
+
+      if (finished) {
+        taking_exam = false;
+        start_exam = false;
       }
+
       messages.push("<b>" + botName + ":</b> " + botMessage);
     	setTimeout(function() {
         addBubble();
@@ -103,8 +163,8 @@ function administerQuestions(s) {
     contentType: "application/json",
     dataType: 'json'
 	});
-
 }
+
 
 
 
@@ -138,10 +198,10 @@ function addBubble(){
    messageID++;
    var chatlogID = "chatlog" + messageID;
    if (messageID % 2 ==0){
-     var chatlogClass = "chatlog left";
+     var chatlogClass = "chatlog right";
    }
    else{
-     chatlogClass = "chatlog right";
+     chatlogClass = "chatlog left";
    }
    var para = document.createElement('p');
    //para.appendChild(message);
