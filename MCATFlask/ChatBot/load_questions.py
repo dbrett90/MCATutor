@@ -9,7 +9,7 @@ import pickle
 from random import randint, sample
 from util import listify
 
-exam_length = 5
+exam_length = 20
 
 # scoring = {
 #     "physics":    [3.0, 1.0],

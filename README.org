@@ -1,36 +1,28 @@
 * MCATutor
   Lauren Becker, Daniel Brett, Isaiah Rawlinson
-* Abstract
-  Our project attempts to improve the study experience and preparation
-  for the MCAT exam. The majority of students use one or two
-  traditional courses of study, either they use online materials and a
-  prep book, or they hire a tutor who guides them through the required
-  fields for the exam. Our project, MCATutor, will attempt to improve
-  this experience by providing students with a chatbot (using Python’s
-  ChatterBot module) that allows for an interactive study session.
-
-  Ideally, the bot should send students questions from a specific
-  subsection of the exam. These questions will be scraped from
-  practice exams that are available online, likely by hard-coding
-  these questions into the bot itself. As the students get the
-  questions right, the bot will provide questions that are harder and
-  harder (or vice versa). If a student gets a series of questions
-  wrong, the bot should also recommend links to relevant study
-  materials that the student can review. This will accomplished by
-  using NLTK’s built in sentence complexity mechanism, which ranks the
-  complexity of the sentence based off length, structure and other
-  variables (link below). The bot should also be able to answer very
-  basic clarifying questions about the problems (e.g. word and symbol
-  definitions).
 * System Requirements and Usage
   MCATutor depends on several libraries and protocols available only
   in python 3.x
 
-  To start the chatbot run the python file from a command prompt.
+  Python libraries needed:
+  - Flask
+  - ChatterBot
+
+  To start MCATutor, run the python file located in the folder titled
+  MCATFlask.
   #+BEGIN_SRC sh
-python3 chatbot.py
+python3 mcatutor.py
   #+END_SRC
-  Press =ctrl-d= or =ctrl-c= to quit out of the bot.
+  In your browser, navigate to the URL displayed in the terminal. To
+  get a personalized exam, you will need to answer and get at least
+  one question correct in each of the 4 subjects.
+
+  At any time answering questions, enter "quit" into the dialog to
+  stop answering questions and get a summary of your progress so far.
+  In this summary, if you have completed enough questions, an exam
+  will be prepared and MCATutor will prompt you with an option to take
+  it.
+
 * Goals and Features
 ** Term Project
 *** Collect and Process Questions
